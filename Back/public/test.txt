@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+ 
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <link rel="stylesheet" type="text/css" href="/static/classif/classif.css" />
+  <title>Document Classification</title>
+  <script type="text/javascript" src="/static/classif/jquery-3.3.1.min.js"></script>
+  <script>
+function setText(obj) {
+  document.getElementById("id_text").value=obj.innerHTML;
+}
+
+function checkTextSize()
+{
+ var text=document.getElementById("id_text");
+ var content=text.value;
+ var max = text.getAttribute("maxlength");
+ var numberOfLineBreaks = (content.match(/\n/g)||[]).length;
+ document.getElementById("id_text").value=content.substring(0,max-numberOfLineBreaks)
+};
+
+function setInfos(str)
+{
+  resid=str.substr(0,str.indexOf(' ')); // res id is the first element of the result (after, is description)
+  $.get("get-info", { resid:resid }, function(data) {
+    //console.log(data);
+    document.getElementById("additionalInfo").innerHTML=data;
+    });
+}
+  </script>
+</head>
+  
+<body>
+
+<!--header-->
+<div class="header">
+<img src="/static/List_logo.png" height="70" style="padding:10px"/>
+<img src="/static/logo-dg.png" height="50" style="padding:10px"/>
+<a class="title" href="/">Démonstration de classification automatique de dossiers patients</a>
+</div>
+
+<p/>
+
+ <div class="alert" style='display:none'>
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  This is an alert box.
+</div> 
+
+
+
+
+
+<a href="/static/classif/classes/classes.html" style="text-decoration:none"><img height="60"
+style="float:right; " src="/static/classif/classes-link.png"/></a>
+
+<div class="textClassif">
+  
+<span class="desc">Entrez un texte à analyser:</span><br/>
+<span class="info">texte en français</span><p/>
+<div class="container2">
+<div class="container1">
+<div class="col1">
+<form action="/classif/" method="post">
+    <input type="hidden" name="csrfmiddlewaretoken" value="CjAmy2epeDI0Oj7bI5HwlXm5zWha5sjHOjoGTixM8GQNS57cMoAtq5KvupSvGTty">
+    <textarea name="text" cols="60" rows="10" maxlength="500" id="id_text">
+le médecin traitant dr vovan indication sinus pilonidal intervention en décubitus ventral sous anesthésie générale vérification des ramifications au bleu de méthylène puis exérèse du sinus pilonidal dans sa totalité marsupialisation des parois par surjet de fil résorbable rapide contrôle de hémostase infiltration des berges la naropeine pansement hydrotac conclusion sinus pilonidal traitement et soins post opératoires refection quotidienne du pansement par ide traitement antalgique paracétamol gr cp jour pendant jours puis en cas de douleur tramadol mg cp jour pendant jours puis en cas de douleur contrôle de la plaie et ablation des fils le service de soins externes en cas de problème avec le pansement ou de douleur mal contrôlée contacter le secrétariat de chirurgie viscérale au dr anna nowak</textarea>
+    <input type="submit" value="Classer" class="button" onClick="checkTextSize();document.getElementById('textprocessing').style.display='block';document.getElementById('res').style.visibility='hidden'"/>
+</form>
+</div>
+<div class="col2">
+  <img src="/static/classif/Loading_icon.gif" id="textprocessing" alt="Processing..." width="200" style="display:none"/> 
+  <span class="result" id="res">
+    
+    <table>
+      <tr><td><i>Diagnostic</i></td><td><i>score</i></td></tr>
+      <tr>
+        <td class="resbest" onclick="setInfos('L050 Sinus pilonidal avec abcès')">L050 Sinus pilonidal avec abcès</td>
+        <td class="resbest">0.787109</td>
+      </tr>
+      
+      <tr>
+        <td class="resother" onclick="setInfos('L059 Sinus pilonidal (sans abcès)')">L059 Sinus pilonidal (sans abcès)</td>
+        <td class="resother">0.210938</td>
+      </tr>
+      
+      <tr>
+        <td class="resother" onclick="setInfos('G560 Syndrome du canal carpien')">G560 Syndrome du canal carpien</td>
+        <td class="resother">1.95313e-08</td>
+      </tr>
+      
+      <tr>
+        <td class="resother" onclick="setInfos('N40 Hyperplasie de la prostate')">N40 Hyperplasie de la prostate</td>
+        <td class="resother">1.95313e-08</td>
+      </tr>
+      
+      <tr>
+        <td class="resother" onclick="setInfos('M8416 Fracture non consolidée (pseudarthrose) \u002D Jambe')">M8416 Fracture non consolidée (pseudarthrose) - Jambe</td>
+        <td class="resother">1.95313e-08</td>
+      </tr>
+      
+    </table>
+    <p/>
+    <div id="additionalInfo" class="add-info__container">
+    </div>
+    
+    <!--span class="categs">
+    
+      <i>Diagnostic</i><br/>
+    
+    
+    L050 Sinus pilonidal avec abcès<br/>
+    
+    L059 Sinus pilonidal (sans abcès)<br/>
+    
+    G560 Syndrome du canal carpien<br/>
+    
+    N40 Hyperplasie de la prostate<br/>
+    
+    M8416 Fracture non consolidée (pseudarthrose) - Jambe<br/>
+    
+    
+    
+    </span>
+    <span class="scores">
+    
+      <i>score de confiance</i><br/>
+    
+    0.787109<br/>
+    
+    0.210938<br/>
+    
+    1.95313e-08<br/>
+    
+    1.95313e-08<br/>
+    
+    1.95313e-08<br/>
+    
+    
+    </span-->
+  </span>
+</div>
+<div class="clear"/>
+</div>
+</div>
+</div>
+<p/>
+
+<span class="desc">ou sélectionnez un dossier </span><br/>
+<span class="info">sélectionnez un ou plusieurs fichiers d'un dossier patient, au format texte.</span><p/>
+<div class="fileClassif">
+<div class="filequery">
+<form action="/classif/" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="csrfmiddlewaretoken" value="CjAmy2epeDI0Oj7bI5HwlXm5zWha5sjHOjoGTixM8GQNS57cMoAtq5KvupSvGTty">
+    <input type="file" name="inputFiles" multiple id="id_inputFiles">
+    <p/>
+    <!--visibility:visible/hidden keeps the room for the image; display:none/block does not-->
+    <input type="submit" value="Classer" class="button" onClick="document.getElementById('fileprocessing').style.display='block';document.getElementById('fileres').style.visibility='hidden'" />
+</form>
+</div>
+<div class="fileresult">
+  <img src="/static/classif/Loading_icon.gif" id="fileprocessing" alt="Processing..." width="200" style="display:none"
+/> 
+  <div class="fileres" id="fileres">
+    
+  </div>
+</div>
+</div>
+
+<hr/>
+<div>
+  Des exemples de textes:<p/>
+  
+  N40 <span class="example" onclick='setText(this)'>Resection endoscopique de la prostate au plasma bi polaire</span><br/>
+  
+  N201 <span class="example" onclick='setText(this)'>Colique néphrétique hyperalgique gauche avec pose d’une endoprothèse JJ gauche</span><br/>
+  
+  N320 <span class="example" onclick='setText(this)'>Patient présentant une synéchie du col vésical entrainant la présence de 2 orifices cervicaux. Ceci associé à une incontinence urinaire avec antécédent d’adénomectomie prostatique.</span><br/>
+  
+  C441 <span class="example" onclick='setText(this)'>Carcinome basocellulaire jonction tiers externe, deux tiers interne de la paupière inférieure droite. d’exérèse reconstruction par un lambeau type MUSTARDE, geste à réaliser en ambulatoire sous AL + sédation</span><br/>
+  
+  S5250 <span class="example" onclick='setText(this)'>Fracture du poignet droit.</span><br/>
+  
+  N200 <span class="example" onclick='setText(this)'>Patiente présentant une lithiase de 6 mm polaire supérieure gauche.</span><br/>
+  
+  M720 <span class="example" onclick='setText(this)'>Maladie dupuytren palmaire gauche, 3me rayon. Forme nodulaire.</span><br/>
+  
+  Z470 <span class="example" onclick='setText(this)'>Douleur malleole externe sur 2 vis (ancienne fracture)</span><br/>
+  
+  K801 <span class="example" onclick='setText(this)'>Lithiase vesiculaire responsable de nombreux episodes douloureux violents principal de cholecystectomie coelioscopique.</span><br/>
+  
+  Z452 <span class="example" onclick='setText(this)'>Tachycardie, dyspne au moindre effort, noplasie bronchique non oprable. POSE DE PAC - clinique :syst</span><br/>
+  
+   <span class="example" onclick='setText(this)'></span><br/>
+  
+  M966 <span class="example" onclick='setText(this)'>Fracture du fémur sur prothèse totale de genou gauche.</span><br/>
+  
+  C672 <span class="example" onclick='setText(this)'>Récidive de tumeur de vessie. Suspicion de cancer de prostate. Patient présentant une récidive tumorale vésicale et une élévation du taux de PSA à 9.48 ng/ml avec plusieurs zones suspectes en IRM multi paramétrique.</span><br/>
+  
+  C446 <span class="example" onclick='setText(this)'>Carcinome épidermoïde cutané d’un diamètre de 2 cm au niveau de l’avant bras droit chez un patient grabataire.</span><br/>
+  
+  N132 <span class="example" onclick='setText(this)'>Colique néphrétique hyperalgique gauche et pose d’endoprothèse JJ gauche Calcul de l’uretère pelvien gauche</span><br/>
+  
+  K20 <span class="example" onclick='setText(this)'>vomissements itératifs (un par semaines) et une hématémèse au premier jet douleurs épigastriques après les vomissements</span><br/>
+  
+  C444 <span class="example" onclick='setText(this)'>exérèse et reconstruction à réaliser par transposition d’un lambeau de rotation temporal puisqu’on ne peut plus envisager un lambeau en H. Lésion carcinomateuse frontale droite à la limite d’insertion du cuir chevelu.</span><br/>
+  
+  D374 <span class="example" onclick='setText(this)'>dépistage colique : frère cancer colique</span><br/>
+  
+  D227 <span class="example" onclick='setText(this)'>Naevus congnital de la face antérieure de cuisse gauche</span><br/>
+  
+  C621 <span class="example" onclick='setText(this)'>tumeur du testicule gauche. Orchidectomie -voie haute (Gauche)- -</span><br/>
+  
+  N132 <span class="example" onclick='setText(this)'>Urétéroscopie droite et pose d’endoprothèse JJ pour colique néphrétique hyperalgique droite Calcul de l’uretère pelvien droit enclavé</span><br/>
+  
+
+  <span class="example" onclick='setText(this)'></span><br/>
+  <span class="example" onclick='setText(this)'></span><br/>
+</div>
+
+</body>
+
+</html>

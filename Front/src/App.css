@@ -1,16 +1,16 @@
-h1{
+h1 {
   width: 450px;
 }
 
-body{
+body {
   position: relative;
 }
 
-.text{
+.text {
   font-size: 150px;
 }
-.form-control{
-  width: 350px;
+.form-control {
+  width: 530px;
 }
 .files input {
   border: 3px solid #eee;
@@ -20,16 +20,18 @@ body{
   background: #fff;
 }
 
-img{
+img {
   height: 350px;
-  width:  350px;
+  width: 350px;
   margin-left: 350px;
   position: absolute;
- 
 }
 
-.files{ position:relative}
-.files:after {  
+.files {
+  position: relative;
+  margin-left: 15px;
+}
+.files:after {
   position: absolute;
   top: 60px;
   left: 0;
@@ -46,11 +48,12 @@ img{
 .files :hover {
   border-color: #2e54a5;
   transition: all 1.2s ease-out;
-  
 }
-.color input{ background-color:#f1f1f1;}
+.color input {
+  background-color: #f1f1f1;
+}
 
-.Exit{
+.Exit {
   display: inline-block;
   clear: both;
   width: 150px;
@@ -61,7 +64,7 @@ img{
   text-decoration: none;
   text-transform: initial;
   border: none;
-  border-radius: .2rem;
+  border-radius: 0.2rem;
   outline: none;
   padding: 0 1rem;
   height: 36px;
@@ -69,30 +72,31 @@ img{
   color: #fff;
   transition: all 0.2s ease-in-out;
   box-sizing: border-box;
-  background:  #dd5151;
-  border-color:  #dd5151;
+  background: #dd5151;
+  border-color: #dd5151;
   cursor: pointer;
 }
 .btn {
   display: inline-block;
   font-family: inherit;
-  font-size: 15px;
+  font-size: 13px;
+  height: 30px;
   text-decoration: none;
   text-transform: initial;
   border: none;
-  border-radius: .2rem;
+  border-radius: 0.2rem;
   outline: none;
   padding: 0 1rem;
   margin-left: 150px;
   color: #fff;
   transition: all 0.2s ease-in-out;
   box-sizing: border-box;
-  background:  #454cad;
-  border-color:  #454cad;
+  background: #454cad;
+  border-color: #454cad;
   cursor: pointer;
 }
 
-table{
+table {
   text-align: center;
   border: 3px solid #eee;
   width: 100%;
@@ -103,41 +107,40 @@ table{
   border-color: #2e54a5;
   transition: all 1.2s ease-in-out;
 }
-.response{
+.response {
   margin-top: 150px;
   font-size: 18px;
 }
-td{
+td {
   border: 1px solid #eee;
 }
 
-i{
-  color : tomato;
+i {
+  color: tomato;
 }
 
-.image-home{
-  background-image: url('/illustration_article_CEA_Plan de travail 1.png');
+.image-home {
+  background-image: url("/illustration_article_CEA_Plan de travail 1.png");
   background-repeat: no-repeat;
-  background-position:center center;
+  background-position: center center;
   height: 350px;
 }
 
-.text-home{
+.text-home {
   font-size: 30px;
   margin-left: 100px;
   margin-right: 100px;
   text-align: justify;
 }
 
-.button-home{
-
+.button-home {
   display: inline-block;
   font-family: inherit;
   font-size: 25px;
   text-decoration: none;
   text-transform: initial;
   border: none;
-  border-radius: .2rem;
+  border-radius: 0.2rem;
   outline: none;
   padding: 0 1rem;
   margin-top: 100px;
@@ -150,11 +153,11 @@ i{
   cursor: pointer;
 }
 
-.button-next{
+.button-next {
   display: inline-block;
   margin-left: 300px;
   clear: both;
-  width: 150px;
+  width: 350px;
   margin-bottom: 30px;
   font-family: inherit;
   font-weight: 700;
@@ -162,20 +165,20 @@ i{
   text-decoration: none;
   text-transform: initial;
   border: none;
-  border-radius: .2rem;
+  border-radius: 0.2rem;
   outline: none;
   height: 36px;
   line-height: 36px;
   color: #fff;
   transition: all 0.2s ease-in-out;
   box-sizing: border-box;
-  background:  #454cad;
-  border-color:  #454cad;
+  background: #454cad;
+  border-color: #454cad;
   cursor: pointer;
 }
 
-.logo{
-  background-image:url('./Logo.png');
+.logo {
+  background-image: url("./Logo.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;

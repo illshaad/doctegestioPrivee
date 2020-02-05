@@ -1,202 +1,297 @@
-import React from 'react';
-import { Radio } from 'antd';
-import axios from 'axios';
-import { NavLink } from 'react-router-dom';
-
-
-
+import React from "react";
+import { Radio } from "antd";
+import axios from "axios";
+import { NavLink } from "react-router-dom";
 
 class Upload extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-        selectedFile : null ,   //mon fichier est stoker ici//
-        dataFromBack  : [],
-        selectedCheckbox : [],
-        value : 1 ,
-        message : [],
-        loading : false ,
+      selectedFile: null, //mon fichier est stoker ici//
+      dataFromBack: [],
+      selectedCheckbox: [],
+      value: 1,
+      message: [],
+      loading: false,
+      backArrayFileName: []
     };
-}
-    onChangeHandler = e => {
+  }
+  onChangeHandler = e => {
     this.setState({
-    selectedFile : e.target.files,
-        })
+      selectedFile: e.target.files
+    });
+
+    let fileName = [];
+    console.log("e.target.files", e.target.files);
+    for (let i in e.target.files) {
+      if (Object.values(e.target.files)[i]) {
+        fileName.push(Object.values(e.target.files)[i].name);
+      }
+    }
+    console.log("FILENAME", fileName);
+    this.setState({
+      backArrayFileName: fileName
+    });
+  };
+
+  onClickHandler = async () => {
+    if (this.state.selectedFile !== null) {
+      const data = new FormData();
+      for (var i = 0; i < this.state.selectedFile.length; i++) {
+        //permet de choisir plusieurs fichier //
+        data.append("file", this.state.selectedFile[i]); //envoie data back //
+      }
+      this.setState({ loading: true, message: [] });
+      await axios.post("http://localhost:3000/upload", data, {}).then(res => {
+        //data du back //
+        var testTableData = [];
+        testTableData.push(res.data[0].resulJson[1]);
+        this.setState({
+          loading: false,
+          dataFromBack: res.data[0].resulJson,
+          selectedCheckbox: testTableData
+        });
+      });
+    } else {
+      let returnRsult = [];
+      returnRsult.push(404);
+      returnRsult.push("Upload un document");
+      this.setState({
+        message: returnRsult
+      });
+    }
+  };
+
+  handleChange = e => {
+    if (e.target.value) {
+      const testTab = [];
+      testTab.push(this.state.dataFromBack[e.target.value]);
+      document.getElementById("formGroupExampleInput").value =
+        testTab[0]["diag"];
+      this.setState({
+        selectedCheckbox: testTab,
+        value: e.target.value
+      });
+    }
+  };
+
+  sendFileBack = async () => {
+    if ((document.getElementById("inputFile").value = null)) {
+      // let ArrayBack = this.state.backArrayFileName
+      let selectedData = [];
+      // let Test = ArrayBack + selectedData
+      if (document.getElementById("formGroupExampleInput").value === "") {
+        selectedData = [
+          {
+            diag: this.state.selectedCheckbox[0]["diag"],
+            scores: this.state.selectedCheckbox[0]["scores"]
+          }
+        ];
+      } else {
+        selectedData = [
+          {
+            diag: document.getElementById("formGroupExampleInput").value,
+            score: this.state.selectedCheckbox[0]["scores"]
+          }
+        ];
+      }
+      const data = new FormData();
+      data.append("radiogroup", this.state.selectedCheckbox); //recuperer la donnée de fromback et la checkbok l'indice de validation
+      await axios({
+        method: "post",
+        url: "http://localhost:3000/radio",
+        data: {
+          data: selectedData
+        }
+      }).then(res => {
+        let returnResult = [];
+        returnResult.push(res.status);
+        if (res.status === 200) {
+          returnResult.push("Fichier envoyé");
+        } else {
+          returnResult.push("error type : " + res.status);
+        }
+      });
+    } else {
+      let returnResult = [];
+      returnResult.push(200);
+      returnResult.push("Fichier envoyé");
+      this.setState({
+        selectedFile: null,
+        dataFromBack: [],
+        selectedCheckbox: [],
+        value: 1,
+        message: returnResult
+      });
+    }
+  };
+  drawLine = () => {
+    let result = [];
+    if (this.state.dataFromBack) {
+      this.state.dataFromBack.map((row, i) => {
+        if (i > 0) {
+          result.push(
+            <tr key={i}>
+              <th scope="row">{i}</th>
+              <th>{row["diag"]}</th>
+              <th>{row["scores"]} % </th>
+              <th>
+                <Radio.Group name="radiogroup" value={this.state.value}>
+                  <Radio onChange={this.handleChange} value={i}></Radio>
+                </Radio.Group>
+              </th>
+            </tr>
+          );
+        }
+      });
+    }
+    return result;
+  };
+
+  render() {
+    var Test = "";
+    if (this.state.selectedCheckbox[0]) {
+      Test = this.state.selectedCheckbox[0]["diag"];
+    }
+    let buttonNext = "";
+    let champ = "";
+    let tab = "";
+    let message = "";
+
+    if (this.state.dataFromBack[0] !== undefined) {
+      buttonNext = (
+        <button className="button-next" onClick={this.sendFileBack}>
+          Valider et continuer
+        </button>
+      );
+      champ = (
+        <form>
+          <div className="form-group">
+            <input
+              type="text"
+              className="form-control"
+              id="formGroupExampleInput"
+              placeholder={Test}
+            />
+          </div>
+        </form>
+      );
+      tab = (
+        <table className="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Diagnostic</th>
+              <th scope="col">Score</th>
+              <th scope="col">Validation</th>
+            </tr>
+          </thead>
+          <tbody>{this.drawLine()}</tbody>
+        </table>
+      );
     }
 
-    onClickHandler = async () => {
-        if(this.state.selectedFile !== null){
-            const data = new FormData() 
-            for(var i = 0 ; i < this.state.selectedFile.length ; i++)
-            { //permet de choisir plusieurs fichier //
-                data.append('file', this.state.selectedFile[i]) //envoie data back //
-            }
-            this.setState({loading : true , message : [] })
-            await axios.post("http://localhost:3000/upload", data, { 
-            })
-            .then(res => { //data du back //
-                var testTableData = []
-                testTableData.push(res.data[0].resulJson[1])
-                this.setState({
-                loading : false ,
-                dataFromBack : res.data[0].resulJson ,
-                selectedCheckbox : testTableData
-                })      
-            })
-        }else{
-            let returnRsult = []
-            returnRsult.push(404)
-            returnRsult.push('Upload un document')
-            this.setState({
-                message : returnRsult
-            })
-        }
+    if (this.state.message[0] !== undefined) {
+      if (this.state.message[0] === 200) {
+        message = (
+          <div className="alert alert-success" role="alert">
+            {this.state.message[1]}
+          </div>
+        );
+      } else {
+        message = (
+          <div className="alert alert-danger" role="alert">
+            {this.state.message[1]}
+          </div>
+        );
+      }
+    }
+    const loading = this.state.loading;
+    if (loading) {
+      var texteLoading = <img src="./loading.svg" />;
     }
 
-    handleChange = (e) => {
-
-        if(e.target.value){
-            const testTab = [];
-            testTab.push(this.state.dataFromBack[e.target.value])
-            document.getElementById('formGroupExampleInput').value = testTab[0]["diag"]
-          this.setState({
-            selectedCheckbox : testTab , 
-            value : e.target.value
-          }) 
-        }
-    }
-
-    sendFileBack  = async () => {
-        document.getElementById('inputFile').value = null
-        let selectedData = [] ;
-
-        if(document.getElementById('formGroupExampleInput').value === ''){
-            selectedData = [{diag : this.state.selectedCheckbox[0]['diag'], scores :this.state.selectedCheckbox[0]["scores"]}]
-        }else{selectedData = [{diag : document.getElementById('formGroupExampleInput').value , score:this.state.selectedCheckbox[0]["scores"]}]
-        }
-       
-        const data = new FormData()
-        data.append('radiogroup', this.state.selectedCheckbox) //recuperer la donnée de fromback et la checkbok l'indice de validation
-        await axios({
-            method: 'post',
-            url: 'http://localhost:3000/radio',
-            data: {
-              data : selectedData
-            }
-          }).then(res => {
-              console.log(res , 'ma response du front')
-              let returnResult = [];
-                returnResult.push(res.status)
-                if(res.status === 200){
-                    returnResult.push('Fichier envoyé')
-                }else {
-                    returnResult.push('error type : ' + res.status)
-                }
-            this.setState({
-                selectedFile : null ,  
-                dataFromBack  : [],
-                selectedCheckbox : [],
-                value : 1 , 
-                message :  returnResult
-            })
-          });
-    }
-    drawLine = () => {
-        let result = [];
-        if(this.state.dataFromBack){
-            this.state.dataFromBack.map((row,i) => {
-                if(i > 0){
-                result.push( <tr key = {i}>
-                    <th scope="row">{i}</th>
-                    <th>{row["diag"]}</th>
-                    <th>{row["scores"]} % </th>
-                    <th>
-                    <Radio.Group name="radiogroup" value={this.state.value}>
-                        <Radio onChange={this.handleChange} value={i}></Radio>
-                    </Radio.Group></th>
-                    </tr>)
-                    
-                }
-            })
-        }
-        return result
-    }
-
-    render() {
-        console.log(this.state.selectedCheckbox , ' CESTTT QUOIIIII');
-        
-        var Test = '' ; 
-        if(this.state.selectedCheckbox[0]){
-          Test = this.state.selectedCheckbox[0]["diag"];
-        }
-        let buttonNext = ''
-        let champ = ''
-        let tab = ''
-        let message = ''
-
-        if(this.state.dataFromBack[0] !== undefined){
-        buttonNext =  <button className = 'button-next' onClick={this.sendFileBack}>Dossier suivant</button>
-        champ = <form><div className="form-group"><input type="text" className="form-control" id="formGroupExampleInput" placeholder={Test}/></div></form>
-        tab = <table className="table"><thead><tr><th scope="col">#</th><th scope="col">Diagnostic</th><th scope="col">Score</th><th scope="col">Validation</th></tr></thead><tbody>{this.drawLine()}</tbody></table>
-        }
-
-        if(this.state.message[0] !== undefined){
-            if(this.state.message[0] === 200){
-            message = <div className="alert alert-success" role="alert">{this.state.message[1]}</div>
-            }else{
-            message = <div className="alert alert-danger" role="alert">{this.state.message[1]}</div>
-            }
-        }
-        const loading = this.state.loading; 
-        if(loading){
-            var texteLoading = <img src='./loading.svg'/>
-        }
-        
     return (
-        
-        <div className="container">
-            <div className="">
-            <div className="">
-            <div className='logo'></div>
+      <div className="container">
+        <div className="">
+          <div className="">
+            <div className="logo"></div>
             <div className="d-flex align-items-center bd-highlight">
-            
-            <div><div className='text'>1</div></div>
-                <div><h1>Chargez le dossier</h1><br/>formats acceptés: doc, docx, pdf, png</div>
-                <div>
-                    <form method="post" action="#" id="#">
-                        <div className="form-group files">
-                            <input id='inputFile' type="file" accept=" .txt , .pdf, .png, .svg, .tiff,.bitmap , .bmp, .html , .htm .jpg, .jpeg , .doc, .docx ,.xml ,application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document , " name="file" multiple onChange={this.onChangeHandler}/>
-                            <button type="button" className="btn" onClick={this.onClickHandler}>Upload</button>
-                        </div>
-                    </form>
-                </div>
+              <div>
+                <div className="text">1</div>
+              </div>
+              <div>
+                <h1>Chargez le dossier</h1>
+                <br />
+                formats acceptés: docx, pdf, html, png, jpeg, tiff
+              </div>
+              <div>
+                <form method="post" action="#" id="#">
+                  <div className="form-group files">
+                    <input
+                      id="inputFile"
+                      type="file"
+                      accept=" .txt , .pdf, .png, .svg, .tiff, .tif .bitmap , .bmp, .html , .htm .jpg, .jpeg , .doc, .docx ,.xml ,application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document , "
+                      name="file"
+                      multiple
+                      onChange={this.onChangeHandler}
+                    />
+                    <button
+                      type="button"
+                      className="btn"
+                      onClick={this.onClickHandler}
+                    >
+                      Upload
+                    </button>
+                  </div>
+                </form>
+              </div>
             </div>
-                <br/>
-                {texteLoading}
-                <div className="d-flex align-items-center bd-highlight">
-                <div><div className='text'>2</div></div>
-                <div><h1>Consultez le résultat</h1><br/>le tableau des codifications CIM-10</div>
-                <div>{tab}</div>
-                </div>
-                
-                <div className="d-flex align-items-center bd-highlight">
-                <div><div className='text'>3</div></div>
-                <div><h1>Validez ou corrigez</h1><br/>Valider le code ou corriger</div>
-                <div>{champ}</div>
-                </div>
-                {message}
+            <br />
+            {texteLoading}
+            <div className="d-flex align-items-center bd-highlight">
+              <div>
+                <div className="text">2</div>
+              </div>
+              <div>
+                <h1>Consultez le résultat</h1>
+                <br />
+                le tableau des codifications CIM-10
+              </div>
+              <div>{tab}</div>
             </div>
-            <div className='d-flex justify-content-center'>
-                <NavLink to="/home"><button type="button" className="Exit">Sortir</button></NavLink>
-                {buttonNext}
+
+            <div className="d-flex align-items-center bd-highlight">
+              <div>
+                <div className="text">3</div>
+              </div>
+              <div>
+                <h1>Validez ou corrigez</h1>
+                <br />
+                Si le résultat de l'algorithme ne convient pas,
+                <br />
+                veuillez corriger le code dans la case en face{" "}
+              </div>
+              <div>{champ}</div>
             </div>
-            </div> 
+            {message}
+          </div>
+          <div className="d-flex justify-content-center">
+            <NavLink to="/home">
+              <button
+                type="button"
+                onClick={this.sendFileBack}
+                className="Exit"
+              >
+                Terminer
+              </button>
+            </NavLink>
+            {buttonNext}
+          </div>
         </div>
+      </div>
     );
   }
 }
 
-
 export default Upload;
-
-

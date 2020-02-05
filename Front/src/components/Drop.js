@@ -3,6 +3,8 @@ import { Radio } from "antd";
 import axios from "axios";
 import { NavLink } from "react-router-dom";
 
+let timer = 0;
+
 class Upload extends React.Component {
   constructor(props) {
     super(props);
@@ -16,6 +18,7 @@ class Upload extends React.Component {
       backArrayFileName: []
     };
   }
+
   onChangeHandler = e => {
     this.setState({
       selectedFile: e.target.files
@@ -42,8 +45,11 @@ class Upload extends React.Component {
         data.append("file", this.state.selectedFile[i]); //envoie data back //
       }
       this.setState({ loading: true, message: [] });
-      await axios.post("http://localhost:3000/upload", data, {}).then(res => {
+      let tempDebut = Date.now();
+      await axios.post("http://localhost:3001/upload", data, {}).then(res => {
         //data du back //
+        timer = Date.now() - tempDebut;
+        console.log(timer, "MS");
         var testTableData = [];
         testTableData.push(res.data[0].resulJson[1]);
         this.setState({
@@ -78,21 +84,23 @@ class Upload extends React.Component {
   sendFileBack = async () => {
     document.getElementById("inputFile").value = null;
     if (document.getElementById("formGroupExampleInput") !== null) {
-      // let ArrayBack = this.state.backArrayFileName
+      let ArrayBack = this.state.backArrayFileName;
       let selectedData = [];
-      // let Test = ArrayBack + selectedData
+
       if (document.getElementById("formGroupExampleInput").value === "") {
         selectedData = [
           {
             diag: this.state.selectedCheckbox[0]["diag"],
-            scores: this.state.selectedCheckbox[0]["scores"]
+            scores: this.state.selectedCheckbox[0]["scores"],
+            checkModif: false
           }
         ];
       } else {
         selectedData = [
           {
             diag: document.getElementById("formGroupExampleInput").value,
-            score: this.state.selectedCheckbox[0]["scores"]
+            score: this.state.selectedCheckbox[0]["scores"],
+            checkModif: true
           }
         ];
       }
@@ -100,9 +108,12 @@ class Upload extends React.Component {
       data.append("radiogroup", this.state.selectedCheckbox); //recuperer la donnée de fromback et la checkbok l'indice de validation
       await axios({
         method: "post",
-        url: "http://localhost:3000/radio",
+        url: "http://localhost:3001/radio",
         data: {
-          data: selectedData
+          data: selectedData,
+          file: ArrayBack,
+          timer: timer,
+          Diags: this.state.dataFromBack
         }
       }).then(res => {
         let returnResult = [];
@@ -147,6 +158,8 @@ class Upload extends React.Component {
   };
 
   render() {
+    console.log(this.state.dataFromBack, "TOUS MES SCORES ICI");
+
     var Test = "";
     if (this.state.selectedCheckbox[0]) {
       Test = this.state.selectedCheckbox[0]["diag"];
@@ -229,6 +242,8 @@ class Upload extends React.Component {
                     <input
                       id="inputFile"
                       type="file"
+                      webkitdirectory
+                      mozdirectory
                       accept=" .txt , .pdf, .png, .svg, .tiff, .tif .bitmap , .bmp, .html , .htm .jpg, .jpeg , .doc, .docx ,.xml ,application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document , "
                       name="file"
                       multiple
@@ -258,7 +273,6 @@ class Upload extends React.Component {
               </div>
               <div>{tab}</div>
             </div>
-
             <div className="d-flex align-items-center bd-highlight">
               <div>
                 <div className="text">3</div>

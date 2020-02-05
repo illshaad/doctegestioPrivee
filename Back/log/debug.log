@@ -100,3 +100,1180 @@ score
 score
 0.0
 [ { resulJson: [ [Object], [Object] ] } ]
+score
+0.521484
+0.429688
+0.00781252
+0.00390627
+0.00195314
+[
+  {
+    resulJson: [ [Object], [Object], [Object], [Object], [Object], [Object] ]
+  }
+]
+score
+0.521484
+0.429688
+0.00781252
+0.00390627
+0.00195314
+[
+  {
+    resulJson: [ [Object], [Object], [Object], [Object], [Object], [Object] ]
+  }
+]
+score
+0.521484
+0.429688
+0.00781252
+0.00390627
+0.00195314
+[{"resulJson":[{"diag":"Diagnostic","scores":"0"},{"diag":"K572 Diverticulose du côlon, avec perforation et abcès","scores":"52"},{"diag":"K573 Diverticulose du côlon, (sans perforation ni abcès)","scores":"42"},{"diag":"A090 Gastroentérites et colites d'origine infectieuse, autres et non précisées","scores":"0"},{"diag":"K353 Appendicite aigüe avec péritonite localisée","scores":"0"},{"diag":"K566 Occlusions intestinales, autres et sans précision","scores":"0"}]}]
+score
+0.521484
+0.429688
+0.00781252
+0.00390627
+0.00195314
+{
+  diag: 'K572 Diverticulose du côlon, avec perforation et abcès',
+  scores: '52'
+}
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+{
+  diag: 'K573 Diverticulose du côlon, (sans perforation ni abcès)',
+  scores: '58'
+}
+score
+0.521484
+0.429688
+0.00781252
+0.00390627
+0.00195314
+{
+  data: [
+    {
+      diag: 'K572 Diverticulose du côlon, avec perforation et abcès',
+      scores: '52'
+    }
+  ],
+  file: [ '2_10_CRH TYPE.txt', null ]
+}
+score
+0.353516
+0.158203
+0.121094
+0.119141
+0.0859375
+{
+  data: [
+    {
+      diag: 'K573 Diverticulose du côlon, (sans perforation ni abcès)',
+      scores: '35'
+    }
+  ],
+  file: [ '2_11_Ordonnance Vierge de Sortie.txt', null ]
+}
+score
+0.521484
+0.429688
+0.00781252
+0.00390627
+0.00195314
+2_10_CRH TYPE.txt
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+2_10_CRH TYPE.txt
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+[
+  '2_10_CRH TYPE.txt',
+  '2_11_Ordonnance Vierge de Sortie.txt',
+  '2_12_Ordonnance Diverticule.txt',
+  '2_13_codesActes.txt.txt',
+  '2_14_diagnosticPrincipal.txt.txt',
+  '2_15_diagnosticRelie.txt.txt',
+  '2_16_diagnostiquesAssocies.txt.txt',
+  null
+]
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+score
+0.521484
+0.429688
+0.00781252
+0.00390627
+0.00195314
+score
+0.521484
+0.429688
+0.00781252
+0.00390627
+0.00195314
+{
+  data: [
+    {
+      diag: 'K572 Diverticulose du côlon, avec perforation et abcès',
+      scores: '52'
+    }
+  ],
+  file: [ '2_10_CRH TYPE.txt', null ]
+}
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+{
+  data: [
+    {
+      diag: 'K573 Diverticulose du côlon, (sans perforation ni abcès)',
+      scores: '58'
+    }
+  ],
+  file: [
+    '2_10_CRH TYPE.txt',
+    '2_11_Ordonnance Vierge de Sortie.txt',
+    '2_12_Ordonnance Diverticule.txt',
+    '2_13_codesActes.txt.txt',
+    '2_14_diagnosticPrincipal.txt.txt',
+    '2_15_diagnosticRelie.txt.txt',
+    '2_16_diagnostiquesAssocies.txt.txt',
+    null
+  ]
+}
+score
+0.521484
+0.429688
+0.00781252
+0.00390627
+0.00195314
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+score
+0.521484
+0.429688
+0.00781252
+0.00390627
+0.00195314
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+{
+  data: [
+    {
+      diag: 'K573 Diverticulose du côlon, (sans perforation ni abcès)',
+      scores: '58'
+    }
+  ],
+  file: [
+    '2_10_CRH TYPE.txt',
+    '2_11_Ordonnance Vierge de Sortie.txt',
+    '2_12_Ordonnance Diverticule.txt',
+    '2_13_codesActes.txt.txt',
+    '2_14_diagnosticPrincipal.txt.txt',
+    '2_15_diagnosticRelie.txt.txt',
+    '2_16_diagnostiquesAssocies.txt.txt',
+    null
+  ],
+  timer: 1280
+}
+The CSV file was written successfully
+The CSV file was written successfully
+The CSV file was written successfully
+score
+0.521484
+0.429688
+0.00781252
+0.00390627
+0.00195314
+The CSV file was written successfully
+score
+0.521484
+0.429688
+0.00781252
+0.00390627
+0.00195314
+{
+  data: [
+    {
+      diag: 'K572 Diverticulose du côlon, avec perforation et abcès',
+      scores: '52'
+    }
+  ],
+  file: [ '2_10_CRH TYPE.txt', null ],
+  timer: 1384
+}
+score
+0.521484
+0.429688
+0.00781252
+0.00390627
+0.00195314
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+{
+  data: [
+    {
+      diag: 'K573 Diverticulose du côlon, (sans perforation ni abcès)',
+      scores: '58'
+    }
+  ],
+  file: [
+    '2_10_CRH TYPE.txt',
+    '2_11_Ordonnance Vierge de Sortie.txt',
+    '2_12_Ordonnance Diverticule.txt',
+    null
+  ],
+  timer: 1364
+}
+
+
+
+le 07/07/15
+
+
+
+
+Madame CHOLET Monique	         
+ le :   28/07/52  
+
+
+
+EN ALD
+
+
+PROPANOLOL 40 mg 		
+					1 cp matin - ½ cp le soir
+				
+
+EFFEXOR 75 LP 			1 cp le soir au coucher 
+
+Le reste du traitement  est inchangé 
+
+
+
+
+Traitement pour 6 mois 
+
+
+
+
+
+
+
+User Field c_titre = c_titre User Field c_prenom = c_prenom User Field c_nom = c_nom
+Hidden ParagraphUser Field c_serv = c_serv
+Hidden ParagraphUser Field c_ad1 = c_ad1
+Hidden ParagraphUser Field c_ad2 = c_ad2
+User Field c_code = c_code User Field c_ville = c_ville
+
+
+Dammarie, le 07/07/15
+
+
+
+ Madame CHOLET Monique,  le 28/07/52. Elle me décrit des sensations vertigineuses, des chutes sans prodrome. 
+Vous avez fait réaliser un scanner cérébral qui serait normal (images non vues). Ce jour, sa tension artérielle est de 12/8 avec une fréquence cardiaque à 70/mn. Les céphalées sont beaucoup moins présentes. Elle peut rester plusieurs jours sans céphalée.
+Je propose donc de diminuer le PROPANOLOL 40  mg 1 cp matin, ½ cp le soir, tout en conservant pour le moment, EFFEXOR 75 mg le soir. 
+Je reverrai Madame CHOLET dans six mois. 
+
+
+
+
+
+Docteur AISSANI Malika
+score
+0.375
+0.1875
+0.134766
+0.0878906
+0.0625
+0.0507813
+{
+  data: [ { diag: 'None', scores: '37' } ],
+  file: [
+    'AISSANI_Malika_2015-07-07_Ordonnance_ttt_4210291.docx',
+    'AISSANI_Malika_2015-07-08_Lettre_mdecin_4212145.docx',
+    'diagnosticRelie.txt',
+    'diagnostiquesAssocies.txt',
+    'codesActes.txt',
+    'diagnosticPrincipal.txt',
+    null
+  ],
+  timer: 1651
+}
+
+
+
+le 07/07/15
+
+
+
+
+Madame CHOLET Monique	         
+ le :   28/07/52  
+
+
+
+EN ALD
+
+
+PROPANOLOL 40 mg 		
+					1 cp matin - ½ cp le soir
+				
+
+EFFEXOR 75 LP 			1 cp le soir au coucher 
+
+Le reste du traitement  est inchangé 
+
+
+
+
+Traitement pour 6 mois 
+
+
+
+
+
+
+
+score
+0.5625
+0.203125
+0.113281
+0.107422
+0.00195314
+{
+  data: [ { diag: 'M161 Autres coxarthroses primaires', scores: '56' } ],
+  file: [ 'AISSANI_Malika_2015-07-07_Ordonnance_ttt_4210291.docx', null ],
+  timer: 1460
+}
+
+
+
+le 07/07/15
+
+
+
+
+Madame CHOLET Monique	         
+ le :   28/07/52  
+
+
+
+EN ALD
+
+
+PROPANOLOL 40 mg 		
+					1 cp matin - ½ cp le soir
+				
+
+EFFEXOR 75 LP 			1 cp le soir au coucher 
+
+Le reste du traitement  est inchangé 
+
+
+
+
+Traitement pour 6 mois 
+
+
+
+
+
+
+
+score
+0.5625
+0.203125
+0.113281
+0.107422
+0.00195314
+{
+  data: [ { diag: 'coucou', score: '56' } ],
+  file: [ 'AISSANI_Malika_2015-07-07_Ordonnance_ttt_4210291.docx', null ],
+  timer: 1585
+}
+
+
+
+le 07/07/15
+
+
+
+
+Madame CHOLET Monique	         
+ le :   28/07/52  
+
+
+
+EN ALD
+
+
+PROPANOLOL 40 mg 		
+					1 cp matin - ½ cp le soir
+				
+
+EFFEXOR 75 LP 			1 cp le soir au coucher 
+
+Le reste du traitement  est inchangé 
+
+
+
+
+Traitement pour 6 mois 
+
+
+
+
+
+
+
+score
+0.5625
+0.203125
+0.113281
+0.107422
+0.00195314
+
+
+
+le 07/07/15
+
+
+
+
+Madame CHOLET Monique	         
+ le :   28/07/52  
+
+
+
+EN ALD
+
+
+PROPANOLOL 40 mg 		
+					1 cp matin - ½ cp le soir
+				
+
+EFFEXOR 75 LP 			1 cp le soir au coucher 
+
+Le reste du traitement  est inchangé 
+
+
+
+
+Traitement pour 6 mois 
+
+
+
+
+
+
+
+User Field c_titre = c_titre User Field c_prenom = c_prenom User Field c_nom = c_nom
+Hidden ParagraphUser Field c_serv = c_serv
+Hidden ParagraphUser Field c_ad1 = c_ad1
+Hidden ParagraphUser Field c_ad2 = c_ad2
+User Field c_code = c_code User Field c_ville = c_ville
+
+
+Dammarie, le 07/07/15
+
+
+
+ Madame CHOLET Monique,  le 28/07/52. Elle me décrit des sensations vertigineuses, des chutes sans prodrome. 
+Vous avez fait réaliser un scanner cérébral qui serait normal (images non vues). Ce jour, sa tension artérielle est de 12/8 avec une fréquence cardiaque à 70/mn. Les céphalées sont beaucoup moins présentes. Elle peut rester plusieurs jours sans céphalée.
+Je propose donc de diminuer le PROPANOLOL 40  mg 1 cp matin, ½ cp le soir, tout en conservant pour le moment, EFFEXOR 75 mg le soir. 
+Je reverrai Madame CHOLET dans six mois. 
+
+
+
+
+
+Docteur AISSANI Malika
+score
+0.375
+0.1875
+0.134766
+0.0878906
+0.0625
+0.0507813
+{
+  data: [ { diag: 'None', scores: '37', checkModif: false } ],
+  file: [
+    'AISSANI_Malika_2015-07-07_Ordonnance_ttt_4210291.docx',
+    'AISSANI_Malika_2015-07-08_Lettre_mdecin_4212145.docx',
+    'diagnosticRelie.txt',
+    'diagnostiquesAssocies.txt',
+    'codesActes.txt',
+    'diagnosticPrincipal.txt',
+    null
+  ],
+  timer: 1956
+}
+
+
+
+le 07/07/15
+
+
+
+
+Madame CHOLET Monique	         
+ le :   28/07/52  
+
+
+
+EN ALD
+
+
+PROPANOLOL 40 mg 		
+					1 cp matin - ½ cp le soir
+				
+
+EFFEXOR 75 LP 			1 cp le soir au coucher 
+
+Le reste du traitement  est inchangé 
+
+
+
+
+Traitement pour 6 mois 
+
+
+
+
+
+
+
+score
+0.5625
+0.203125
+0.113281
+0.107422
+0.00195314
+{
+  data: [ { diag: 'TEST', score: '56', checkModif: true } ],
+  file: [ 'AISSANI_Malika_2015-07-07_Ordonnance_ttt_4210291.docx', null ],
+  timer: 1438
+}
+
+
+
+le 07/07/15
+
+
+
+
+Madame CHOLET Monique	         
+ le :   28/07/52  
+
+
+
+EN ALD
+
+
+PROPANOLOL 40 mg 		
+					1 cp matin - ½ cp le soir
+				
+
+EFFEXOR 75 LP 			1 cp le soir au coucher 
+
+Le reste du traitement  est inchangé 
+
+
+
+
+Traitement pour 6 mois 
+
+
+
+
+
+
+
+score
+0.5625
+0.203125
+0.113281
+0.107422
+0.00195314
+{
+  data: [
+    {
+      diag: 'M161 Autres coxarthroses primaires',
+      scores: '56',
+      checkModif: false
+    }
+  ],
+  file: [ 'AISSANI_Malika_2015-07-07_Ordonnance_ttt_4210291.docx', null ],
+  timer: 1342
+}
+
+
+
+le 07/07/15
+
+
+
+
+Madame CHOLET Monique	         
+ le :   28/07/52  
+
+
+
+EN ALD
+
+
+PROPANOLOL 40 mg 		
+					1 cp matin - ½ cp le soir
+				
+
+EFFEXOR 75 LP 			1 cp le soir au coucher 
+
+Le reste du traitement  est inchangé 
+
+
+
+
+Traitement pour 6 mois 
+
+
+
+
+
+
+
+score
+0.5625
+0.203125
+0.113281
+0.107422
+0.00195314
+
+
+
+le 07/07/15
+
+
+
+
+Madame CHOLET Monique	         
+ le :   28/07/52  
+
+
+
+EN ALD
+
+
+PROPANOLOL 40 mg 		
+					1 cp matin - ½ cp le soir
+				
+
+EFFEXOR 75 LP 			1 cp le soir au coucher 
+
+Le reste du traitement  est inchangé 
+
+
+
+
+Traitement pour 6 mois 
+
+
+
+
+
+
+
+score
+0.5625
+0.203125
+0.113281
+0.107422
+0.00195314
+
+
+
+le 07/07/15
+
+
+
+
+Madame CHOLET Monique	         
+ le :   28/07/52  
+
+
+
+EN ALD
+
+
+PROPANOLOL 40 mg 		
+					1 cp matin - ½ cp le soir
+				
+
+EFFEXOR 75 LP 			1 cp le soir au coucher 
+
+Le reste du traitement  est inchangé 
+
+
+
+
+Traitement pour 6 mois 
+
+
+
+
+
+
+
+score
+0.5625
+0.203125
+0.113281
+0.107422
+0.00195314
+{
+  data: [
+    {
+      diag: 'M161 Autres coxarthroses primaires',
+      scores: '56',
+      checkModif: false
+    }
+  ],
+  file: [ 'AISSANI_Malika_2015-07-07_Ordonnance_ttt_4210291.docx', null ],
+  timer: 1487,
+  Diags: [
+    { diag: 'Diagnostic', scores: '0' },
+    { diag: 'M161 Autres coxarthroses primaires', scores: '56' },
+    { diag: "C541 Tumeur maligne de l'endomètre", scores: '20' },
+    { diag: "D251 Léiomyome intramural de l'utérus", scores: '11' },
+    { diag: 'M171 Autres gonarthroses primaires', scores: '10' },
+    { diag: 'M751 Syndrome de la coiffe des rotateurs', scores: '0' }
+  ]
+}
+
+
+
+le 07/07/15
+
+
+
+
+Madame CHOLET Monique	         
+ le :   28/07/52  
+
+
+
+EN ALD
+
+
+PROPANOLOL 40 mg 		
+					1 cp matin - ½ cp le soir
+				
+
+EFFEXOR 75 LP 			1 cp le soir au coucher 
+
+Le reste du traitement  est inchangé 
+
+
+
+
+Traitement pour 6 mois 
+
+
+
+
+
+
+
+User Field c_titre = c_titre User Field c_prenom = c_prenom User Field c_nom = c_nom
+Hidden ParagraphUser Field c_serv = c_serv
+Hidden ParagraphUser Field c_ad1 = c_ad1
+Hidden ParagraphUser Field c_ad2 = c_ad2
+User Field c_code = c_code User Field c_ville = c_ville
+
+
+Dammarie, le 07/07/15
+
+
+
+ Madame CHOLET Monique,  le 28/07/52. Elle me décrit des sensations vertigineuses, des chutes sans prodrome. 
+Vous avez fait réaliser un scanner cérébral qui serait normal (images non vues). Ce jour, sa tension artérielle est de 12/8 avec une fréquence cardiaque à 70/mn. Les céphalées sont beaucoup moins présentes. Elle peut rester plusieurs jours sans céphalée.
+Je propose donc de diminuer le PROPANOLOL 40  mg 1 cp matin, ½ cp le soir, tout en conservant pour le moment, EFFEXOR 75 mg le soir. 
+Je reverrai Madame CHOLET dans six mois. 
+
+
+
+
+
+Docteur AISSANI Malika
+score
+0.3125
+0.107422
+0.0820313
+0.0546875
+0.0429688
+User Field c_titre = c_titre User Field c_prenom = c_prenom User Field c_nom = c_nom
+Hidden ParagraphUser Field c_serv = c_serv
+Hidden ParagraphUser Field c_ad1 = c_ad1
+Hidden ParagraphUser Field c_ad2 = c_ad2
+User Field c_code = c_code User Field c_ville = c_ville
+
+
+Dammarie, le 07/07/15
+
+
+
+ Madame CHOLET Monique,  le 28/07/52. Elle me décrit des sensations vertigineuses, des chutes sans prodrome. 
+Vous avez fait réaliser un scanner cérébral qui serait normal (images non vues). Ce jour, sa tension artérielle est de 12/8 avec une fréquence cardiaque à 70/mn. Les céphalées sont beaucoup moins présentes. Elle peut rester plusieurs jours sans céphalée.
+Je propose donc de diminuer le PROPANOLOL 40  mg 1 cp matin, ½ cp le soir, tout en conservant pour le moment, EFFEXOR 75 mg le soir. 
+Je reverrai Madame CHOLET dans six mois. 
+
+
+
+
+
+Docteur AISSANI Malika
+score
+0.625
+0.0566406
+0.0292969
+0.0273438
+0.0253906
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '62' },
+  { diag: 'Z515 Soins palliatifs', scores: '5' },
+  { diag: 'K296 Autres gastrites', scores: '2' },
+  { diag: "N840 Polype du corps de l'utérus", scores: '2' },
+  { diag: 'C509 Tumeur maligne du sein, sans précision', scores: '2' }
+]
+
+
+
+le 07/07/15
+
+
+
+
+Madame CHOLET Monique	         
+ le :   28/07/52  
+
+
+
+EN ALD
+
+
+PROPANOLOL 40 mg 		
+					1 cp matin - ½ cp le soir
+				
+
+EFFEXOR 75 LP 			1 cp le soir au coucher 
+
+Le reste du traitement  est inchangé 
+
+
+
+
+Traitement pour 6 mois 
+
+
+
+
+
+
+
+score
+0.5625
+0.203125
+0.113281
+0.107422
+0.00195314
+Diagnostic
+User Field c_titre = c_titre User Field c_prenom = c_prenom User Field c_nom = c_nom
+Hidden ParagraphUser Field c_serv = c_serv
+Hidden ParagraphUser Field c_ad1 = c_ad1
+Hidden ParagraphUser Field c_ad2 = c_ad2
+User Field c_code = c_code User Field c_ville = c_ville
+
+
+Dammarie, le 07/07/15
+
+
+
+ Madame CHOLET Monique,  le 28/07/52. Elle me décrit des sensations vertigineuses, des chutes sans prodrome. 
+Vous avez fait réaliser un scanner cérébral qui serait normal (images non vues). Ce jour, sa tension artérielle est de 12/8 avec une fréquence cardiaque à 70/mn. Les céphalées sont beaucoup moins présentes. Elle peut rester plusieurs jours sans céphalée.
+Je propose donc de diminuer le PROPANOLOL 40  mg 1 cp matin, ½ cp le soir, tout en conservant pour le moment, EFFEXOR 75 mg le soir. 
+Je reverrai Madame CHOLET dans six mois. 
+
+
+
+
+
+Docteur AISSANI Malika
+score
+0.625
+0.0566406
+0.0292969
+0.0273438
+0.0253906
+
+
+
+le 07/07/15
+
+
+
+
+Madame CHOLET Monique	         
+ le :   28/07/52  
+
+
+
+EN ALD
+
+
+PROPANOLOL 40 mg 		
+					1 cp matin - ½ cp le soir
+				
+
+EFFEXOR 75 LP 			1 cp le soir au coucher 
+
+Le reste du traitement  est inchangé 
+
+
+
+
+Traitement pour 6 mois 
+
+
+
+
+
+
+
+score
+0.5625
+0.203125
+0.113281
+0.107422
+0.00195314
+
+{
+  data: [
+    {
+      diag: 'M161 Autres coxarthroses primaires',
+      scores: '56',
+      checkModif: false
+    }
+  ],
+  file: [ 'AISSANI_Malika_2015-07-07_Ordonnance_ttt_4210291.docx', null ],
+  timer: 1643,
+  Diags: [
+    { diag: 'Diagnostic', scores: '0' },
+    { diag: 'M161 Autres coxarthroses primaires', scores: '56' },
+    { diag: "C541 Tumeur maligne de l'endomètre", scores: '20' },
+    { diag: "D251 Léiomyome intramural de l'utérus", scores: '11' },
+    { diag: 'M171 Autres gonarthroses primaires', scores: '10' },
+    { diag: 'M751 Syndrome de la coiffe des rotateurs', scores: '0' }
+  ]
+}
+User Field c_titre = c_titre User Field c_prenom = c_prenom User Field c_nom = c_nom
+Hidden ParagraphUser Field c_serv = c_serv
+Hidden ParagraphUser Field c_ad1 = c_ad1
+Hidden ParagraphUser Field c_ad2 = c_ad2
+User Field c_code = c_code User Field c_ville = c_ville
+
+
+Dammarie, le 07/07/15
+
+
+
+ Madame CHOLET Monique,  le 28/07/52. Elle me décrit des sensations vertigineuses, des chutes sans prodrome. 
+Vous avez fait réaliser un scanner cérébral qui serait normal (images non vues). Ce jour, sa tension artérielle est de 12/8 avec une fréquence cardiaque à 70/mn. Les céphalées sont beaucoup moins présentes. Elle peut rester plusieurs jours sans céphalée.
+Je propose donc de diminuer le PROPANOLOL 40  mg 1 cp matin, ½ cp le soir, tout en conservant pour le moment, EFFEXOR 75 mg le soir. 
+Je reverrai Madame CHOLET dans six mois. 
+
+
+
+
+
+Docteur AISSANI Malika
+score
+0.625
+0.0566406
+0.0292969
+0.0273438
+0.0253906
+
+{
+  data: [
+    {
+      diag: 'H259 Cataracte sénile, sans précision',
+      scores: '62',
+      checkModif: false
+    }
+  ],
+  file: [ 'AISSANI_Malika_2015-07-08_Lettre_mdecin_4212145.docx', null ],
+  timer: 1707,
+  Diags: [
+    { diag: 'Diagnostic', scores: '0' },
+    { diag: 'H259 Cataracte sénile, sans précision', scores: '62' },
+    { diag: 'Z515 Soins palliatifs', scores: '5' },
+    { diag: 'K296 Autres gastrites', scores: '2' },
+    { diag: "N840 Polype du corps de l'utérus", scores: '2' },
+    {
+      diag: 'C509 Tumeur maligne du sein, sans précision',
+      scores: '2'
+    }
+  ]
+}
+score
+0.625
+0.0566406
+0.0292969
+0.0273438
+0.0253906
+
+{
+  data: [
+    {
+      diag: 'H259 Cataracte sénile, sans précision',
+      scores: '62',
+      checkModif: false
+    }
+  ],
+  file: [ 'AISSANI_Malika_2015-07-08_Lettre_mdecin_4212145.docx', null ],
+  timer: 1521,
+  Diags: [
+    { diag: 'Diagnostic', scores: '0' },
+    { diag: 'H259 Cataracte sénile, sans précision', scores: '62' },
+    { diag: 'Z515 Soins palliatifs', scores: '5' },
+    { diag: 'K296 Autres gastrites', scores: '2' },
+    { diag: "N840 Polype du corps de l'utérus", scores: '2' },
+    {
+      diag: 'C509 Tumeur maligne du sein, sans précision',
+      scores: '2'
+    }
+  ]
+}
+score
+0.5625
+0.203125
+0.113281
+0.107422
+0.00195314
+
+score
+0.5625
+0.203125
+0.113281
+0.107422
+0.00195314
+
+score
+0.5625
+0.203125
+0.113281
+0.107422
+0.00195314
+score
+0.5625
+0.203125
+0.113281
+0.107422
+0.00195314
+score
+0.625
+0.0566406
+0.0292969
+0.0273438
+0.0253906
+score
+0.625
+0.0566406
+0.0292969
+0.0273438
+0.0253906
+score
+0.625
+0.0566406
+0.0292969
+0.0273438
+0.0253906
+score
+0.625
+0.0566406
+0.0292969
+0.0273438
+0.0253906
+score
+0.625
+0.0566406
+0.0292969
+0.0273438
+0.0253906
+score
+0.625
+0.0566406
+0.0292969
+0.0273438
+0.0253906
+sigfqgsdfgqdfg
+score
+0.5625
+0.203125
+0.113281
+0.107422
+0.00195314
+sigfqgsdfgqdfg
+score
+0.625
+0.0566406
+0.0292969
+0.0273438
+0.0253906
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '62' },
+  { diag: 'Z515 Soins palliatifs', scores: '5' },
+  { diag: 'K296 Autres gastrites', scores: '2' },
+  { diag: "N840 Polype du corps de l'utérus", scores: '2' },
+  { diag: 'C509 Tumeur maligne du sein, sans précision', scores: '2' }
+]

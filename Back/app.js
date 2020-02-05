@@ -119,7 +119,6 @@ async function otherFile(files) {
     }
   };
   const body = await rp(options); //2end Request //
-  console.log(body, "SAVEEE FILEEE OTHER LOG");
   return body;
 }
 
@@ -146,22 +145,49 @@ app.post("/upload", upload.array("file"), function(req, res, next) {
   async function run() {
     const data = await sendMultipleFiles(file);
     res.status(200).send(data);
-    console.log(data, " dataaaa");
   }
   run();
 });
 
 app.post("/radio", function(req, res, next) {
   const data = req.body.data[0];
-  fs.writeFileSync(
-    "./public/logfilemodify.txt",
-    data["diag"] + " : " + data["scores"] + "\n",
-    { flag: "a" },
-    function(err) {
-      if (err) {
-        return err;
-      }
+  const dataFile = req.body.file;
+  const timer = req.body.timer;
+  const diags = req.body.Diags;
+  let DiagsScores = "";
+  let lengthDiags = 0;
+  console.log(diags);
+  diags.map((row, i) => {
+    lengthDiags++;
+    if (i !== 0) {
+      DiagsScores.push(row["diag"]);
+      DiagsScores.push(";");
+      DiagsScores.push(row["scores"]);
+      DiagsScores.push(";");
     }
+  });
+  if (lengthDiags < 7) {
+    DiagsScores.push(" ");
+    DiagsScores.push(";");
+    DiagsScores.push(" ");
+    DiagsScores.push(";");
+  }
+  fs.writeFileSync(
+    "./public/logfilemodify.csv",
+    Math.floor(Math.random() * 10000) +
+      ';"' +
+      dataFile +
+      '";"' +
+      data["diag"] +
+      '";' +
+      Date.now() +
+      ";" +
+      DiagsScores +
+      data["checkModif"] +
+      ";" +
+      timer +
+      "\n",
+    { flag: "a" }
   );
   res.status(200).send(data);
 });

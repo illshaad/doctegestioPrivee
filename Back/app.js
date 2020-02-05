@@ -152,11 +152,10 @@ app.post("/upload", upload.array("file"), function(req, res, next) {
 });
 
 app.post("/radio", function(req, res, next) {
-  const data = req.body.data;
-  console.log(data, "DATA ");
+  const data = req.body.data[0];
   fs.writeFileSync(
     "./public/logfilemodify.txt",
-    data["diag"] + " : " + data["scores"],
+    data["diag"] + " : " + data["scores"] + "\n",
     { flag: "a" },
     function(err) {
       if (err) {

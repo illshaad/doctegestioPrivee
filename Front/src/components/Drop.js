@@ -76,7 +76,8 @@ class Upload extends React.Component {
   };
 
   sendFileBack = async () => {
-    if ((document.getElementById("inputFile").value = null)) {
+    document.getElementById("inputFile").value = null;
+    if (document.getElementById("formGroupExampleInput") !== null) {
       // let ArrayBack = this.state.backArrayFileName
       let selectedData = [];
       // let Test = ArrayBack + selectedData
@@ -111,20 +112,17 @@ class Upload extends React.Component {
         } else {
           returnResult.push("error type : " + res.status);
         }
-      });
-    } else {
-      let returnResult = [];
-      returnResult.push(200);
-      returnResult.push("Fichier envoyé");
-      this.setState({
-        selectedFile: null,
-        dataFromBack: [],
-        selectedCheckbox: [],
-        value: 1,
-        message: returnResult
+        this.setState({
+          selectedFile: null,
+          dataFromBack: [],
+          selectedCheckbox: [],
+          value: 1,
+          message: returnResult
+        });
       });
     }
   };
+
   drawLine = () => {
     let result = [];
     if (this.state.dataFromBack) {

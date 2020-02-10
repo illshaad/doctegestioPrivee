@@ -1277,3 +1277,259 @@ score
   { diag: "N840 Polype du corps de l'utérus", scores: '2' },
   { diag: 'C509 Tumeur maligne du sein, sans précision', scores: '2' }
 ]
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+[
+  { diag: 'Diagnostic', scores: '0' },
+  {
+    diag: 'K573 Diverticulose du côlon, (sans perforation ni abcès)',
+    scores: '58'
+  },
+  {
+    diag: 'K572 Diverticulose du côlon, avec perforation et abcès',
+    scores: '34'
+  },
+  {
+    diag: 'K353 Appendicite aigüe avec péritonite localisée',
+    scores: '0'
+  },
+  {
+    diag: "A090 Gastroentérites et colites d'origine infectieuse, autres et non précisées",
+    scores: '0'
+  },
+  {
+    diag: 'K352 Appendicite aigüe avec péritonite généralisée',
+    scores: '0'
+  }
+]
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+{
+  diag: 'K573 Diverticulose du côlon, (sans perforation ni abcès)',
+  scores: '58'
+}
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+coucou
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+{
+  diag: 'K573 Diverticulose du côlon, (sans perforation ni abcès)',
+  scores: '58'
+}
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+{
+  diag: 'K573 Diverticulose du côlon, (sans perforation ni abcès)',
+  scores: '58'
+}
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+{
+  diag: 'K573 Diverticulose du côlon, (sans perforation ni abcès)',
+  scores: '58'
+}
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+{
+  diag: 'K573 Diverticulose du côlon, (sans perforation ni abcès)',
+  scores: '58'
+}
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+{
+  diag: 'K573 Diverticulose du côlon, (sans perforation ni abcès)',
+  scores: '58'
+}
+{
+  diag: 'K573 Diverticulose du côlon, (sans perforation ni abcès)',
+  scores: '58'
+}
+{
+  diag: 'K572 Diverticulose du côlon, avec perforation et abcès',
+  scores: '34'
+}
+{
+  diag: 'K572 Diverticulose du côlon, avec perforation et abcès',
+  scores: '34'
+}
+{
+  diag: 'K353 Appendicite aigüe avec péritonite localisée',
+  scores: '0'
+}
+{
+  diag: 'K353 Appendicite aigüe avec péritonite localisée',
+  scores: '0'
+}
+{
+  diag: "A090 Gastroentérites et colites d'origine infectieuse, autres et non précisées",
+  scores: '0'
+}
+{
+  diag: "A090 Gastroentérites et colites d'origine infectieuse, autres et non précisées",
+  scores: '0'
+}
+{
+  diag: 'K352 Appendicite aigüe avec péritonite généralisée',
+  scores: '0'
+}
+{
+  diag: 'K352 Appendicite aigüe avec péritonite généralisée',
+  scores: '0'
+}
+undefined
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+{
+  diag: 'K573 Diverticulose du côlon, (sans perforation ni abcès)',
+  scores: '58'
+}
+{
+  diag: 'K573 Diverticulose du côlon, (sans perforation ni abcès)',
+  scores: '58'
+}
+{
+  diag: 'K572 Diverticulose du côlon, avec perforation et abcès',
+  scores: '34'
+}
+{
+  diag: 'K572 Diverticulose du côlon, avec perforation et abcès',
+  scores: '34'
+}
+{
+  diag: 'K353 Appendicite aigüe avec péritonite localisée',
+  scores: '0'
+}
+{
+  diag: 'K353 Appendicite aigüe avec péritonite localisée',
+  scores: '0'
+}
+{
+  diag: "A090 Gastroentérites et colites d'origine infectieuse, autres et non précisées",
+  scores: '0'
+}
+{
+  diag: "A090 Gastroentérites et colites d'origine infectieuse, autres et non précisées",
+  scores: '0'
+}
+{
+  diag: 'K352 Appendicite aigüe avec péritonite généralisée',
+  scores: '0'
+}
+{
+  diag: 'K352 Appendicite aigüe avec péritonite généralisée',
+  scores: '0'
+}
+undefined
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+score
+0.523438
+0.460938
+0.00585939
+0.00195314
+1.95313e-08
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+K573 Diverticulose du côlon, (sans perforation ni abcès);58;
+K573 Diverticulose du côlon, (sans perforation ni abcès);58;K572 Diverticulose du côlon, avec perforation et abcès;34;
+K573 Diverticulose du côlon, (sans perforation ni abcès);58;K572 Diverticulose du côlon, avec perforation et abcès;34;K353 Appendicite aigüe avec péritonite localisée;0;
+K573 Diverticulose du côlon, (sans perforation ni abcès);58;K572 Diverticulose du côlon, avec perforation et abcès;34;K353 Appendicite aigüe avec péritonite localisée;0;A090 Gastroentérites et colites d'origine infectieuse, autres et non précisées;0;
+K573 Diverticulose du côlon, (sans perforation ni abcès);58;K572 Diverticulose du côlon, avec perforation et abcès;34;K353 Appendicite aigüe avec péritonite localisée;0;A090 Gastroentérites et colites d'origine infectieuse, autres et non précisées;0;K352 Appendicite aigüe avec péritonite généralisée;0;
+K573 Diverticulose du côlon, (sans perforation ni abcès);58;K572 Diverticulose du côlon, avec perforation et abcès;34;K353 Appendicite aigüe avec péritonite localisée;0;A090 Gastroentérites et colites d'origine infectieuse, autres et non précisées;0;K352 Appendicite aigüe avec péritonite généralisée;0; ; ;
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+K573 Diverticulose du côlon, (sans perforation ni abcès);58;K572 Diverticulose du côlon, avec perforation et abcès;34;K353 Appendicite aigüe avec péritonite localisée;0;A090 Gastroentérites et colites d'origine infectieuse, autres et non précisées;0;K352 Appendicite aigüe avec péritonite généralisée;0; ; ;
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+K573 Diverticulose du côlon, (sans perforation ni abcès);58;K572 Diverticulose du côlon, avec perforation et abcès;34;K353 Appendicite aigüe avec péritonite localisée;0;A090 Gastroentérites et colites d'origine infectieuse, autres et non précisées;0;K352 Appendicite aigüe avec péritonite généralisée;0;;;
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+K573 Diverticulose du côlon, (sans perforation ni abcès);58;K572 Diverticulose du côlon, avec perforation et abcès;34;K353 Appendicite aigüe avec péritonite localisée;0;A090 Gastroentérites et colites d'origine infectieuse, autres et non précisées;0;K352 Appendicite aigüe avec péritonite généralisée;0;;;
+score
+0.589844
+0.347656
+0.00781252
+0.00585939
+0.00585939
+K573 Diverticulose du côlon, (sans perforation ni abcès);58;K572 Diverticulose du côlon, avec perforation et abcès;34;K353 Appendicite aigüe avec péritonite localisée;0;A090 Gastroentérites et colites d'origine infectieuse, autres et non précisées;0;K352 Appendicite aigüe avec péritonite généralisée;0;;;

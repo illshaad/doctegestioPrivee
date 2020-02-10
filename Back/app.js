@@ -155,23 +155,19 @@ app.post("/radio", function(req, res, next) {
   const timer = req.body.timer;
   const diags = req.body.Diags;
   let DiagsScores = "";
-  let lengthDiags = 0;
-  console.log(diags);
-  diags.map((row, i) => {
-    lengthDiags++;
-    if (i !== 0) {
-      DiagsScores.push(row["diag"]);
-      DiagsScores.push(";");
-      DiagsScores.push(row["scores"]);
-      DiagsScores.push(";");
+
+  for (let i = 1; i < 7; i++) {
+    if (diags[i] !== undefined) {
+      DiagsScores = DiagsScores.concat(diags[i]["diag"]);
+      DiagsScores = DiagsScores.concat(";");
+      DiagsScores = DiagsScores.concat(diags[i]["scores"]);
+      DiagsScores = DiagsScores.concat(";");
+    } else {
+      DiagsScores = DiagsScores.concat(";;");
     }
-  });
-  if (lengthDiags < 7) {
-    DiagsScores.push(" ");
-    DiagsScores.push(";");
-    DiagsScores.push(" ");
-    DiagsScores.push(";");
   }
+
+  let dateSend = new Date();
   fs.writeFileSync(
     "./public/logfilemodify.csv",
     Math.floor(Math.random() * 10000) +
@@ -180,7 +176,11 @@ app.post("/radio", function(req, res, next) {
       '";"' +
       data["diag"] +
       '";' +
-      Date.now() +
+      dateSend.getFullYear() +
+      "/" +
+      (dateSend.getMonth() + 1) +
+      "/" +
+      dateSend.getDate() +
       ";" +
       DiagsScores +
       data["checkModif"] +

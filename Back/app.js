@@ -170,7 +170,7 @@ app.post("/radio", function(req, res, next) {
   let dateSend = new Date();
   fs.writeFileSync(
     "./public/logfilemodify.csv",
-    Math.floor(Math.random() * 10000) +
+    req.query.mail +
       ';"' +
       dataFile +
       '";"' +

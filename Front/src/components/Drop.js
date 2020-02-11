@@ -104,11 +104,19 @@ class Upload extends React.Component {
           }
         ];
       }
+      const newUrl = new URL(window.location.href);
       const data = new FormData();
-      data.append("radiogroup", this.state.selectedCheckbox); //recuperer la donnée de fromback et la checkbok l'indice de validation
+      data.append("radiogroup", this.state.selectedCheckbox);
+      if (newUrl.searchParams.get === "") {
+        return alert("non connecté");
+      } //recuperer la donnée de fromback et la checkbok l'indice de validation
       await axios({
+        //Extraire url email //
+
         method: "post",
-        url: "http://localhost:3001/radio",
+        url: `http://localhost:3001/radio?mail=${newUrl.searchParams.get(
+          "mail"
+        )}`,
         data: {
           data: selectedData,
           file: ArrayBack,
@@ -242,8 +250,6 @@ class Upload extends React.Component {
                     <input
                       id="inputFile"
                       type="file"
-                      webkitdirectory
-                      mozdirectory
                       accept=" .txt , .pdf, .png, .svg, .tiff, .tif .bitmap , .bmp, .html , .htm .jpg, .jpeg , .doc, .docx ,.xml ,application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document , "
                       name="file"
                       multiple

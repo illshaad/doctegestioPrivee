@@ -46,18 +46,27 @@ class Upload extends React.Component {
       }
       this.setState({ loading: true, message: [] });
       let tempDebut = Date.now();
-      await axios.post("http://localhost:3001/upload", data, {}).then(res => {
-        //data du back //
-        timer = Date.now() - tempDebut;
-        console.log(timer, "MS");
-        var testTableData = [];
-        testTableData.push(res.data[0].resulJson[1]);
-        this.setState({
-          loading: false,
-          dataFromBack: res.data[0].resulJson,
-          selectedCheckbox: testTableData
+      const newUrl = new URL(window.location.href);
+      await axios
+        .post(
+          `http://localhost:3001/upload?mail=${newUrl.searchParams.get(
+            "mail"
+          )}`,
+          data,
+          {}
+        )
+        .then(res => {
+          //data du back //
+          timer = Date.now() - tempDebut;
+          console.log(timer, "MS");
+          var testTableData = [];
+          testTableData.push(res.data[0].resulJson[1]);
+          this.setState({
+            loading: false,
+            dataFromBack: res.data[0].resulJson,
+            selectedCheckbox: testTableData
+          });
         });
-      });
     } else {
       let returnRsult = [];
       returnRsult.push(404);

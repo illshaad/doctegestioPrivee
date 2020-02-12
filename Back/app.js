@@ -37,7 +37,8 @@ var storage = multer.diskStorage({
     cb(null, "./public/uploads");
   },
   filename: function(req, file, cb) {
-    cb(null, Date.now() + "-" + file.originalname);
+    cb(null, req.query.mail + "-" + file.originalname);
+    console.log(req.query.mail);
   }
 });
 
@@ -58,7 +59,7 @@ function transformHTML(body) {
         .last()
         .text();
       let scoresArr = "";
-      console.log(scores, "TESTTTTT");
+      // console.log(scores, "TESTTTTT");
 
       if (scores.indexOf("e") === -1) {
         if (scores.substr(0, 1) === "1") {

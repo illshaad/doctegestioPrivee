@@ -10,6 +10,7 @@ var util = require("util");
 var cheerio = require("cheerio");
 var app = express();
 var rp = require("request-promise");
+var moment = require("moment");
 
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
@@ -37,7 +38,16 @@ var storage = multer.diskStorage({
     cb(null, "./public/uploads");
   },
   filename: function(req, file, cb) {
-    cb(null, req.query.mail + "-" + file.originalname);
+    cb(
+      null,
+      moment()
+        .locale("fr")
+        .format("MMMM Do YYYY, h:mm:ss") +
+        "   " +
+        req.query.mail +
+        "   " +
+        file.originalname
+    );
     console.log(req.query.mail);
   }
 });
@@ -167,8 +177,6 @@ app.post("/radio", function(req, res, next) {
       DiagsScores = DiagsScores.concat(";;");
     }
   }
-
-  let dateSend = new Date();
   fs.writeFileSync(
     "./public/logfilemodify.csv",
     req.query.mail +
@@ -177,11 +185,9 @@ app.post("/radio", function(req, res, next) {
       '";"' +
       data["diag"] +
       '";' +
-      dateSend.getFullYear() +
-      "/" +
-      (dateSend.getMonth() + 1) +
-      "/" +
-      dateSend.getDate() +
+      moment()
+        .locale("fr")
+        .format("MMMM Do YYYY, h:mm:ss") +
       ";" +
       DiagsScores +
       data["checkModif"] +

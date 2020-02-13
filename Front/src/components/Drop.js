@@ -121,7 +121,6 @@ class Upload extends React.Component {
       } //recuperer la donnée de fromback et la checkbok l'indice de validation
       await axios({
         //Extraire url email //
-
         method: "post",
         url: `http://localhost:3001/radio?mail=${newUrl.searchParams.get(
           "mail"
@@ -238,6 +237,8 @@ class Upload extends React.Component {
     if (loading) {
       var texteLoading = <img src="./loading.svg" />;
     }
+    const newUrl = new URL(window.location.href);
+    const home = "/home" + `?mail=${newUrl.searchParams.get("mail")}`;
 
     return (
       <div className="container">
@@ -304,7 +305,7 @@ class Upload extends React.Component {
             {message}
           </div>
           <div className="d-flex justify-content-center">
-            <NavLink to="/home">
+            <NavLink to={home}>
               <button
                 type="button"
                 onClick={this.sendFileBack}

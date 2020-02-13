@@ -2,6 +2,9 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 function Home() {
+  const newUrl = new URL(window.location.href);
+  const dropAccueil = "/" + `?mail=${newUrl.searchParams.get("mail")}`;
+
   return (
     <div>
       <div className="container">
@@ -13,7 +16,7 @@ function Home() {
             Vos commentaires sont toujours les bienvenues ! Merci de nous
             contacter sur romain.farel@dgmail.fr
           </div>
-          <NavLink to="/">
+          <NavLink to={dropAccueil}>
             <button type="button" className="button-home">
               Retour
             </button>

@@ -277,81 +277,73 @@ class Upload extends React.Component {
 
     return (
       <div className="container">
-        <div className="">
-          <div className="">
-            <div className="logo"></div>
-            <div className="d-flex align-items-center bd-highlight">
-              <div>
-                <div className="text">1</div>
-              </div>
-              <div>
-                <h1>Chargez le dossier</h1>
-                <br />
-                formats acceptés: docx, pdf, html, png, jpeg, tiff
-              </div>
-              <div>
-                <form method="post" action="#" id="#">
-                  <div className="form-group files">
-                    <input
-                      id="inputFile"
-                      type="file"
-                      accept=" .txt , .pdf, .png, .svg, .tiff, .tif .bitmap , .bmp, .html , .htm .jpg, .jpeg , .doc, .docx ,.xml ,application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document , "
-                      name="file"
-                      multiple
-                      onChange={this.onChangeHandler}
-                    />
-                    <textarea onChange={this.handleChangeTextaera}></textarea>
-                    <button
-                      type="button"
-                      className="btn"
-                      onClick={this.onClickHandler}
-                    >
-                      Upload
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
+        <div className="logo"></div>
+        <div className="d-flex align-items-center bd-highlight">
+          <div>
+            <div className="text">1</div>
+          </div>
+          <div>
+            <h1>Chargez le dossier</h1>
             <br />
-            {texteLoading}
-            <div className="d-flex align-items-center bd-highlight">
-              <div>
-                <div className="text">2</div>
-              </div>
-              <div>
-                <h1>Consultez le résultat</h1>
-                <br />
-                le tableau des codifications CIM-10
-              </div>
-              <div>{tab}</div>
-            </div>
-            <div className="d-flex align-items-center bd-highlight">
-              <div>
-                <div className="text">3</div>
-              </div>
-              <div>
-                <h1>Validez ou corrigez</h1>
-                <br />
-                Si le résultat de l'algorithme ne convient pas,
-                <br />
-                veuillez corriger le code dans la case en face{" "}
-              </div>
-              <div>{champ}</div>
-            </div>
-            {message}
+            formats acceptés: docx, pdf, html, png, jpeg, tiff
           </div>
-          <div className="d-flex justify-content-center">
-            <NavLink to={home}>
-              <button
-                type="button"
-                onClick={this.sendFileBack}
-                className="Exit"
-              >
-                Terminer
-              </button>
-            </NavLink>
-            {buttonNext}
+          <div>
+            <form method="post" action="#" id="#">
+              <div className="form-group files">
+                <input
+                  id="inputFile"
+                  type="file"
+                  accept=" .txt , .pdf, .png, .svg, .tiff, .tif .bitmap , .bmp, .html , .htm .jpg, .jpeg , .doc, .docx ,.xml ,application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document , "
+                  name="file"
+                  multiple
+                  onChange={this.onChangeHandler}
+                />
+                <textarea
+                  placeholder="Chercher par mots clés"
+                  onChange={this.handleChangeTextaera}
+                ></textarea>
+              </div>
+            </form>
+            <button type="button" className="btn" onClick={this.onClickHandler}>
+              Upload
+            </button>
           </div>
+        </div>
+        <br />
+        {texteLoading}
+        <div className="d-flex align-items-center bd-highlight">
+          <div>
+            <div className="text">2</div>
+          </div>
+          <div>
+            <h1>Consultez le résultat</h1>
+            <br />
+            le tableau des codifications CIM-10
+          </div>
+          <div>{tab}</div>
+        </div>
+        <div className="d-flex align-items-center bd-highlight">
+          <div>
+            <div className="text">3</div>
+          </div>
+          <div>
+            <h1>Validez ou corrigez</h1>
+            <br />
+            Si le résultat de l'algorithme ne convient pas,
+            <br />
+            veuillez corriger le code dans la case en face{" "}
+          </div>
+          <div>{champ}</div>
+        </div>
+        {message}
+
+        <div className="d-flex justify-content-center">
+          <NavLink to={home}>
+            <button type="button" onClick={this.sendFileBack} className="Exit">
+              Terminer
+            </button>
+          </NavLink>
+          {buttonNext}
         </div>
       </div>
     );

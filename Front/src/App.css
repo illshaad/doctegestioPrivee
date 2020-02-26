@@ -30,6 +30,7 @@ img {
 .files {
   position: relative;
   margin-left: 15px;
+  display: flex;
 }
 .files:after {
   position: absolute;
@@ -87,12 +88,14 @@ img {
   border-radius: 0.2rem;
   outline: none;
   padding: 0 1rem;
-  margin-left: 150px;
+  margin-left: 250px;
+  width: 250px;
   color: #fff;
   transition: all 0.2s ease-in-out;
   box-sizing: border-box;
   background: #454cad;
   border-color: #454cad;
+  height: 36px;
   cursor: pointer;
 }
 
@@ -184,4 +187,14 @@ i {
   background-position: bottom;
   width: 200px;
   height: 100px;
+}
+
+textarea {
+  margin-left: 30px;
+  width: 400px;
+  border: 3px solid #eee;
+  border-radius: 7px;
+  padding: 30px;
+  user-select: none;
+  background: #fff;
 }

@@ -2572,3 +2572,4683 @@ illshaad.budureea@dgmail.fr
 illshaad.budureea@dgmail.fr
 illshaad.budureea@dgmail.fr
 illshaad.budureea@dgmail.fr
+null
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'février 25 2020, 10:01:05   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    path: 'public/uploads/février 25 2020, 10:01:05   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    size: 1249
+  }
+]
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'février 25 2020, 10:15:29   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    path: 'public/uploads/février 25 2020, 10:15:29   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    size: 1249
+  }
+]
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'février 25 2020, 10:25:16   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    path: 'public/uploads/février 25 2020, 10:25:16   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    size: 1249
+  }
+]
+[]
+[]
+[]
+[]
+[]
+[]
+undefined
+[]
+undefined
+[]
+undefined
+[]
+undefined
+[]
+undefined
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'février 25 2020, 10:52:55   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    path: 'public/uploads/février 25 2020, 10:52:55   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    size: 1249
+  }
+]
+undefined
+[]
+undefined
+[]
+undefined
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'février 25 2020, 10:54:22   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    path: 'public/uploads/février 25 2020, 10:54:22   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    size: 1249
+  }
+]
+undefined
+[]
+undefined
+[]
+undefined
+[]
+undefined
+[]
+undefined
+undefined
+undefined
+IncomingMessage {
+  _readableState: ReadableState {
+    objectMode: false,
+    highWaterMark: 16384,
+    buffer: BufferList { head: null, tail: null, length: 0 },
+    length: 0,
+    pipes: null,
+    pipesCount: 0,
+    flowing: true,
+    ended: true,
+    endEmitted: true,
+    reading: false,
+    sync: false,
+    needReadable: false,
+    emittedReadable: false,
+    readableListening: false,
+    resumeScheduled: false,
+    paused: false,
+    emitClose: true,
+    autoDestroy: false,
+    destroyed: false,
+    defaultEncoding: 'utf8',
+    awaitDrain: 0,
+    readingMore: false,
+    decoder: null,
+    encoding: null
+  },
+  readable: false,
+  _events: [Object: null prototype] {
+    end: [Function: resetHeadersTimeoutOnReqEnd]
+  },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  socket: Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: null,
+      pipesCount: 0,
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      paused: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrain: 0,
+      readingMore: false,
+      decoder: null,
+      encoding: null
+    },
+    readable: true,
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    _server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    timeout: 120000,
+    parser: HTTPParser {
+      '0': [Function: parserOnHeaders],
+      '1': [Function: parserOnHeadersComplete],
+      '2': [Function: parserOnBody],
+      '3': [Function: parserOnMessageComplete],
+      '4': [Function: bound onParserExecute],
+      _headers: [],
+      _url: '',
+      socket: [Circular],
+      incoming: [Circular],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      parsingHeadersStart: 1582626802286
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      socket: [Circular],
+      connection: [Circular],
+      _header: null,
+      _onPendingData: [Function: bound updateOutgoingData],
+      _sent100: false,
+      _expect_continue: false,
+      req: [Circular],
+      locals: [Object: null prototype] {},
+      _startAt: undefined,
+      _startTime: undefined,
+      writeHead: [Function: writeHead],
+      __onFinished: [Function],
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(isCorked)]: false,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    _peername: { address: '::1', family: 'IPv6', port: 49896 },
+    [Symbol(asyncId)]: 9,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner)]: [Circular]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: 120000,
+      _idlePrev: [TimersList],
+      _idleNext: [TimersList],
+      _idleStart: 1119312,
+      _onTimeout: [Function: bound ],
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: false,
+      [Symbol(refed)]: false,
+      [Symbol(asyncId)]: 10,
+      [Symbol(triggerId)]: 9
+    },
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  connection: Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: null,
+      pipesCount: 0,
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      paused: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrain: 0,
+      readingMore: false,
+      decoder: null,
+      encoding: null
+    },
+    readable: true,
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    _server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    timeout: 120000,
+    parser: HTTPParser {
+      '0': [Function: parserOnHeaders],
+      '1': [Function: parserOnHeadersComplete],
+      '2': [Function: parserOnBody],
+      '3': [Function: parserOnMessageComplete],
+      '4': [Function: bound onParserExecute],
+      _headers: [],
+      _url: '',
+      socket: [Circular],
+      incoming: [Circular],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      parsingHeadersStart: 1582626802286
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      socket: [Circular],
+      connection: [Circular],
+      _header: null,
+      _onPendingData: [Function: bound updateOutgoingData],
+      _sent100: false,
+      _expect_continue: false,
+      req: [Circular],
+      locals: [Object: null prototype] {},
+      _startAt: undefined,
+      _startTime: undefined,
+      writeHead: [Function: writeHead],
+      __onFinished: [Function],
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(isCorked)]: false,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    _peername: { address: '::1', family: 'IPv6', port: 49896 },
+    [Symbol(asyncId)]: 9,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner)]: [Circular]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: 120000,
+      _idlePrev: [TimersList],
+      _idleNext: [TimersList],
+      _idleStart: 1119312,
+      _onTimeout: [Function: bound ],
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: false,
+      [Symbol(refed)]: false,
+      [Symbol(asyncId)]: 10,
+      [Symbol(triggerId)]: 9
+    },
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: true,
+  headers: {
+    host: 'localhost:3001',
+    connection: 'keep-alive',
+    'content-length': '58',
+    accept: 'application/json, text/plain, */*',
+    'sec-fetch-dest': 'empty',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+    dnt: '1',
+    'content-type': 'application/x-www-form-urlencoded',
+    origin: 'http://localhost:3000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    referer: 'http://localhost:3000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+  },
+  rawHeaders: [
+    'Host',
+    'localhost:3001',
+    'Connection',
+    'keep-alive',
+    'Content-Length',
+    '58',
+    'Accept',
+    'application/json, text/plain, */*',
+    'Sec-Fetch-Dest',
+    'empty',
+    'User-Agent',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+    'DNT',
+    '1',
+    'Content-Type',
+    'application/x-www-form-urlencoded',
+    'Origin',
+    'http://localhost:3000',
+    'Sec-Fetch-Site',
+    'same-site',
+    'Sec-Fetch-Mode',
+    'cors',
+    'Referer',
+    'http://localhost:3000/',
+    'Accept-Encoding',
+    'gzip, deflate, br',
+    'Accept-Language',
+    'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+  ],
+  trailers: {},
+  rawTrailers: [],
+  aborted: false,
+  upgrade: false,
+  url: '/textarea?mail=null',
+  method: 'POST',
+  statusCode: null,
+  statusMessage: null,
+  client: Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: null,
+      pipesCount: 0,
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      paused: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrain: 0,
+      readingMore: false,
+      decoder: null,
+      encoding: null
+    },
+    readable: true,
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    _server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    timeout: 120000,
+    parser: HTTPParser {
+      '0': [Function: parserOnHeaders],
+      '1': [Function: parserOnHeadersComplete],
+      '2': [Function: parserOnBody],
+      '3': [Function: parserOnMessageComplete],
+      '4': [Function: bound onParserExecute],
+      _headers: [],
+      _url: '',
+      socket: [Circular],
+      incoming: [Circular],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      parsingHeadersStart: 1582626802286
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      socket: [Circular],
+      connection: [Circular],
+      _header: null,
+      _onPendingData: [Function: bound updateOutgoingData],
+      _sent100: false,
+      _expect_continue: false,
+      req: [Circular],
+      locals: [Object: null prototype] {},
+      _startAt: undefined,
+      _startTime: undefined,
+      writeHead: [Function: writeHead],
+      __onFinished: [Function],
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(isCorked)]: false,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    _peername: { address: '::1', family: 'IPv6', port: 49896 },
+    [Symbol(asyncId)]: 9,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner)]: [Circular]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: 120000,
+      _idlePrev: [TimersList],
+      _idleNext: [TimersList],
+      _idleStart: 1119312,
+      _onTimeout: [Function: bound ],
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: false,
+      [Symbol(refed)]: false,
+      [Symbol(asyncId)]: 10,
+      [Symbol(triggerId)]: 9
+    },
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  _consuming: true,
+  _dumped: false,
+  next: [Function: next],
+  baseUrl: '',
+  originalUrl: '/textarea?mail=null',
+  _parsedUrl: Url {
+    protocol: null,
+    slashes: null,
+    auth: null,
+    host: null,
+    port: null,
+    hostname: null,
+    hash: null,
+    search: '?mail=null',
+    query: 'mail=null',
+    pathname: '/textarea',
+    path: '/textarea?mail=null',
+    href: '/textarea?mail=null',
+    _raw: '/textarea?mail=null'
+  },
+  params: {},
+  query: { mail: 'null' },
+  res: ServerResponse {
+    _events: [Object: null prototype] {
+      finish: [Array],
+      end: [Function: onevent]
+    },
+    _eventsCount: 2,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: false,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    useChunkedEncodingByDefault: true,
+    sendDate: true,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: null,
+    _hasBody: true,
+    _trailer: '',
+    finished: false,
+    _headerSent: false,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: true,
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      timeout: 120000,
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular],
+      _peername: [Object],
+      [Symbol(asyncId)]: 9,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 120000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 1119312,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(asyncId)]: 10,
+        [Symbol(triggerId)]: 9
+      },
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    connection: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: true,
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      timeout: 120000,
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular],
+      _peername: [Object],
+      [Symbol(asyncId)]: 9,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 120000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 1119312,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(asyncId)]: 10,
+        [Symbol(triggerId)]: 9
+      },
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: null,
+    _onPendingData: [Function: bound updateOutgoingData],
+    _sent100: false,
+    _expect_continue: false,
+    req: [Circular],
+    locals: [Object: null prototype] {},
+    _startAt: undefined,
+    _startTime: undefined,
+    writeHead: [Function: writeHead],
+    __onFinished: [Function: listener] { queue: [Array] },
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(isCorked)]: false,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      'x-powered-by': [Array],
+      'access-control-allow-origin': [Array]
+    }
+  },
+  _startAt: [ 61448, 506983857 ],
+  _startTime: 2020-02-25T10:33:22.302Z,
+  _remoteAddress: '::1',
+  body: [Object: null prototype] {
+    'Resection endoscopique de la prostate au plasma bi polaire': ''
+  },
+  _body: true,
+  length: undefined,
+  secret: undefined,
+  cookies: [Object: null prototype] {},
+  signedCookies: [Object: null prototype] {},
+  route: Route {
+    path: '/textarea',
+    stack: [ [Layer] ],
+    methods: { post: true }
+  }
+}
+IncomingMessage {
+  _readableState: ReadableState {
+    objectMode: false,
+    highWaterMark: 16384,
+    buffer: BufferList { head: null, tail: null, length: 0 },
+    length: 0,
+    pipes: null,
+    pipesCount: 0,
+    flowing: true,
+    ended: true,
+    endEmitted: true,
+    reading: false,
+    sync: false,
+    needReadable: false,
+    emittedReadable: false,
+    readableListening: false,
+    resumeScheduled: false,
+    paused: false,
+    emitClose: true,
+    autoDestroy: false,
+    destroyed: false,
+    defaultEncoding: 'utf8',
+    awaitDrain: 0,
+    readingMore: false,
+    decoder: null,
+    encoding: null
+  },
+  readable: false,
+  _events: [Object: null prototype] {
+    end: [Function: resetHeadersTimeoutOnReqEnd]
+  },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  socket: Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: null,
+      pipesCount: 0,
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      paused: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrain: 0,
+      readingMore: false,
+      decoder: null,
+      encoding: null
+    },
+    readable: true,
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    _server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    timeout: 120000,
+    parser: HTTPParser {
+      '0': [Function: parserOnHeaders],
+      '1': [Function: parserOnHeadersComplete],
+      '2': [Function: parserOnBody],
+      '3': [Function: parserOnMessageComplete],
+      '4': [Function: bound onParserExecute],
+      _headers: [],
+      _url: '',
+      socket: [Circular],
+      incoming: [Circular],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      parsingHeadersStart: 1582626904817
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      socket: [Circular],
+      connection: [Circular],
+      _header: null,
+      _onPendingData: [Function: bound updateOutgoingData],
+      _sent100: false,
+      _expect_continue: false,
+      req: [Circular],
+      locals: [Object: null prototype] {},
+      _startAt: undefined,
+      _startTime: undefined,
+      writeHead: [Function: writeHead],
+      __onFinished: [Function],
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(isCorked)]: false,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    _peername: { address: '::1', family: 'IPv6', port: 50333 },
+    [Symbol(asyncId)]: 9,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner)]: [Circular]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: 120000,
+      _idlePrev: [TimersList],
+      _idleNext: [TimersList],
+      _idleStart: 25200,
+      _onTimeout: [Function: bound ],
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: false,
+      [Symbol(refed)]: false,
+      [Symbol(asyncId)]: 10,
+      [Symbol(triggerId)]: 9
+    },
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  connection: Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: null,
+      pipesCount: 0,
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      paused: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrain: 0,
+      readingMore: false,
+      decoder: null,
+      encoding: null
+    },
+    readable: true,
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    _server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    timeout: 120000,
+    parser: HTTPParser {
+      '0': [Function: parserOnHeaders],
+      '1': [Function: parserOnHeadersComplete],
+      '2': [Function: parserOnBody],
+      '3': [Function: parserOnMessageComplete],
+      '4': [Function: bound onParserExecute],
+      _headers: [],
+      _url: '',
+      socket: [Circular],
+      incoming: [Circular],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      parsingHeadersStart: 1582626904817
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      socket: [Circular],
+      connection: [Circular],
+      _header: null,
+      _onPendingData: [Function: bound updateOutgoingData],
+      _sent100: false,
+      _expect_continue: false,
+      req: [Circular],
+      locals: [Object: null prototype] {},
+      _startAt: undefined,
+      _startTime: undefined,
+      writeHead: [Function: writeHead],
+      __onFinished: [Function],
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(isCorked)]: false,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    _peername: { address: '::1', family: 'IPv6', port: 50333 },
+    [Symbol(asyncId)]: 9,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner)]: [Circular]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: 120000,
+      _idlePrev: [TimersList],
+      _idleNext: [TimersList],
+      _idleStart: 25200,
+      _onTimeout: [Function: bound ],
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: false,
+      [Symbol(refed)]: false,
+      [Symbol(asyncId)]: 10,
+      [Symbol(triggerId)]: 9
+    },
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: true,
+  headers: {
+    host: 'localhost:3001',
+    connection: 'keep-alive',
+    'content-length': '58',
+    accept: 'application/json, text/plain, */*',
+    'sec-fetch-dest': 'empty',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+    dnt: '1',
+    'content-type': 'application/x-www-form-urlencoded',
+    origin: 'http://localhost:3000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    referer: 'http://localhost:3000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+  },
+  rawHeaders: [
+    'Host',
+    'localhost:3001',
+    'Connection',
+    'keep-alive',
+    'Content-Length',
+    '58',
+    'Accept',
+    'application/json, text/plain, */*',
+    'Sec-Fetch-Dest',
+    'empty',
+    'User-Agent',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+    'DNT',
+    '1',
+    'Content-Type',
+    'application/x-www-form-urlencoded',
+    'Origin',
+    'http://localhost:3000',
+    'Sec-Fetch-Site',
+    'same-site',
+    'Sec-Fetch-Mode',
+    'cors',
+    'Referer',
+    'http://localhost:3000/',
+    'Accept-Encoding',
+    'gzip, deflate, br',
+    'Accept-Language',
+    'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+  ],
+  trailers: {},
+  rawTrailers: [],
+  aborted: false,
+  upgrade: false,
+  url: '/textarea?mail=null',
+  method: 'POST',
+  statusCode: null,
+  statusMessage: null,
+  client: Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: null,
+      pipesCount: 0,
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      paused: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrain: 0,
+      readingMore: false,
+      decoder: null,
+      encoding: null
+    },
+    readable: true,
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    _server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    timeout: 120000,
+    parser: HTTPParser {
+      '0': [Function: parserOnHeaders],
+      '1': [Function: parserOnHeadersComplete],
+      '2': [Function: parserOnBody],
+      '3': [Function: parserOnMessageComplete],
+      '4': [Function: bound onParserExecute],
+      _headers: [],
+      _url: '',
+      socket: [Circular],
+      incoming: [Circular],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      parsingHeadersStart: 1582626904817
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      socket: [Circular],
+      connection: [Circular],
+      _header: null,
+      _onPendingData: [Function: bound updateOutgoingData],
+      _sent100: false,
+      _expect_continue: false,
+      req: [Circular],
+      locals: [Object: null prototype] {},
+      _startAt: undefined,
+      _startTime: undefined,
+      writeHead: [Function: writeHead],
+      __onFinished: [Function],
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(isCorked)]: false,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    _peername: { address: '::1', family: 'IPv6', port: 50333 },
+    [Symbol(asyncId)]: 9,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner)]: [Circular]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: 120000,
+      _idlePrev: [TimersList],
+      _idleNext: [TimersList],
+      _idleStart: 25200,
+      _onTimeout: [Function: bound ],
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: false,
+      [Symbol(refed)]: false,
+      [Symbol(asyncId)]: 10,
+      [Symbol(triggerId)]: 9
+    },
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  _consuming: true,
+  _dumped: false,
+  next: [Function: next],
+  baseUrl: '',
+  originalUrl: '/textarea?mail=null',
+  _parsedUrl: Url {
+    protocol: null,
+    slashes: null,
+    auth: null,
+    host: null,
+    port: null,
+    hostname: null,
+    hash: null,
+    search: '?mail=null',
+    query: 'mail=null',
+    pathname: '/textarea',
+    path: '/textarea?mail=null',
+    href: '/textarea?mail=null',
+    _raw: '/textarea?mail=null'
+  },
+  params: {},
+  query: { mail: 'null' },
+  res: ServerResponse {
+    _events: [Object: null prototype] {
+      finish: [Array],
+      end: [Function: onevent]
+    },
+    _eventsCount: 2,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: false,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    useChunkedEncodingByDefault: true,
+    sendDate: true,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: null,
+    _hasBody: true,
+    _trailer: '',
+    finished: false,
+    _headerSent: false,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: true,
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      timeout: 120000,
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular],
+      _peername: [Object],
+      [Symbol(asyncId)]: 9,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 120000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 25200,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(asyncId)]: 10,
+        [Symbol(triggerId)]: 9
+      },
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    connection: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: true,
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      timeout: 120000,
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular],
+      _peername: [Object],
+      [Symbol(asyncId)]: 9,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 120000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 25200,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(asyncId)]: 10,
+        [Symbol(triggerId)]: 9
+      },
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: null,
+    _onPendingData: [Function: bound updateOutgoingData],
+    _sent100: false,
+    _expect_continue: false,
+    req: [Circular],
+    locals: [Object: null prototype] {},
+    _startAt: undefined,
+    _startTime: undefined,
+    writeHead: [Function: writeHead],
+    __onFinished: [Function: listener] { queue: [Array] },
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(isCorked)]: false,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      'x-powered-by': [Array],
+      'access-control-allow-origin': [Array]
+    }
+  },
+  _startAt: [ 61551, 31085364 ],
+  _startTime: 2020-02-25T10:35:04.824Z,
+  _remoteAddress: '::1',
+  body: [Object: null prototype] {
+    'Resection endoscopique de la prostate au plasma bi polaire': ''
+  },
+  _body: true,
+  length: undefined,
+  secret: undefined,
+  cookies: [Object: null prototype] {},
+  signedCookies: [Object: null prototype] {},
+  route: Route {
+    path: '/textarea',
+    stack: [ [Layer] ],
+    methods: { post: true }
+  }
+}
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'février 25 2020, 12:24:34   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    path: 'public/uploads/février 25 2020, 12:24:34   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    size: 1249
+  }
+]
+undefined
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+{}
+{}
+{}
+undefined
+undefined
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'février 25 2020, 2:11:05   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    path: 'public/uploads/février 25 2020, 2:11:05   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    size: 1249
+  }
+]
+undefined
+{}
+{}
+{}
+[Object: null prototype] { '{}': '' }
+{}
+{}
+{}
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+[Object: null prototype] {
+  '"Resection endoscopique de la prostate au plasma bi polaire"': ''
+}
+[Object: null prototype] {
+  '"Resection endoscopique de la prostate au plasma bi polaire"': ''
+}
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+{}
+{}
+{}
+[Object: null prototype] { hello: '' }
+[Object: null prototype] { hello: '' }
+{}
+{}
+[Object: null prototype] { olol: '' }
+IncomingMessage {
+  _readableState: ReadableState {
+    objectMode: false,
+    highWaterMark: 16384,
+    buffer: BufferList { head: null, tail: null, length: 0 },
+    length: 0,
+    pipes: null,
+    pipesCount: 0,
+    flowing: null,
+    ended: false,
+    endEmitted: false,
+    reading: false,
+    sync: true,
+    needReadable: false,
+    emittedReadable: false,
+    readableListening: false,
+    resumeScheduled: false,
+    paused: true,
+    emitClose: true,
+    autoDestroy: false,
+    destroyed: false,
+    defaultEncoding: 'utf8',
+    awaitDrain: 0,
+    readingMore: true,
+    decoder: null,
+    encoding: null
+  },
+  readable: true,
+  _events: [Object: null prototype] {
+    end: [Function: resetHeadersTimeoutOnReqEnd]
+  },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  socket: Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: null,
+      pipesCount: 0,
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      paused: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrain: 0,
+      readingMore: false,
+      decoder: null,
+      encoding: null
+    },
+    readable: true,
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    _server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    timeout: 120000,
+    parser: HTTPParser {
+      '0': [Function: parserOnHeaders],
+      '1': [Function: parserOnHeadersComplete],
+      '2': [Function: parserOnBody],
+      '3': [Function: parserOnMessageComplete],
+      '4': [Function: bound onParserExecute],
+      _headers: [],
+      _url: '',
+      socket: [Circular],
+      incoming: [Circular],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      parsingHeadersStart: 0
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      socket: [Circular],
+      connection: [Circular],
+      _header: null,
+      _onPendingData: [Function: bound updateOutgoingData],
+      _sent100: false,
+      _expect_continue: false,
+      req: [Circular],
+      locals: [Object: null prototype] {},
+      _startAt: undefined,
+      _startTime: undefined,
+      writeHead: [Function: writeHead],
+      __onFinished: [Function],
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(isCorked)]: false,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    _peername: { address: '::1', family: 'IPv6', port: 55888 },
+    [Symbol(asyncId)]: 9,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner)]: [Circular]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: 120000,
+      _idlePrev: [TimersList],
+      _idleNext: [TimersList],
+      _idleStart: 14681,
+      _onTimeout: [Function: bound ],
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: false,
+      [Symbol(refed)]: false,
+      [Symbol(asyncId)]: 10,
+      [Symbol(triggerId)]: 9
+    },
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  connection: Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: null,
+      pipesCount: 0,
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      paused: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrain: 0,
+      readingMore: false,
+      decoder: null,
+      encoding: null
+    },
+    readable: true,
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    _server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    timeout: 120000,
+    parser: HTTPParser {
+      '0': [Function: parserOnHeaders],
+      '1': [Function: parserOnHeadersComplete],
+      '2': [Function: parserOnBody],
+      '3': [Function: parserOnMessageComplete],
+      '4': [Function: bound onParserExecute],
+      _headers: [],
+      _url: '',
+      socket: [Circular],
+      incoming: [Circular],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      parsingHeadersStart: 0
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      socket: [Circular],
+      connection: [Circular],
+      _header: null,
+      _onPendingData: [Function: bound updateOutgoingData],
+      _sent100: false,
+      _expect_continue: false,
+      req: [Circular],
+      locals: [Object: null prototype] {},
+      _startAt: undefined,
+      _startTime: undefined,
+      writeHead: [Function: writeHead],
+      __onFinished: [Function],
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(isCorked)]: false,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    _peername: { address: '::1', family: 'IPv6', port: 55888 },
+    [Symbol(asyncId)]: 9,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner)]: [Circular]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: 120000,
+      _idlePrev: [TimersList],
+      _idleNext: [TimersList],
+      _idleStart: 14681,
+      _onTimeout: [Function: bound ],
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: false,
+      [Symbol(refed)]: false,
+      [Symbol(asyncId)]: 10,
+      [Symbol(triggerId)]: 9
+    },
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: false,
+  headers: {
+    host: 'localhost:3001',
+    connection: 'keep-alive',
+    'content-length': '144',
+    accept: 'application/json, text/plain, */*',
+    'sec-fetch-dest': 'empty',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+    dnt: '1',
+    'content-type': 'multipart/form-data; boundary=----WebKitFormBoundaryAWXEcLEqeNU6ByxC',
+    origin: 'http://localhost:3000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    referer: 'http://localhost:3000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+  },
+  rawHeaders: [
+    'Host',
+    'localhost:3001',
+    'Connection',
+    'keep-alive',
+    'Content-Length',
+    '144',
+    'Accept',
+    'application/json, text/plain, */*',
+    'Sec-Fetch-Dest',
+    'empty',
+    'User-Agent',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+    'DNT',
+    '1',
+    'Content-Type',
+    'multipart/form-data; boundary=----WebKitFormBoundaryAWXEcLEqeNU6ByxC',
+    'Origin',
+    'http://localhost:3000',
+    'Sec-Fetch-Site',
+    'same-site',
+    'Sec-Fetch-Mode',
+    'cors',
+    'Referer',
+    'http://localhost:3000/',
+    'Accept-Encoding',
+    'gzip, deflate, br',
+    'Accept-Language',
+    'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+  ],
+  trailers: {},
+  rawTrailers: [],
+  aborted: false,
+  upgrade: false,
+  url: '/textarea?mail=null',
+  method: 'POST',
+  statusCode: null,
+  statusMessage: null,
+  client: Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: null,
+      pipesCount: 0,
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      paused: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrain: 0,
+      readingMore: false,
+      decoder: null,
+      encoding: null
+    },
+    readable: true,
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    _server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    timeout: 120000,
+    parser: HTTPParser {
+      '0': [Function: parserOnHeaders],
+      '1': [Function: parserOnHeadersComplete],
+      '2': [Function: parserOnBody],
+      '3': [Function: parserOnMessageComplete],
+      '4': [Function: bound onParserExecute],
+      _headers: [],
+      _url: '',
+      socket: [Circular],
+      incoming: [Circular],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      parsingHeadersStart: 0
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      socket: [Circular],
+      connection: [Circular],
+      _header: null,
+      _onPendingData: [Function: bound updateOutgoingData],
+      _sent100: false,
+      _expect_continue: false,
+      req: [Circular],
+      locals: [Object: null prototype] {},
+      _startAt: undefined,
+      _startTime: undefined,
+      writeHead: [Function: writeHead],
+      __onFinished: [Function],
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(isCorked)]: false,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    _peername: { address: '::1', family: 'IPv6', port: 55888 },
+    [Symbol(asyncId)]: 9,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner)]: [Circular]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: 120000,
+      _idlePrev: [TimersList],
+      _idleNext: [TimersList],
+      _idleStart: 14681,
+      _onTimeout: [Function: bound ],
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: false,
+      [Symbol(refed)]: false,
+      [Symbol(asyncId)]: 10,
+      [Symbol(triggerId)]: 9
+    },
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  _consuming: false,
+  _dumped: false,
+  next: [Function: next],
+  baseUrl: '',
+  originalUrl: '/textarea?mail=null',
+  _parsedUrl: Url {
+    protocol: null,
+    slashes: null,
+    auth: null,
+    host: null,
+    port: null,
+    hostname: null,
+    hash: null,
+    search: '?mail=null',
+    query: 'mail=null',
+    pathname: '/textarea',
+    path: '/textarea?mail=null',
+    href: '/textarea?mail=null',
+    _raw: '/textarea?mail=null'
+  },
+  params: {},
+  query: { mail: 'null' },
+  res: ServerResponse {
+    _events: [Object: null prototype] {
+      finish: [Array],
+      end: [Function: onevent]
+    },
+    _eventsCount: 2,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: false,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    useChunkedEncodingByDefault: true,
+    sendDate: true,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: null,
+    _hasBody: true,
+    _trailer: '',
+    finished: false,
+    _headerSent: false,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: true,
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      timeout: 120000,
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular],
+      _peername: [Object],
+      [Symbol(asyncId)]: 9,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 120000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 14681,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(asyncId)]: 10,
+        [Symbol(triggerId)]: 9
+      },
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    connection: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: true,
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      timeout: 120000,
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular],
+      _peername: [Object],
+      [Symbol(asyncId)]: 9,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 120000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 14681,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(asyncId)]: 10,
+        [Symbol(triggerId)]: 9
+      },
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: null,
+    _onPendingData: [Function: bound updateOutgoingData],
+    _sent100: false,
+    _expect_continue: false,
+    req: [Circular],
+    locals: [Object: null prototype] {},
+    _startAt: undefined,
+    _startTime: undefined,
+    writeHead: [Function: writeHead],
+    __onFinished: [Function: listener] { queue: [Array] },
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(isCorked)]: false,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      'x-powered-by': [Array],
+      'access-control-allow-origin': [Array]
+    }
+  },
+  _startAt: [ 70434, 117147829 ],
+  _startTime: 2020-02-25T14:00:33.528Z,
+  _remoteAddress: '::1',
+  body: {},
+  secret: undefined,
+  cookies: [Object: null prototype] {},
+  signedCookies: [Object: null prototype] {},
+  route: Route {
+    path: '/textarea',
+    stack: [ [Layer] ],
+    methods: { post: true }
+  }
+}
+IncomingMessage {
+  _readableState: ReadableState {
+    objectMode: false,
+    highWaterMark: 16384,
+    buffer: BufferList { head: null, tail: null, length: 0 },
+    length: 0,
+    pipes: null,
+    pipesCount: 0,
+    flowing: null,
+    ended: false,
+    endEmitted: false,
+    reading: false,
+    sync: true,
+    needReadable: false,
+    emittedReadable: false,
+    readableListening: false,
+    resumeScheduled: false,
+    paused: true,
+    emitClose: true,
+    autoDestroy: false,
+    destroyed: false,
+    defaultEncoding: 'utf8',
+    awaitDrain: 0,
+    readingMore: true,
+    decoder: null,
+    encoding: null
+  },
+  readable: true,
+  _events: [Object: null prototype] {
+    end: [Function: resetHeadersTimeoutOnReqEnd]
+  },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  socket: Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: null,
+      pipesCount: 0,
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      paused: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrain: 0,
+      readingMore: false,
+      decoder: null,
+      encoding: null
+    },
+    readable: true,
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    _server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    timeout: 120000,
+    parser: HTTPParser {
+      '0': [Function: parserOnHeaders],
+      '1': [Function: parserOnHeadersComplete],
+      '2': [Function: parserOnBody],
+      '3': [Function: parserOnMessageComplete],
+      '4': [Function: bound onParserExecute],
+      _headers: [],
+      _url: '',
+      socket: [Circular],
+      incoming: [Circular],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      parsingHeadersStart: 0
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      socket: [Circular],
+      connection: [Circular],
+      _header: null,
+      _onPendingData: [Function: bound updateOutgoingData],
+      _sent100: false,
+      _expect_continue: false,
+      req: [Circular],
+      locals: [Object: null prototype] {},
+      _startAt: undefined,
+      _startTime: undefined,
+      writeHead: [Function: writeHead],
+      __onFinished: [Function],
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(isCorked)]: false,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    _peername: { address: '::1', family: 'IPv6', port: 58590 },
+    [Symbol(asyncId)]: 9,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner)]: [Circular]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: 120000,
+      _idlePrev: [TimersList],
+      _idleNext: [TimersList],
+      _idleStart: 38081,
+      _onTimeout: [Function: bound ],
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: false,
+      [Symbol(refed)]: false,
+      [Symbol(asyncId)]: 10,
+      [Symbol(triggerId)]: 9
+    },
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  connection: Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: null,
+      pipesCount: 0,
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      paused: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrain: 0,
+      readingMore: false,
+      decoder: null,
+      encoding: null
+    },
+    readable: true,
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    _server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    timeout: 120000,
+    parser: HTTPParser {
+      '0': [Function: parserOnHeaders],
+      '1': [Function: parserOnHeadersComplete],
+      '2': [Function: parserOnBody],
+      '3': [Function: parserOnMessageComplete],
+      '4': [Function: bound onParserExecute],
+      _headers: [],
+      _url: '',
+      socket: [Circular],
+      incoming: [Circular],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      parsingHeadersStart: 0
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      socket: [Circular],
+      connection: [Circular],
+      _header: null,
+      _onPendingData: [Function: bound updateOutgoingData],
+      _sent100: false,
+      _expect_continue: false,
+      req: [Circular],
+      locals: [Object: null prototype] {},
+      _startAt: undefined,
+      _startTime: undefined,
+      writeHead: [Function: writeHead],
+      __onFinished: [Function],
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(isCorked)]: false,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    _peername: { address: '::1', family: 'IPv6', port: 58590 },
+    [Symbol(asyncId)]: 9,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner)]: [Circular]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: 120000,
+      _idlePrev: [TimersList],
+      _idleNext: [TimersList],
+      _idleStart: 38081,
+      _onTimeout: [Function: bound ],
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: false,
+      [Symbol(refed)]: false,
+      [Symbol(asyncId)]: 10,
+      [Symbol(triggerId)]: 9
+    },
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: false,
+  headers: {
+    host: 'localhost:3001',
+    connection: 'keep-alive',
+    'content-length': '144',
+    accept: 'application/json, text/plain, */*',
+    'sec-fetch-dest': 'empty',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+    dnt: '1',
+    'content-type': 'multipart/form-data; boundary=----WebKitFormBoundarymOPbsCkOWMzHjDsO',
+    origin: 'http://localhost:3000',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    referer: 'http://localhost:3000/',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+  },
+  rawHeaders: [
+    'Host',
+    'localhost:3001',
+    'Connection',
+    'keep-alive',
+    'Content-Length',
+    '144',
+    'Accept',
+    'application/json, text/plain, */*',
+    'Sec-Fetch-Dest',
+    'empty',
+    'User-Agent',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+    'DNT',
+    '1',
+    'Content-Type',
+    'multipart/form-data; boundary=----WebKitFormBoundarymOPbsCkOWMzHjDsO',
+    'Origin',
+    'http://localhost:3000',
+    'Sec-Fetch-Site',
+    'same-site',
+    'Sec-Fetch-Mode',
+    'cors',
+    'Referer',
+    'http://localhost:3000/',
+    'Accept-Encoding',
+    'gzip, deflate, br',
+    'Accept-Language',
+    'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'
+  ],
+  trailers: {},
+  rawTrailers: [],
+  aborted: false,
+  upgrade: false,
+  url: '/textarea?mail=null',
+  method: 'POST',
+  statusCode: null,
+  statusMessage: null,
+  client: Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: null,
+      pipesCount: 0,
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      paused: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrain: 0,
+      readingMore: false,
+      decoder: null,
+      encoding: null
+    },
+    readable: true,
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    _server: Server {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 120000,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::3001',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(asyncId)]: 7
+    },
+    timeout: 120000,
+    parser: HTTPParser {
+      '0': [Function: parserOnHeaders],
+      '1': [Function: parserOnHeadersComplete],
+      '2': [Function: parserOnBody],
+      '3': [Function: parserOnMessageComplete],
+      '4': [Function: bound onParserExecute],
+      _headers: [],
+      _url: '',
+      socket: [Circular],
+      incoming: [Circular],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      parsingHeadersStart: 0
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      socket: [Circular],
+      connection: [Circular],
+      _header: null,
+      _onPendingData: [Function: bound updateOutgoingData],
+      _sent100: false,
+      _expect_continue: false,
+      req: [Circular],
+      locals: [Object: null prototype] {},
+      _startAt: undefined,
+      _startTime: undefined,
+      writeHead: [Function: writeHead],
+      __onFinished: [Function],
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(isCorked)]: false,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    _peername: { address: '::1', family: 'IPv6', port: 58590 },
+    [Symbol(asyncId)]: 9,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner)]: [Circular]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: 120000,
+      _idlePrev: [TimersList],
+      _idleNext: [TimersList],
+      _idleStart: 38081,
+      _onTimeout: [Function: bound ],
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: false,
+      [Symbol(refed)]: false,
+      [Symbol(asyncId)]: 10,
+      [Symbol(triggerId)]: 9
+    },
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  _consuming: false,
+  _dumped: false,
+  next: [Function: next],
+  baseUrl: '',
+  originalUrl: '/textarea?mail=null',
+  _parsedUrl: Url {
+    protocol: null,
+    slashes: null,
+    auth: null,
+    host: null,
+    port: null,
+    hostname: null,
+    hash: null,
+    search: '?mail=null',
+    query: 'mail=null',
+    pathname: '/textarea',
+    path: '/textarea?mail=null',
+    href: '/textarea?mail=null',
+    _raw: '/textarea?mail=null'
+  },
+  params: {},
+  query: { mail: 'null' },
+  res: ServerResponse {
+    _events: [Object: null prototype] {
+      finish: [Array],
+      end: [Function: onevent]
+    },
+    _eventsCount: 2,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: false,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    useChunkedEncodingByDefault: true,
+    sendDate: true,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: null,
+    _hasBody: true,
+    _trailer: '',
+    finished: false,
+    _headerSent: false,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: true,
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      timeout: 120000,
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular],
+      _peername: [Object],
+      [Symbol(asyncId)]: 9,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 120000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 38081,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(asyncId)]: 10,
+        [Symbol(triggerId)]: 9
+      },
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    connection: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: true,
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      timeout: 120000,
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular],
+      _peername: [Object],
+      [Symbol(asyncId)]: 9,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 120000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 38081,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(asyncId)]: 10,
+        [Symbol(triggerId)]: 9
+      },
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: null,
+    _onPendingData: [Function: bound updateOutgoingData],
+    _sent100: false,
+    _expect_continue: false,
+    req: [Circular],
+    locals: [Object: null prototype] {},
+    _startAt: undefined,
+    _startTime: undefined,
+    writeHead: [Function: writeHead],
+    __onFinished: [Function: listener] { queue: [Array] },
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(isCorked)]: false,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      'x-powered-by': [Array],
+      'access-control-allow-origin': [Array]
+    }
+  },
+  _startAt: [ 71087, 74674610 ],
+  _startTime: 2020-02-25T14:11:26.483Z,
+  _remoteAddress: '::1',
+  body: {},
+  secret: undefined,
+  cookies: [Object: null prototype] {},
+  signedCookies: [Object: null prototype] {},
+  route: Route {
+    path: '/textarea',
+    stack: [ [Layer] ],
+    methods: { post: true }
+  }
+}
+{}
+{}
+{}
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+File is opened
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+File is opened
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+File is opened
+[Object: null prototype] {
+  'Resection endoscopique de la prostate au plasma bi polaire': ''
+}
+[AsyncFunction: test]
+{}
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+ 
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <link rel="stylesheet" type="text/css" href="/static/classif/classif.css" />
+  <title>Document Classification</title>
+  <script type="text/javascript" src="/static/classif/jquery-3.3.1.min.js"></script>
+  <script>
+function setText(obj) {
+  document.getElementById("id_text").value=obj.innerHTML;
+}
+
+function checkTextSize()
+{
+ var text=document.getElementById("id_text");
+ var content=text.value;
+ var max = text.getAttribute("maxlength");
+ var numberOfLineBreaks = (content.match(/\n/g)||[]).length;
+ document.getElementById("id_text").value=content.substring(0,max-numberOfLineBreaks)
+};
+
+function setInfos(str)
+{
+  resid=str.substr(0,str.indexOf(' ')); // res id is the first element of the result (after, is description)
+  $.get("get-info", { resid:resid }, function(data) {
+    //console.log(data);
+    document.getElementById("additionalInfo").innerHTML=data;
+    });
+}
+  </script>
+</head>
+  
+<body>
+
+<!--header-->
+<div class="header">
+<img src="/static/List_logo.png" height="70" style="padding:10px"/>
+<img src="/static/logo-dg.png" height="50" style="padding:10px"/>
+<a class="title" href="/">Démonstration de classification automatique de dossiers patients</a>
+</div>
+
+<p/>
+
+ <div class="alert" style='display:none'>
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  This is an alert box.
+</div> 
+
+
+
+
+
+<a href="/static/classif/classes/classes.html" style="text-decoration:none"><img height="60"
+style="float:right; " src="/static/classif/classes-link.png"/></a>
+
+<div class="textClassif">
+  
+<span class="desc">Entrez un texte à analyser:</span><br/>
+<span class="info">texte en français</span><p/>
+<div class="container2">
+<div class="container1">
+<div class="col1">
+<form action="/classif/" method="post">
+    <input type="hidden" name="csrfmiddlewaretoken" value="h3b6MirifzYvuPRdyS5dbAaIowK22C4xq4P3sFN9vlMtwtYHofmttyL3UfCcY4wT">
+    <textarea name="text" cols="60" rows="10" maxlength="500" id="id_text">
+Resection endoscopique de la prostate au plasma bi polaire</textarea>
+    <input type="submit" value="Classer" class="button" onClick="checkTextSize();document.getElementById('textprocessing').style.display='block';document.getElementById('res').style.visibility='hidden'"/>
+</form>
+</div>
+<div class="col2">
+  <img src="/static/classif/Loading_icon.gif" id="textprocessing" alt="Processing..." width="200" style="display:none"/> 
+  <span class="result" id="res">
+    
+    <table>
+      <tr><td><i>Diagnostic</i></td><td><i>score</i></td></tr>
+      <tr>
+        <td class="resbest" onclick="setInfos('N40 Hyperplasie de la prostate')">N40 Hyperplasie de la prostate</td>
+        <td class="resbest">0.998047</td>
+      </tr>
+      
+      <tr>
+        <td class="resother" onclick="setInfos('G560 Syndrome du canal carpien')">G560 Syndrome du canal carpien</td>
+        <td class="resother">1.95313e-08</td>
+      </tr>
+      
+      <tr>
+        <td class="resother" onclick="setInfos('H259 Cataracte sénile, sans précision')">H259 Cataracte sénile, sans précision</td>
+        <td class="resother">1.95313e-08</td>
+      </tr>
+      
+      <tr>
+        <td class="resother" onclick="setInfos('M8416 Fracture non consolidée (pseudarthrose) \u002D Jambe')">M8416 Fracture non consolidée (pseudarthrose) - Jambe</td>
+        <td class="resother">1.95313e-08</td>
+      </tr>
+      
+      <tr>
+        <td class="resother" onclick="setInfos('M256 Raideur articulaire, non classée ailleurs')">M256 Raideur articulaire, non classée ailleurs</td>
+        <td class="resother">1.95313e-08</td>
+      </tr>
+      
+    </table>
+    <p/>
+    <div id="additionalInfo" class="add-info__container">
+    </div>
+    
+    <!--span class="categs">
+    
+      <i>Diagnostic</i><br/>
+    
+    
+    N40 Hyperplasie de la prostate<br/>
+    
+    G560 Syndrome du canal carpien<br/>
+    
+    H259 Cataracte sénile, sans précision<br/>
+    
+    M8416 Fracture non consolidée (pseudarthrose) - Jambe<br/>
+    
+    M256 Raideur articulaire, non classée ailleurs<br/>
+    
+    
+    
+    </span>
+    <span class="scores">
+    
+      <i>score de confiance</i><br/>
+    
+    0.998047<br/>
+    
+    1.95313e-08<br/>
+    
+    1.95313e-08<br/>
+    
+    1.95313e-08<br/>
+    
+    1.95313e-08<br/>
+    
+    
+    </span-->
+  </span>
+</div>
+<div class="clear"/>
+</div>
+</div>
+</div>
+<p/>
+
+<span class="desc">ou sélectionnez un dossier </span><br/>
+<span class="info">sélectionnez un ou plusieurs fichiers d'un dossier patient, au format texte.</span><p/>
+<div class="fileClassif">
+<div class="filequery">
+<form action="/classif/" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="csrfmiddlewaretoken" value="h3b6MirifzYvuPRdyS5dbAaIowK22C4xq4P3sFN9vlMtwtYHofmttyL3UfCcY4wT">
+    <input type="file" name="inputFiles" multiple id="id_inputFiles">
+    <p/>
+    <!--visibility:visible/hidden keeps the room for the image; display:none/block does not-->
+    <input type="submit" value="Classer" class="button" onClick="document.getElementById('fileprocessing').style.display='block';document.getElementById('fileres').style.visibility='hidden'" />
+</form>
+</div>
+<div class="fileresult">
+  <img src="/static/classif/Loading_icon.gif" id="fileprocessing" alt="Processing..." width="200" style="display:none"
+/> 
+  <div class="fileres" id="fileres">
+    
+  </div>
+</div>
+</div>
+
+<hr/>
+<div>
+  Des exemples de textes:<p/>
+  
+  N40 <span class="example" onclick='setText(this)'>Resection endoscopique de la prostate au plasma bi polaire</span><br/>
+  
+  N201 <span class="example" onclick='setText(this)'>Colique néphrétique hyperalgique gauche avec pose d’une endoprothèse JJ gauche</span><br/>
+  
+  N320 <span class="example" onclick='setText(this)'>Patient présentant une synéchie du col vésical entrainant la présence de 2 orifices cervicaux. Ceci associé à une incontinence urinaire avec antécédent d’adénomectomie prostatique.</span><br/>
+  
+  C441 <span class="example" onclick='setText(this)'>Carcinome basocellulaire jonction tiers externe, deux tiers interne de la paupière inférieure droite. d’exérèse reconstruction par un lambeau type MUSTARDE, geste à réaliser en ambulatoire sous AL + sédation</span><br/>
+  
+  S5250 <span class="example" onclick='setText(this)'>Fracture du poignet droit.</span><br/>
+  
+  N200 <span class="example" onclick='setText(this)'>Patiente présentant une lithiase de 6 mm polaire supérieure gauche.</span><br/>
+  
+  M720 <span class="example" onclick='setText(this)'>Maladie dupuytren palmaire gauche, 3me rayon. Forme nodulaire.</span><br/>
+  
+  Z470 <span class="example" onclick='setText(this)'>Douleur malleole externe sur 2 vis (ancienne fracture)</span><br/>
+  
+  K801 <span class="example" onclick='setText(this)'>Lithiase vesiculaire responsable de nombreux episodes douloureux violents principal de cholecystectomie coelioscopique.</span><br/>
+  
+  Z452 <span class="example" onclick='setText(this)'>Tachycardie, dyspne au moindre effort, noplasie bronchique non oprable. POSE DE PAC - clinique :syst</span><br/>
+  
+   <span class="example" onclick='setText(this)'></span><br/>
+  
+  M966 <span class="example" onclick='setText(this)'>Fracture du fémur sur prothèse totale de genou gauche.</span><br/>
+  
+  C672 <span class="example" onclick='setText(this)'>Récidive de tumeur de vessie. Suspicion de cancer de prostate. Patient présentant une récidive tumorale vésicale et une élévation du taux de PSA à 9.48 ng/ml avec plusieurs zones suspectes en IRM multi paramétrique.</span><br/>
+  
+  C446 <span class="example" onclick='setText(this)'>Carcinome épidermoïde cutané d’un diamètre de 2 cm au niveau de l’avant bras droit chez un patient grabataire.</span><br/>
+  
+  N132 <span class="example" onclick='setText(this)'>Colique néphrétique hyperalgique gauche et pose d’endoprothèse JJ gauche Calcul de l’uretère pelvien gauche</span><br/>
+  
+  K20 <span class="example" onclick='setText(this)'>vomissements itératifs (un par semaines) et une hématémèse au premier jet douleurs épigastriques après les vomissements</span><br/>
+  
+  C444 <span class="example" onclick='setText(this)'>exérèse et reconstruction à réaliser par transposition d’un lambeau de rotation temporal puisqu’on ne peut plus envisager un lambeau en H. Lésion carcinomateuse frontale droite à la limite d’insertion du cuir chevelu.</span><br/>
+  
+  D374 <span class="example" onclick='setText(this)'>dépistage colique : frère cancer colique</span><br/>
+  
+  D227 <span class="example" onclick='setText(this)'>Naevus congnital de la face antérieure de cuisse gauche</span><br/>
+  
+  C621 <span class="example" onclick='setText(this)'>tumeur du testicule gauche. Orchidectomie -voie haute (Gauche)- -</span><br/>
+  
+  N132 <span class="example" onclick='setText(this)'>Urétéroscopie droite et pose d’endoprothèse JJ pour colique néphrétique hyperalgique droite Calcul de l’uretère pelvien droit enclavé</span><br/>
+  
+
+  <span class="example" onclick='setText(this)'></span><br/>
+  <span class="example" onclick='setText(this)'></span><br/>
+</div>
+
+</body>
+
+</html>
+
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'février 25 2020, 4:23:39   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    path: 'public/uploads/février 25 2020, 4:23:39   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    size: 1249
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'février 25 2020, 4:30:46   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    path: 'public/uploads/février 25 2020, 4:30:46   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    size: 1249
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'février 25 2020, 4:40:20   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    path: 'public/uploads/février 25 2020, 4:40:20   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    size: 1249
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Colique néphrétique hyperalgique gauche avec pose d’une endoprothèse JJ gauche'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: "N201 Calcul de l'uretère", scores: '94' },
+  {
+    diag: 'N132 Hydronéphrose avec obstruction calculeuse rénale et urétérale',
+    scores: '5'
+  },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Colique néphrétique hyperalgique gauche avec pose d’une endoprothèse JJ gauche'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: "N201 Calcul de l'uretère", scores: '94' },
+  {
+    diag: 'N132 Hydronéphrose avec obstruction calculeuse rénale et urétérale',
+    scores: '5'
+  },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Patient présentant une synéchie du col vésical entrainant la présence de 2 orifices cervicaux. Ceci associé à une incontinence urinaire avec antécédent d’adénomectomie prostatique.'
+}
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N320 Obstruction du col de la vessie', scores: '99' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '0' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Carcinome basocellulaire jonction tiers externe, deux tiers interne de la paupière inférieure droite. d’exérèse reconstruction par un lambeau type MUSTARDE, geste à réaliser en ambulatoire sous AL + sédation'
+}
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+Resection endoscopique de la prostate au plasma bi polaire
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Colique néphrétique hyperalgique gauche avec pose d’une endoprothèse JJ gauche'
+}
+Colique néphrétique hyperalgique gauche avec pose d’une endoprothèse JJ gauche
+File is opened
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: "N201 Calcul de l'uretère", scores: '94' },
+  {
+    diag: 'N132 Hydronéphrose avec obstruction calculeuse rénale et urétérale',
+    scores: '5'
+  },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Colique néphrétique hyperalgique gauche avec pose d’une endoprothèse JJ gauche'
+}
+[]
+{ textarea: 'Fracture du poignet droit.' }
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: "N201 Calcul de l'uretère", scores: '94' },
+  {
+    diag: 'N132 Hydronéphrose avec obstruction calculeuse rénale et urétérale',
+    scores: '5'
+  },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Maladie dupuytren palmaire gauche, 3me rayon. Forme nodulaire.'
+}
+{
+  textarea: 'Maladie dupuytren palmaire gauche, 3me rayon. Forme nodulaire.'
+}
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: "N201 Calcul de l'uretère", scores: '94' },
+  {
+    diag: 'N132 Hydronéphrose avec obstruction calculeuse rénale et urétérale',
+    scores: '5'
+  },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  }
+]
+{ textarea: 'Fracture du fémur sur prothèse totale de genou gauche.' }
+{
+  textarea: 'Maladie dupuytren palmaire gauche, 3me rayon. Forme nodulaire.'
+}
+[
+  { diag: 'Diagnostic', scores: '0' },
+  {
+    diag: "M720 Fibromatose de l'aponévrose palmaire [Dupuytren]",
+    scores: '100'
+  },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '0' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  }
+]
+{
+  textarea: ' Carcinome épidermoïde cutané d’un diamètre de 2 cm au niveau de l’avant bras droit chez un patient grabataire.'
+}
+[
+  { diag: 'Diagnostic', scores: '0' },
+  {
+    diag: 'D172 Tumeur lipomateuse bénigne de la peau et du tissu sous-cutané des membres',
+    scores: '99'
+  },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '0' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: ' Colique néphrétique hyperalgique gauche avec pose d’une endoprothèse JJ gauche'
+}
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: "N201 Calcul de l'uretère", scores: '94' },
+  {
+    diag: 'N132 Hydronéphrose avec obstruction calculeuse rénale et urétérale',
+    scores: '5'
+  },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  }
+]

@@ -15,7 +15,8 @@ class Upload extends React.Component {
       value: 1,
       message: [],
       loading: false,
-      backArrayFileName: []
+      backArrayFileName: [],
+      textaeraValue: ""
     };
   }
 
@@ -38,35 +39,65 @@ class Upload extends React.Component {
   };
 
   onClickHandler = async () => {
-    if (this.state.selectedFile !== null) {
-      const data = new FormData();
-      for (var i = 0; i < this.state.selectedFile.length; i++) {
-        //permet de choisir plusieurs fichier //
-        data.append("file", this.state.selectedFile[i]); //envoie data back //
-      }
-      this.setState({ loading: true, message: [] });
-      let tempDebut = Date.now();
-      const newUrl = new URL(window.location.href);
-      await axios
-        .post(
-          `http://localhost:3001/upload?mail=${newUrl.searchParams.get(
-            "mail"
-          )}`,
-          data,
-          {}
-        )
-        .then(res => {
-          //data du back //
-          timer = Date.now() - tempDebut;
-          console.log(timer, "MS");
-          var testTableData = [];
-          testTableData.push(res.data[0].resulJson[1]);
-          this.setState({
-            loading: false,
-            dataFromBack: res.data[0].resulJson,
-            selectedCheckbox: testTableData
+    if (this.state.selectedFile !== null || this.state.textaeraValue !== "") {
+      if (this.state.selectedFile && this.state.textaeraValue !== "") {
+        let error = [];
+        error.push(403);
+        error.push(
+          "Vous devez choisir entre upload des fichiers ou chercher par mots clés, pas les deux en même temps."
+        );
+        this.setState({ message: error });
+      } else {
+        let data = new FormData();
+        if (this.state.selectedFile) {
+          for (var i = 0; i < this.state.selectedFile.length; i++) {
+            data.append("file", this.state.selectedFile[i]); //envoie data back //
+          }
+          console.log(data);
+          this.setState({ loading: true, message: [] });
+          let tempDebut = Date.now();
+          const newUrl = new URL(window.location.href);
+          await axios({
+            method: "post",
+            url: `http://localhost:3001/upload?mail=${newUrl.searchParams.get(
+              "mail"
+            )}`,
+            data: data
+          }).then(res => {
+            //data du back //
+            console.log(res.data[0].resulJson[1]);
+            timer = Date.now() - tempDebut;
+            console.log(timer, "MS");
+            var testTableData = [];
+            testTableData.push(res.data[0].resulJson[1]);
+            this.setState({
+              loading: false,
+              dataFromBack: res.data[0].resulJson,
+              selectedCheckbox: testTableData
+            });
           });
-        });
+        } else {
+          this.setState({ loading: true, message: [] });
+          data.append("textarea", this.state.textaeraValue);
+          const newUrl = new URL(window.location.href);
+          await axios({
+            method: "post",
+            url: `http://localhost:3001/textarea?mail=${newUrl.searchParams.get(
+              "mail"
+            )}`,
+            data: { textarea: this.state.textaeraValue }
+          }).then(res => {
+            console.log(res.data);
+            var testTableData = [];
+            testTableData.push(res.data[1]);
+            this.setState({
+              loading: false,
+              dataFromBack: res.data,
+              selectedCheckbox: testTableData
+            });
+          });
+        }
+      }
     } else {
       let returnRsult = [];
       returnRsult.push(404);
@@ -88,6 +119,12 @@ class Upload extends React.Component {
         value: e.target.value
       });
     }
+  };
+
+  handleChangeTextaera = e => {
+    this.setState({
+      textaeraValue: e.target.value
+    });
   };
 
   sendFileBack = async () => {
@@ -174,8 +211,6 @@ class Upload extends React.Component {
   };
 
   render() {
-    console.log(this.state.dataFromBack, "TOUS MES SCORES ICI");
-
     var Test = "";
     if (this.state.selectedCheckbox[0]) {
       Test = this.state.selectedCheckbox[0]["diag"];
@@ -265,6 +300,7 @@ class Upload extends React.Component {
                       multiple
                       onChange={this.onChangeHandler}
                     />
+                    <textarea onChange={this.handleChangeTextaera}></textarea>
                     <button
                       type="button"
                       className="btn"

@@ -27,7 +27,6 @@ var log_file = fs.createWriteStream(__dirname + "/log/debug.log", {
 });
 var log_stdout = process.stdout;
 console.log = function(d) {
-  //
   log_file.write(util.format(d) + "\r\n");
   log_stdout.write(util.format(d) + "\r\n");
 };
@@ -152,12 +151,35 @@ async function sendMultipleFiles(files) {
 }
 
 app.post("/upload", upload.array("file"), function(req, res, next) {
+  console.log(req.files);
   const file = req.files;
   async function run() {
     const data = await sendMultipleFiles(file);
     res.status(200).send(data);
   }
   run();
+});
+
+app.post("/textarea", function(req, res) {
+  let testBodyObject = Object.assign({}, req.body);
+  console.log(testBodyObject);
+  let chemin =
+    "./public/" +
+    Math.floor(Math.random() * 10000) +
+    "  " +
+    moment()
+      .locale("fr")
+      .format("MMMM Do YYYY, h:mm:ss") +
+    "   " +
+    req.query.mail;
+
+  fs.writeFileSync(chemin, testBodyObject.textarea);
+  async function test2() {
+    const result = await sendFileText([{ path: chemin }]);
+    console.log(result);
+    res.status(200).send(result);
+  }
+  test2().catch(err => res.status(500).send(err));
 });
 
 app.post("/radio", function(req, res, next) {

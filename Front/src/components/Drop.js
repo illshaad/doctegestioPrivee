@@ -44,7 +44,7 @@ class Upload extends React.Component {
         let error = [];
         error.push(403);
         error.push(
-          "Vous devez choisir entre upload des fichiers ou chercher par mots clés, pas les deux en même temps."
+          "Vous devez choisir entre upload des fichiers ou coller le texte , pas les deux en même temps."
         );
         this.setState({ message: error });
       } else {
@@ -299,7 +299,7 @@ class Upload extends React.Component {
                   onChange={this.onChangeHandler}
                 />
                 <textarea
-                  placeholder="Chercher par mots clés"
+                  placeholder="Coller le texte du document ici"
                   onChange={this.handleChangeTextaera}
                 ></textarea>
               </div>

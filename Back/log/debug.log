@@ -7265,3 +7265,29 @@ null
     size: 12624
   }
 ]
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'février 27 2020, 11:05:01   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    path: 'public/uploads/février 27 2020, 11:05:01   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    size: 1249
+  }
+]
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '1_2_Ordonnance IDE KSC.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'février 27 2020, 11:08:01   null   1_2_Ordonnance IDE KSC.txt',
+    path: 'public/uploads/février 27 2020, 11:08:01   null   1_2_Ordonnance IDE KSC.txt',
+    size: 444
+  }
+]

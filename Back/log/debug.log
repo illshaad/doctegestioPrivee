@@ -7291,3 +7291,413 @@ null
     size: 444
   }
 ]
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'AZZOUZ_Hassan_2013-03-14_18-06_OBSERVATION_OBSERVATION.html',
+    encoding: '7bit',
+    mimetype: 'text/html',
+    destination: './public/uploads',
+    filename: 'février 28 2020, 3:41:32   null   AZZOUZ_Hassan_2013-03-14_18-06_OBSERVATION_OBSERVATION.html',
+    path: 'public/uploads/février 28 2020, 3:41:32   null   AZZOUZ_Hassan_2013-03-14_18-06_OBSERVATION_OBSERVATION.html',
+    size: 1815
+  }
+]
+null
+[
+  {
+    fieldname: 'file',
+    originalname: "AZZOUZ_Hassan_2013-03-25_17-22_TEST_D'EFFORT_OBSERVATION.html",
+    encoding: '7bit',
+    mimetype: 'text/html',
+    destination: './public/uploads',
+    filename: "février 28 2020, 3:45:25   null   AZZOUZ_Hassan_2013-03-25_17-22_TEST_D'EFFORT_OBSERVATION.html",
+    path: "public/uploads/février 28 2020, 3:45:25   null   AZZOUZ_Hassan_2013-03-25_17-22_TEST_D'EFFORT_OBSERVATION.html",
+    size: 612
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+null
+null
+null
+null
+null
+null
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'mars 1er 2020, 7:20:55   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    path: 'public/uploads/mars 1er 2020, 7:20:55   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    size: 2843
+  },
+  {
+    fieldname: 'file',
+    originalname: '2_11_Ordonnance Vierge de Sortie.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'mars 1er 2020, 7:20:55   null   2_11_Ordonnance Vierge de Sortie.txt',
+    path: 'public/uploads/mars 1er 2020, 7:20:55   null   2_11_Ordonnance Vierge de Sortie.txt',
+    size: 447
+  },
+  {
+    fieldname: 'file',
+    originalname: '2_12_Ordonnance Diverticule.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'mars 1er 2020, 7:20:55   null   2_12_Ordonnance Diverticule.txt',
+    path: 'public/uploads/mars 1er 2020, 7:20:55   null   2_12_Ordonnance Diverticule.txt',
+    size: 338
+  },
+  {
+    fieldname: 'file',
+    originalname: '2_13_codesActes.txt.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'mars 1er 2020, 7:20:55   null   2_13_codesActes.txt.txt',
+    path: 'public/uploads/mars 1er 2020, 7:20:55   null   2_13_codesActes.txt.txt',
+    size: 2
+  },
+  {
+    fieldname: 'file',
+    originalname: '2_14_diagnosticPrincipal.txt.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'mars 1er 2020, 7:20:55   null   2_14_diagnosticPrincipal.txt.txt',
+    path: 'public/uploads/mars 1er 2020, 7:20:55   null   2_14_diagnosticPrincipal.txt.txt',
+    size: 4
+  },
+  {
+    fieldname: 'file',
+    originalname: '2_15_diagnosticRelie.txt.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'mars 1er 2020, 7:20:55   null   2_15_diagnosticRelie.txt.txt',
+    path: 'public/uploads/mars 1er 2020, 7:20:55   null   2_15_diagnosticRelie.txt.txt',
+    size: 0
+  },
+  {
+    fieldname: 'file',
+    originalname: '2_16_diagnostiquesAssocies.txt.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'mars 1er 2020, 7:20:55   null   2_16_diagnostiquesAssocies.txt.txt',
+    path: 'public/uploads/mars 1er 2020, 7:20:55   null   2_16_diagnostiquesAssocies.txt.txt',
+    size: 2
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{ textarea: 'dépistage colique : frère cancer colique\n' }
+[
+  { diag: 'Diagnostic', scores: '0' },
+  {
+    diag: 'Z8000 Antécédents familiaux de tumeur maligne du tube digestif',
+    scores: '100'
+  },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '0' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  }
+]
+null
+null
+null
+null
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'mars 3 2020, 2:34:22   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    path: 'public/uploads/mars 3 2020, 2:34:22   null   1_1_CRO HOSPI QBFA007 (SP AMBU).txt',
+    size: 1249
+  },
+  {
+    fieldname: 'file',
+    originalname: '1_2_Ordonnance IDE KSC.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'mars 3 2020, 2:34:22   null   1_2_Ordonnance IDE KSC.txt',
+    path: 'public/uploads/mars 3 2020, 2:34:22   null   1_2_Ordonnance IDE KSC.txt',
+    size: 444
+  },
+  {
+    fieldname: 'file',
+    originalname: '1_3_Ordonnance Post Opératoire.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'mars 3 2020, 2:34:22   null   1_3_Ordonnance Post Opératoire.txt',
+    path: 'public/uploads/mars 3 2020, 2:34:22   null   1_3_Ordonnance Post Opératoire.txt',
+    size: 244
+  },
+  {
+    fieldname: 'file',
+    originalname: '1_8_diagnosticRelie.txt.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'mars 3 2020, 2:34:22   null   1_8_diagnosticRelie.txt.txt',
+    path: 'public/uploads/mars 3 2020, 2:34:22   null   1_8_diagnosticRelie.txt.txt',
+    size: 0
+  },
+  {
+    fieldname: 'file',
+    originalname: '1_9_diagnostiquesAssocies.txt.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'mars 3 2020, 2:34:22   null   1_9_diagnostiquesAssocies.txt.txt',
+    path: 'public/uploads/mars 3 2020, 2:34:22   null   1_9_diagnostiquesAssocies.txt.txt',
+    size: 2
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire\nN'
+}
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire\nN'
+}
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'DECOBERT_Frederic_2013-02-12_Ord-OPH_sortie_3101518.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads',
+    filename: 'mars 3 2020, 4:31:48   null   DECOBERT_Frederic_2013-02-12_Ord-OPH_sortie_3101518.docx',
+    path: 'public/uploads/mars 3 2020, 4:31:48   null   DECOBERT_Frederic_2013-02-12_Ord-OPH_sortie_3101518.docx',
+    size: 9111
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'codesActes.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'mars 4 2020, 12:23:34   null   codesActes.txt',
+    path: 'public/uploads/mars 4 2020, 12:23:34   null   codesActes.txt',
+    size: 26
+  }
+]
+null
+null
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'DECOBERT_Frederic_2013-02-12_Ord-OPH_sortie_3101518.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads',
+    filename: 'mars 4 2020, 3:25:55   null   DECOBERT_Frederic_2013-02-12_Ord-OPH_sortie_3101518.docx',
+    path: 'public/uploads/mars 4 2020, 3:25:55   null   DECOBERT_Frederic_2013-02-12_Ord-OPH_sortie_3101518.docx',
+    size: 9111
+  }
+]
+{ address: '::', family: 'IPv6', port: 3001 }
+{ address: '::', family: 'IPv6', port: 8088 }
+{ address: '::', family: 'IPv6', port: 8088 }
+{ address: '::', family: 'IPv6', port: 8088 }
+null
+null
+{ address: '::', family: 'IPv6', port: 8088 }
+null
+{ address: '::', family: 'IPv6', port: 8088 }
+{ address: '::', family: 'IPv6', port: 8088 }
+{ address: '::', family: 'IPv6', port: 8088 }
+req! %s %s
+null
+{ address: '::', family: 'IPv6', port: 8088 }
+req! %s %s
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+{ address: '::', family: 'IPv6', port: 8088 }
+req! %s %s
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+{ address: '::', family: 'IPv6', port: 8088 }
+{ address: '::', family: 'IPv6', port: 8088 }
+{ address: '::', family: 'IPv6', port: 8088 }
+req! %s %s
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+{ address: '::', family: 'IPv6', port: 8088 }
+req! %s %s
+{ address: '::', family: 'IPv6', port: 8088 }
+req! %s %s
+{ address: '::', family: 'IPv6', port: 8088 }
+req! %s %s
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+[
+  { diag: 'Diagnostic', scores: '0' },
+  { diag: 'N40 Hyperplasie de la prostate', scores: '99' },
+  { diag: 'G560 Syndrome du canal carpien', scores: '0' },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: '0' },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: '0'
+  },
+  {
+    diag: 'M256 Raideur articulaire, non classée ailleurs',
+    scores: '0'
+  }
+]

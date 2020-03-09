@@ -83,7 +83,7 @@ function transformHTML(body) {
         scoresArr = "0";
       }
 
-      return { diag: diagCategs, scores: scoresArr };
+      return { diag: diagCategs, scores: parseFloat(scoresArr) };
     })
     .toArray();
   return resulJson;
@@ -152,6 +152,7 @@ async function sendMultipleFiles(files) {
 
 app.post("/upload", upload.array("file"), function(req, res, next) {
   console.log(req.files);
+
   const file = req.files;
   async function run() {
     const data = await sendMultipleFiles(file);
@@ -164,7 +165,8 @@ app.post("/textarea", function(req, res) {
   let testBodyObject = Object.assign({}, req.body);
   console.log(testBodyObject);
   let chemin =
-    "./public/" +
+    __dirname +
+    "/public/" +
     Math.floor(Math.random() * 10000) +
     "  " +
     moment()
@@ -173,13 +175,16 @@ app.post("/textarea", function(req, res) {
     "   " +
     req.query.mail;
 
+  const currDir = process.cwd();
   fs.writeFileSync(chemin, testBodyObject.textarea);
   async function test2() {
     const result = await sendFileText([{ path: chemin }]);
     console.log(result);
     res.status(200).send(result);
   }
-  test2().catch(err => res.status(500).send(err));
+  test2().catch(err => {
+    res.status(500).send(err);
+  });
 });
 
 app.post("/radio", function(req, res, next) {
@@ -237,4 +242,4 @@ app.use(function(err, req, res, next) {
 });
 // })
 
-module.exports = app;
+module.exports = { sendFileText, app };

@@ -23,32 +23,30 @@ app.use(express.static(path.join(__dirname, "public")));
 
 //CREATION FICHIER DEBUG POUR AFFICHER LE CONSOLELOG  DANS UN FICHIER EXTERNE
 var log_file = fs.createWriteStream(__dirname + "/log/debug.log", {
-  flags: "a+"
+  flags: "a+",
 });
 var log_stdout = process.stdout;
-console.log = function(d) {
+console.log = function (d) {
   log_file.write(util.format(d) + "\r\n");
   log_stdout.write(util.format(d) + "\r\n");
 };
 
 //CONFIGURATION MULTER //
 var storage = multer.diskStorage({
-  destination: function(req, file, cb) {
+  destination: function (req, file, cb) {
     cb(null, "./public/uploads");
   },
-  filename: function(req, file, cb) {
+  filename: function (req, file, cb) {
     cb(
       null,
-      moment()
-        .locale("fr")
-        .format("MMMM Do YYYY, h:mm:ss") +
+      moment().locale("fr").format("MMMM Do YYYY, h:mm:ss") +
         "   " +
         req.query.mail +
         "   " +
         file.originalname
     );
     console.log(req.query.mail);
-  }
+  },
 });
 
 // SAVE FILE MY LOCAL STORAGE //
@@ -59,14 +57,8 @@ function transformHTML(body) {
   const $ = cheerio.load(body);
   const resulJson = $(".col2 tr")
     .map((i, el) => {
-      const diagCategs = $(el)
-        .find("td")
-        .first()
-        .text();
-      const scores = $(el)
-        .find("td")
-        .last()
-        .text();
+      const diagCategs = $(el).find("td").first().text();
+      const scores = $(el).find("td").last().text();
       let scoresArr = "";
       // console.log(scores, "TESTTTTT");
 
@@ -103,11 +95,11 @@ async function sendFileText(files) {
     url: "http://35.205.33.234:8443/classif/",
     method: "POST",
     formData: {
-      inputFiles: fileToUpload
+      inputFiles: fileToUpload,
     },
     headers: {
-      "content-type": "multipart/form-data ;  charset=utf-8"
-    }
+      "content-type": "multipart/form-data ;  charset=utf-8",
+    },
   };
   const body = await rp(options); //1er request//
   // createFileLog(body)
@@ -122,11 +114,11 @@ async function otherFile(files) {
     url: "http://35.205.33.234:5000/",
     method: "POST",
     headers: {
-      "Content-Type": "multipart/form-data , utf-8"
+      "Content-Type": "multipart/form-data , utf-8",
     },
     formData: {
-      file: fileToUpload
-    }
+      file: fileToUpload,
+    },
   };
   const body = await rp(options); //2end Request //
   return body;
@@ -150,7 +142,7 @@ async function sendMultipleFiles(files) {
   return results;
 }
 
-app.post("/upload", upload.array("file"), function(req, res, next) {
+app.post("/upload", upload.array("file"), function (req, res, next) {
   console.log(req.files);
 
   const file = req.files;
@@ -161,7 +153,7 @@ app.post("/upload", upload.array("file"), function(req, res, next) {
   run();
 });
 
-app.post("/textarea", function(req, res) {
+app.post("/textarea", function (req, res) {
   let testBodyObject = Object.assign({}, req.body);
   console.log(testBodyObject);
   let chemin =
@@ -169,9 +161,7 @@ app.post("/textarea", function(req, res) {
     "/public/" +
     Math.floor(Math.random() * 10000) +
     "  " +
-    moment()
-      .locale("fr")
-      .format("MMMM Do YYYY, h:mm:ss") +
+    moment().locale("fr").format("MMMM Do YYYY, h:mm:ss") +
     "   " +
     req.query.mail;
 
@@ -182,12 +172,19 @@ app.post("/textarea", function(req, res) {
     console.log(result);
     res.status(200).send(result);
   }
-  test2().catch(err => {
+  test2().catch((err) => {
     res.status(500).send(err);
   });
 });
 
-app.post("/radio", function(req, res, next) {
+app.post("/auto", function (req, res) {
+  let diagnostique = fs.readFileSync("./public/diagnostique.txt", "utf8");
+  res.send({
+    diag: diagnostique.split("\n"),
+  });
+});
+
+app.post("/radio", function (req, res, next) {
   const data = req.body.data[0];
   const dataFile = req.body.file;
   const timer = req.body.timer;
@@ -212,9 +209,7 @@ app.post("/radio", function(req, res, next) {
       '";"' +
       data["diag"] +
       '";' +
-      moment()
-        .locale("fr")
-        .format("MMMM Do YYYY, h:mm:ss") +
+      moment().locale("fr").format("MMMM Do YYYY, h:mm:ss") +
       ";" +
       DiagsScores +
       data["checkModif"] +
@@ -227,12 +222,12 @@ app.post("/radio", function(req, res, next) {
 });
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
   next(createError(404));
 });
 
 // // error handler
-app.use(function(err, req, res, next) {
+app.use(function (err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get("env") === "development" ? err : {};

@@ -1,6 +1,17 @@
 import React from "react";
 import { Radio } from "antd";
+import AutoComplet from "./AutoComplet.js";
 import axios from "axios";
+import {
+  Card,
+  Col,
+  Row,
+  CardBody,
+  CardTitle,
+  CardSubtitle,
+  Table,
+  Container,
+} from "reactstrap";
 import { NavLink } from "react-router-dom";
 
 let timer = 0;
@@ -16,13 +27,13 @@ class Upload extends React.Component {
       message: [],
       loading: false,
       backArrayFileName: [],
-      textaeraValue: ""
+      textaeraValue: "",
     };
   }
 
-  onChangeHandler = e => {
+  onChangeHandler = (e) => {
     this.setState({
-      selectedFile: e.target.files
+      selectedFile: e.target.files,
     });
 
     let fileName = [];
@@ -34,7 +45,7 @@ class Upload extends React.Component {
     }
     console.log("FILENAME", fileName);
     this.setState({
-      backArrayFileName: fileName
+      backArrayFileName: fileName,
     });
   };
 
@@ -62,8 +73,8 @@ class Upload extends React.Component {
             url: `http://localhost:8088/upload?mail=${newUrl.searchParams.get(
               "mail"
             )}`,
-            data: data
-          }).then(res => {
+            data: data,
+          }).then((res) => {
             //data du back //
             console.log(res.data[0].resulJson[1]);
             timer = Date.now() - tempDebut;
@@ -73,7 +84,7 @@ class Upload extends React.Component {
             this.setState({
               loading: false,
               dataFromBack: res.data[0].resulJson,
-              selectedCheckbox: testTableData
+              selectedCheckbox: testTableData,
             });
           });
         } else {
@@ -85,15 +96,15 @@ class Upload extends React.Component {
             url: `http://localhost:8088/textarea?mail=${newUrl.searchParams.get(
               "mail"
             )}`,
-            data: { textarea: this.state.textaeraValue }
-          }).then(res => {
+            data: { textarea: this.state.textaeraValue },
+          }).then((res) => {
             console.log(res.data);
             var testTableData = [];
             testTableData.push(res.data[1]);
             this.setState({
               loading: false,
               dataFromBack: res.data,
-              selectedCheckbox: testTableData
+              selectedCheckbox: testTableData,
             });
           });
         }
@@ -103,12 +114,12 @@ class Upload extends React.Component {
       returnRsult.push(404);
       returnRsult.push("Upload un document");
       this.setState({
-        message: returnRsult
+        message: returnRsult,
       });
     }
   };
 
-  handleChange = e => {
+  handleChange = (e) => {
     if (e.target.value) {
       const testTab = [];
       testTab.push(this.state.dataFromBack[e.target.value]);
@@ -116,14 +127,14 @@ class Upload extends React.Component {
         testTab[0]["diag"];
       this.setState({
         selectedCheckbox: testTab,
-        value: e.target.value
+        value: e.target.value,
       });
     }
   };
 
-  handleChangeTextaera = e => {
+  handleChangeTextaera = (e) => {
     this.setState({
-      textaeraValue: e.target.value
+      textaeraValue: e.target.value,
     });
   };
 
@@ -138,16 +149,16 @@ class Upload extends React.Component {
           {
             diag: this.state.selectedCheckbox[0]["diag"],
             scores: this.state.selectedCheckbox[0]["scores"],
-            checkModif: false
-          }
+            checkModif: false,
+          },
         ];
       } else {
         selectedData = [
           {
             diag: document.getElementById("formGroupExampleInput").value,
             score: this.state.selectedCheckbox[0]["scores"],
-            checkModif: true
-          }
+            checkModif: true,
+          },
         ];
       }
       const newUrl = new URL(window.location.href);
@@ -166,9 +177,9 @@ class Upload extends React.Component {
           data: selectedData,
           file: ArrayBack,
           timer: timer,
-          Diags: this.state.dataFromBack
-        }
-      }).then(res => {
+          Diags: this.state.dataFromBack,
+        },
+      }).then((res) => {
         let returnResult = [];
         returnResult.push(res.status);
         if (res.status === 200) {
@@ -182,7 +193,7 @@ class Upload extends React.Component {
           selectedCheckbox: [],
           value: 1,
           message: returnResult,
-          textaeraValue: ""
+          textaeraValue: "",
         });
       });
     }
@@ -219,28 +230,27 @@ class Upload extends React.Component {
     let buttonNext = "";
     let champ = "";
     let tab = "";
+    let hr = "";
     let message = "";
 
     if (this.state.dataFromBack[0] !== undefined) {
       buttonNext = (
-        <button className="button-next" onClick={this.sendFileBack}>
-          Valider et continuer
-        </button>
+        <a
+          className="alert-link"
+          type="button"
+          className="btn"
+          onClick={this.sendFileBack}
+        >
+          Cliquez ici pour valider
+        </a>
       );
-      champ = (
-        <form>
-          <div className="form-group">
-            <input
-              type="text"
-              className="form-control"
-              id="formGroupExampleInput"
-              placeholder={Test}
-            />
-          </div>
-        </form>
-      );
+
+      hr = <hr className="my-2" />;
+
+      champ = <AutoComplet selectedCheckbox={this.state.selectedCheckbox} />;
+
       tab = (
-        <table className="table">
+        <Table size="sm">
           <thead>
             <tr>
               <th scope="col">#</th>
@@ -250,7 +260,7 @@ class Upload extends React.Component {
             </tr>
           </thead>
           <tbody>{this.drawLine()}</tbody>
-        </table>
+        </Table>
       );
     }
 
@@ -277,76 +287,102 @@ class Upload extends React.Component {
     const home = "/home" + `?mail=${newUrl.searchParams.get("mail")}`;
 
     return (
-      <div className="container">
-        <div className="logo"></div>
-        <div className="d-flex align-items-center bd-highlight">
-          <div>
-            <div className="text">1</div>
-          </div>
-          <div>
-            <h1>Chargez le dossier</h1>
-            <br />
-            formats acceptés: docx, pdf, html, png, jpeg, tiff
-          </div>
-          <div>
-            <form method="post" action="#" id="#">
-              <div className="form-group files">
-                <input
-                  id="inputFile"
-                  type="file"
-                  accept=" .txt , .pdf, .png, .svg, .tiff, .tif .bitmap , .bmp, .html , .htm .jpg, .jpeg , .doc, .docx ,.xml ,application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document , "
-                  name="file"
-                  multiple
-                  onChange={this.onChangeHandler}
-                />
-                <textarea
-                  placeholder="Coller le texte du document ici"
-                  onChange={this.handleChangeTextaera}
-                ></textarea>
-              </div>
-            </form>
-            <button type="button" className="btn" onClick={this.onClickHandler}>
-              Upload
-            </button>
-          </div>
-        </div>
+      <Container fluid={true}>
+        <h1 className="text-center">Bienvenue à DIM-IA</h1>
+        <p className="text-center">
+          Cet outil vous permet de codifier automatiquement les actes médicaux
+          avec la codification CIM-10
+        </p>
         <br />
-        {texteLoading}
-        <div className="d-flex align-items-center bd-highlight">
-          <div>
-            <div className="text">2</div>
-          </div>
-          <div>
-            <h1>Consultez le résultat</h1>
-            <br />
-            le tableau des codifications CIM-10
-          </div>
-          <div>{tab}</div>
-        </div>
-        <div className="d-flex align-items-center bd-highlight">
-          <div>
-            <div className="text">3</div>
-          </div>
-          <div>
-            <h1>Validez ou corrigez</h1>
-            <br />
-            Si le résultat de l'algorithme ne convient pas,
-            <br />
-            veuillez corriger le code dans la case en face{" "}
-          </div>
-          <div>{champ}</div>
-        </div>
+        <br />
+        <Row>
+          <Col sm="4">
+            <div>
+              <Card>
+                <CardBody>
+                  <CardTitle>
+                    <h3>1.Chargez le dossier</h3>
+                  </CardTitle>
+                  <CardSubtitle>
+                    formats acceptés: docx, pdf, html, png, jpeg, tiff
+                  </CardSubtitle>
+                  <hr className="my-2" />
+                  <form method="post" action="#" id="#">
+                    <input
+                      id="inputFile"
+                      type="file"
+                      accept=" .txt , .pdf, .png, .svg, .tiff, .tif .bitmap , .bmp, .html , .htm .jpg, .jpeg , .doc, .docx ,.xml ,application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document , "
+                      name="file"
+                      multiple
+                      onChange={this.onChangeHandler}
+                    />
+                  </form>
+                  <hr className="my-2" />
+                  <textarea
+                    placeholder="Coller le texte du document ici"
+                    onChange={this.handleChangeTextaera}
+                  ></textarea>
+                  <hr className="my-2" />
+                  <a
+                    className="alert-link"
+                    type="button"
+                    className="btn"
+                    onClick={this.onClickHandler}
+                  >
+                    Cliquez ici pour ouvrir
+                  </a>
+                </CardBody>
+              </Card>
+            </div>
+          </Col>
+          <br />
+          {texteLoading}
+          <Col sm="4">
+            <div>
+              <Card>
+                <CardBody>
+                  <CardTitle>
+                    <h3>2.Consultez le résultat</h3>
+                  </CardTitle>
+                  <CardSubtitle>
+                    le tableau des codifications CIM-10 s’affiche ci-dessous.
+                  </CardSubtitle>
+                  {tab}
+                  <hr className="my-2" />
+                  {champ}
+                  {hr}
+                  {buttonNext}
+                </CardBody>
+              </Card>
+            </div>
+          </Col>
+          <Col sm="4">
+            <div>
+              <Card>
+                <CardBody>
+                  <CardTitle>
+                    <h3>3.Donnez votre avis</h3>
+                  </CardTitle>
+                  <CardSubtitle>
+                    Partagez avec nous les problèmes rencontrés
+                  </CardSubtitle>
+                  <hr className="my-2" />
+                  <a>Cliquez ici pour écrire</a>
+                </CardBody>
+              </Card>
+            </div>
+          </Col>
+        </Row>
         {message}
-
-        <div className="d-flex justify-content-center">
+        <div>
+          <br />
           <NavLink to={home}>
             <button type="button" onClick={this.sendFileBack} className="Exit">
               Terminer
             </button>
           </NavLink>
-          {buttonNext}
         </div>
-      </div>
+      </Container>
     );
   }
 }

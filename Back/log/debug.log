@@ -7701,3 +7701,614 @@ req! %s %s
     scores: '0'
   }
 ]
+{ address: '::', family: 'IPv6', port: 8088 }
+null
+null
+null
+null
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '_10_58_diagnostiquesAssocies.txt.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:43:27   null   _10_58_diagnostiquesAssocies.txt.txt',
+    path: 'public/uploads/avril 14 2020, 3:43:27   null   _10_58_diagnostiquesAssocies.txt.txt',
+    size: 2
+  },
+  {
+    fieldname: 'file',
+    originalname: '_10_57_diagnosticRelie.txt.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:43:27   null   _10_57_diagnosticRelie.txt.txt',
+    path: 'public/uploads/avril 14 2020, 3:43:27   null   _10_57_diagnosticRelie.txt.txt',
+    size: 0
+  },
+  {
+    fieldname: 'file',
+    originalname: '_10_56_diagnosticPrincipal.txt.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:43:27   null   _10_56_diagnosticPrincipal.txt.txt',
+    path: 'public/uploads/avril 14 2020, 3:43:27   null   _10_56_diagnosticPrincipal.txt.txt',
+    size: 5
+  },
+  {
+    fieldname: 'file',
+    originalname: '_10_55_codesActes.txt.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:43:27   null   _10_55_codesActes.txt.txt',
+    path: 'public/uploads/avril 14 2020, 3:43:27   null   _10_55_codesActes.txt.txt',
+    size: 2
+  },
+  {
+    fieldname: 'file',
+    originalname: '#letr_10_54_Courrier Médecin Traitant.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:43:27   null   #letr_10_54_Courrier Médecin Traitant.txt',
+    path: 'public/uploads/avril 14 2020, 3:43:27   null   #letr_10_54_Courrier Médecin Traitant.txt',
+    size: 1210
+  }
+]
+{ address: '::', family: 'IPv6', port: 8088 }
+null
+null
+null
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '_10_58_diagnostiquesAssocies.txt.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:51:09   null   _10_58_diagnostiquesAssocies.txt.txt',
+    path: 'public/uploads/avril 14 2020, 3:51:09   null   _10_58_diagnostiquesAssocies.txt.txt',
+    size: 2
+  },
+  {
+    fieldname: 'file',
+    originalname: '_10_57_diagnosticRelie.txt.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:51:09   null   _10_57_diagnosticRelie.txt.txt',
+    path: 'public/uploads/avril 14 2020, 3:51:09   null   _10_57_diagnosticRelie.txt.txt',
+    size: 0
+  },
+  {
+    fieldname: 'file',
+    originalname: '_10_56_diagnosticPrincipal.txt.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:51:09   null   _10_56_diagnosticPrincipal.txt.txt',
+    path: 'public/uploads/avril 14 2020, 3:51:09   null   _10_56_diagnosticPrincipal.txt.txt',
+    size: 5
+  },
+  {
+    fieldname: 'file',
+    originalname: '_10_55_codesActes.txt.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:51:09   null   _10_55_codesActes.txt.txt',
+    path: 'public/uploads/avril 14 2020, 3:51:09   null   _10_55_codesActes.txt.txt',
+    size: 2
+  }
+]
+null
+null
+null
+null
+null
+null
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'MOUSSEAUX_Jean_Paul_2013-08-06_Dossier_CS_Anesth_3325881.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:51:41   null   MOUSSEAUX_Jean_Paul_2013-08-06_Dossier_CS_Anesth_3325881.docx',
+    path: 'public/uploads/avril 14 2020, 3:51:41   null   MOUSSEAUX_Jean_Paul_2013-08-06_Dossier_CS_Anesth_3325881.docx',
+    size: 15208
+  },
+  {
+    fieldname: 'file',
+    originalname: 'codesActes.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:51:41   null   codesActes.txt',
+    path: 'public/uploads/avril 14 2020, 3:51:41   null   codesActes.txt',
+    size: 2
+  },
+  {
+    fieldname: 'file',
+    originalname: 'diagnosticPrincipal.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:51:41   null   diagnosticPrincipal.txt',
+    path: 'public/uploads/avril 14 2020, 3:51:41   null   diagnosticPrincipal.txt',
+    size: 4
+  },
+  {
+    fieldname: 'file',
+    originalname: 'diagnosticRelie.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:51:41   null   diagnosticRelie.txt',
+    path: 'public/uploads/avril 14 2020, 3:51:41   null   diagnosticRelie.txt',
+    size: 0
+  },
+  {
+    fieldname: 'file',
+    originalname: 'diagnostiquesAssocies.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:51:41   null   diagnostiquesAssocies.txt',
+    path: 'public/uploads/avril 14 2020, 3:51:41   null   diagnostiquesAssocies.txt',
+    size: 2
+  },
+  {
+    fieldname: 'file',
+    originalname: 'Dossier_Medical_2013-08-30_0000360598.tif',
+    encoding: '7bit',
+    mimetype: 'image/tiff',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:51:41   null   Dossier_Medical_2013-08-30_0000360598.tif',
+    path: 'public/uploads/avril 14 2020, 3:51:41   null   Dossier_Medical_2013-08-30_0000360598.tif',
+    size: 646297
+  },
+  {
+    fieldname: 'file',
+    originalname: "MOUSSEAUX_Jean_Paul_2013-08-06_13-36_Consultation_d'anesthesie_ANE_remarques.html",
+    encoding: '7bit',
+    mimetype: 'text/html',
+    destination: './public/uploads',
+    filename: "avril 14 2020, 3:51:41   null   MOUSSEAUX_Jean_Paul_2013-08-06_13-36_Consultation_d'anesthesie_ANE_remarques.html",
+    path: "public/uploads/avril 14 2020, 3:51:41   null   MOUSSEAUX_Jean_Paul_2013-08-06_13-36_Consultation_d'anesthesie_ANE_remarques.html",
+    size: 535
+  }
+]
+null
+null
+null
+null
+null
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'MOUSSEAUX_Jean_Paul_2013-08-06_Dossier_CS_Anesth_3325881.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:54:53   null   MOUSSEAUX_Jean_Paul_2013-08-06_Dossier_CS_Anesth_3325881.docx',
+    path: 'public/uploads/avril 14 2020, 3:54:53   null   MOUSSEAUX_Jean_Paul_2013-08-06_Dossier_CS_Anesth_3325881.docx',
+    size: 15208
+  },
+  {
+    fieldname: 'file',
+    originalname: 'codesActes.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:54:53   null   codesActes.txt',
+    path: 'public/uploads/avril 14 2020, 3:54:53   null   codesActes.txt',
+    size: 2
+  },
+  {
+    fieldname: 'file',
+    originalname: 'diagnosticPrincipal.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:54:53   null   diagnosticPrincipal.txt',
+    path: 'public/uploads/avril 14 2020, 3:54:53   null   diagnosticPrincipal.txt',
+    size: 4
+  },
+  {
+    fieldname: 'file',
+    originalname: 'diagnosticRelie.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:54:53   null   diagnosticRelie.txt',
+    path: 'public/uploads/avril 14 2020, 3:54:53   null   diagnosticRelie.txt',
+    size: 0
+  },
+  {
+    fieldname: 'file',
+    originalname: 'diagnostiquesAssocies.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:54:53   null   diagnostiquesAssocies.txt',
+    path: 'public/uploads/avril 14 2020, 3:54:53   null   diagnostiquesAssocies.txt',
+    size: 2
+  },
+  {
+    fieldname: 'file',
+    originalname: 'Dossier_Medical_2013-08-30_0000360598.tif',
+    encoding: '7bit',
+    mimetype: 'image/tiff',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:54:53   null   Dossier_Medical_2013-08-30_0000360598.tif',
+    path: 'public/uploads/avril 14 2020, 3:54:53   null   Dossier_Medical_2013-08-30_0000360598.tif',
+    size: 646297
+  }
+]
+null
+null
+null
+null
+null
+null
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'MOUSSEAUX_Jean_Paul_2013-08-06_Dossier_CS_Anesth_3325881.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:58:49   null   MOUSSEAUX_Jean_Paul_2013-08-06_Dossier_CS_Anesth_3325881.docx',
+    path: 'public/uploads/avril 14 2020, 3:58:49   null   MOUSSEAUX_Jean_Paul_2013-08-06_Dossier_CS_Anesth_3325881.docx',
+    size: 15208
+  },
+  {
+    fieldname: 'file',
+    originalname: 'codesActes.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:58:49   null   codesActes.txt',
+    path: 'public/uploads/avril 14 2020, 3:58:49   null   codesActes.txt',
+    size: 2
+  },
+  {
+    fieldname: 'file',
+    originalname: 'diagnosticPrincipal.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:58:49   null   diagnosticPrincipal.txt',
+    path: 'public/uploads/avril 14 2020, 3:58:49   null   diagnosticPrincipal.txt',
+    size: 4
+  },
+  {
+    fieldname: 'file',
+    originalname: 'diagnosticRelie.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:58:49   null   diagnosticRelie.txt',
+    path: 'public/uploads/avril 14 2020, 3:58:49   null   diagnosticRelie.txt',
+    size: 0
+  },
+  {
+    fieldname: 'file',
+    originalname: 'diagnostiquesAssocies.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:58:49   null   diagnostiquesAssocies.txt',
+    path: 'public/uploads/avril 14 2020, 3:58:49   null   diagnostiquesAssocies.txt',
+    size: 2
+  },
+  {
+    fieldname: 'file',
+    originalname: 'Dossier_Medical_2013-08-30_0000360598.tif',
+    encoding: '7bit',
+    mimetype: 'image/tiff',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 3:58:49   null   Dossier_Medical_2013-08-30_0000360598.tif',
+    path: 'public/uploads/avril 14 2020, 3:58:49   null   Dossier_Medical_2013-08-30_0000360598.tif',
+    size: 646297
+  },
+  {
+    fieldname: 'file',
+    originalname: "MOUSSEAUX_Jean_Paul_2013-08-06_13-36_Consultation_d'anesthesie_ANE_remarques.html",
+    encoding: '7bit',
+    mimetype: 'text/html',
+    destination: './public/uploads',
+    filename: "avril 14 2020, 3:58:49   null   MOUSSEAUX_Jean_Paul_2013-08-06_13-36_Consultation_d'anesthesie_ANE_remarques.html",
+    path: "public/uploads/avril 14 2020, 3:58:49   null   MOUSSEAUX_Jean_Paul_2013-08-06_13-36_Consultation_d'anesthesie_ANE_remarques.html",
+    size: 535
+  }
+]
+{ address: '::', family: 'IPv6', port: 8088 }
+null
+null
+null
+null
+null
+null
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'MOUSSEAUX_Jean_Paul_2013-08-06_Dossier_CS_Anesth_3325881.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 4:03:08   null   MOUSSEAUX_Jean_Paul_2013-08-06_Dossier_CS_Anesth_3325881.docx',
+    path: 'public/uploads/avril 14 2020, 4:03:08   null   MOUSSEAUX_Jean_Paul_2013-08-06_Dossier_CS_Anesth_3325881.docx',
+    size: 15208
+  },
+  {
+    fieldname: 'file',
+    originalname: 'codesActes.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 4:03:08   null   codesActes.txt',
+    path: 'public/uploads/avril 14 2020, 4:03:08   null   codesActes.txt',
+    size: 2
+  },
+  {
+    fieldname: 'file',
+    originalname: 'diagnosticPrincipal.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 4:03:08   null   diagnosticPrincipal.txt',
+    path: 'public/uploads/avril 14 2020, 4:03:08   null   diagnosticPrincipal.txt',
+    size: 4
+  },
+  {
+    fieldname: 'file',
+    originalname: 'diagnosticRelie.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 4:03:08   null   diagnosticRelie.txt',
+    path: 'public/uploads/avril 14 2020, 4:03:08   null   diagnosticRelie.txt',
+    size: 0
+  },
+  {
+    fieldname: 'file',
+    originalname: 'diagnostiquesAssocies.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 4:03:08   null   diagnostiquesAssocies.txt',
+    path: 'public/uploads/avril 14 2020, 4:03:08   null   diagnostiquesAssocies.txt',
+    size: 2
+  },
+  {
+    fieldname: 'file',
+    originalname: 'Dossier_Medical_2013-08-30_0000360598.tif',
+    encoding: '7bit',
+    mimetype: 'image/tiff',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 4:03:08   null   Dossier_Medical_2013-08-30_0000360598.tif',
+    path: 'public/uploads/avril 14 2020, 4:03:08   null   Dossier_Medical_2013-08-30_0000360598.tif',
+    size: 646297
+  },
+  {
+    fieldname: 'file',
+    originalname: "MOUSSEAUX_Jean_Paul_2013-08-06_13-36_Consultation_d'anesthesie_ANE_remarques.html",
+    encoding: '7bit',
+    mimetype: 'text/html',
+    destination: './public/uploads',
+    filename: "avril 14 2020, 4:03:08   null   MOUSSEAUX_Jean_Paul_2013-08-06_13-36_Consultation_d'anesthesie_ANE_remarques.html",
+    path: "public/uploads/avril 14 2020, 4:03:08   null   MOUSSEAUX_Jean_Paul_2013-08-06_13-36_Consultation_d'anesthesie_ANE_remarques.html",
+    size: 535
+  }
+]
+null
+null
+null
+null
+null
+null
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'MOUSSEAUX_Jean_Paul_2013-08-06_Dossier_CS_Anesth_3325881.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 4:04:29   null   MOUSSEAUX_Jean_Paul_2013-08-06_Dossier_CS_Anesth_3325881.docx',
+    path: 'public/uploads/avril 14 2020, 4:04:29   null   MOUSSEAUX_Jean_Paul_2013-08-06_Dossier_CS_Anesth_3325881.docx',
+    size: 15208
+  },
+  {
+    fieldname: 'file',
+    originalname: 'codesActes.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 4:04:29   null   codesActes.txt',
+    path: 'public/uploads/avril 14 2020, 4:04:29   null   codesActes.txt',
+    size: 2
+  },
+  {
+    fieldname: 'file',
+    originalname: 'diagnosticPrincipal.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 4:04:29   null   diagnosticPrincipal.txt',
+    path: 'public/uploads/avril 14 2020, 4:04:29   null   diagnosticPrincipal.txt',
+    size: 4
+  },
+  {
+    fieldname: 'file',
+    originalname: 'diagnosticRelie.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 4:04:29   null   diagnosticRelie.txt',
+    path: 'public/uploads/avril 14 2020, 4:04:29   null   diagnosticRelie.txt',
+    size: 0
+  },
+  {
+    fieldname: 'file',
+    originalname: 'diagnostiquesAssocies.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 4:04:29   null   diagnostiquesAssocies.txt',
+    path: 'public/uploads/avril 14 2020, 4:04:29   null   diagnostiquesAssocies.txt',
+    size: 2
+  },
+  {
+    fieldname: 'file',
+    originalname: 'Dossier_Medical_2013-08-30_0000360598.tif',
+    encoding: '7bit',
+    mimetype: 'image/tiff',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 4:04:29   null   Dossier_Medical_2013-08-30_0000360598.tif',
+    path: 'public/uploads/avril 14 2020, 4:04:29   null   Dossier_Medical_2013-08-30_0000360598.tif',
+    size: 646297
+  },
+  {
+    fieldname: 'file',
+    originalname: "MOUSSEAUX_Jean_Paul_2013-08-06_13-36_Consultation_d'anesthesie_ANE_remarques.html",
+    encoding: '7bit',
+    mimetype: 'text/html',
+    destination: './public/uploads',
+    filename: "avril 14 2020, 4:04:29   null   MOUSSEAUX_Jean_Paul_2013-08-06_13-36_Consultation_d'anesthesie_ANE_remarques.html",
+    path: "public/uploads/avril 14 2020, 4:04:29   null   MOUSSEAUX_Jean_Paul_2013-08-06_13-36_Consultation_d'anesthesie_ANE_remarques.html",
+    size: 535
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+[
+  { diag: 'Diagnostic', scores: 0 },
+  { diag: 'N40 Hyperplasie de la prostate', scores: 99 },
+  { diag: 'G560 Syndrome du canal carpien', scores: 0 },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: 0 },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: 0
+  },
+  { diag: 'M256 Raideur articulaire, non classée ailleurs', scores: 0 }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+[
+  { diag: 'Diagnostic', scores: 0 },
+  { diag: 'N40 Hyperplasie de la prostate', scores: 99 },
+  { diag: 'G560 Syndrome du canal carpien', scores: 0 },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: 0 },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: 0
+  },
+  { diag: 'M256 Raideur articulaire, non classée ailleurs', scores: 0 }
+]
+null
+null
+null
+null
+null
+null
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'MOUSSEAUX_Jean_Paul_2013-08-06_Dossier_CS_Anesth_3325881.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 4:08:33   null   MOUSSEAUX_Jean_Paul_2013-08-06_Dossier_CS_Anesth_3325881.docx',
+    path: 'public/uploads/avril 14 2020, 4:08:33   null   MOUSSEAUX_Jean_Paul_2013-08-06_Dossier_CS_Anesth_3325881.docx',
+    size: 15208
+  },
+  {
+    fieldname: 'file',
+    originalname: 'codesActes.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 4:08:33   null   codesActes.txt',
+    path: 'public/uploads/avril 14 2020, 4:08:33   null   codesActes.txt',
+    size: 2
+  },
+  {
+    fieldname: 'file',
+    originalname: 'diagnosticPrincipal.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 4:08:33   null   diagnosticPrincipal.txt',
+    path: 'public/uploads/avril 14 2020, 4:08:33   null   diagnosticPrincipal.txt',
+    size: 4
+  },
+  {
+    fieldname: 'file',
+    originalname: 'diagnosticRelie.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 4:08:33   null   diagnosticRelie.txt',
+    path: 'public/uploads/avril 14 2020, 4:08:33   null   diagnosticRelie.txt',
+    size: 0
+  },
+  {
+    fieldname: 'file',
+    originalname: 'diagnostiquesAssocies.txt',
+    encoding: '7bit',
+    mimetype: 'text/plain',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 4:08:33   null   diagnostiquesAssocies.txt',
+    path: 'public/uploads/avril 14 2020, 4:08:33   null   diagnostiquesAssocies.txt',
+    size: 2
+  },
+  {
+    fieldname: 'file',
+    originalname: 'Dossier_Medical_2013-08-30_0000360598.tif',
+    encoding: '7bit',
+    mimetype: 'image/tiff',
+    destination: './public/uploads',
+    filename: 'avril 14 2020, 4:08:33   null   Dossier_Medical_2013-08-30_0000360598.tif',
+    path: 'public/uploads/avril 14 2020, 4:08:33   null   Dossier_Medical_2013-08-30_0000360598.tif',
+    size: 646297
+  },
+  {
+    fieldname: 'file',
+    originalname: "MOUSSEAUX_Jean_Paul_2013-08-06_13-36_Consultation_d'anesthesie_ANE_remarques.html",
+    encoding: '7bit',
+    mimetype: 'text/html',
+    destination: './public/uploads',
+    filename: "avril 14 2020, 4:08:34   null   MOUSSEAUX_Jean_Paul_2013-08-06_13-36_Consultation_d'anesthesie_ANE_remarques.html",
+    path: "public/uploads/avril 14 2020, 4:08:34   null   MOUSSEAUX_Jean_Paul_2013-08-06_13-36_Consultation_d'anesthesie_ANE_remarques.html",
+    size: 535
+  }
+]
+{
+  textarea: 'Resection endoscopique de la prostate au plasma bi polaire'
+}
+[
+  { diag: 'Diagnostic', scores: 0 },
+  { diag: 'N40 Hyperplasie de la prostate', scores: 99 },
+  { diag: 'G560 Syndrome du canal carpien', scores: 0 },
+  { diag: 'H259 Cataracte sénile, sans précision', scores: 0 },
+  {
+    diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+    scores: 0
+  },
+  { diag: 'M256 Raideur articulaire, non classée ailleurs', scores: 0 }
+]

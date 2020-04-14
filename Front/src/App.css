@@ -1,16 +1,5 @@
-h1 {
-  width: 450px;
-}
-
-body {
-  position: relative;
-}
-
-.text {
-  font-size: 150px;
-}
-.form-control {
-  width: 530px;
+input {
+  width: 225px;
 }
 .files input {
   border: 3px solid #eee;
@@ -20,6 +9,13 @@ body {
   background: #fff;
 }
 
+.image-home {
+  background-image: url("/illustration_article_CEA_Plan de travail 1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 350px;
+}
+
 img {
   height: 350px;
   width: 350px;
@@ -27,13 +23,7 @@ img {
   position: absolute;
 }
 
-.files {
-  position: relative;
-  margin-left: 15px;
-  display: flex;
-}
 .files:after {
-  position: absolute;
   top: 60px;
   left: 0;
   width: 50px;
@@ -77,19 +67,20 @@ img {
   border-color: #dd5151;
   cursor: pointer;
 }
-.btn {
+
+a {
+  color: blue !important;
+}
+/* .btn {
   display: inline-block;
   font-family: inherit;
   font-size: 13px;
-  height: 30px;
   text-decoration: none;
   text-transform: initial;
   border: none;
   border-radius: 0.2rem;
   outline: none;
   padding: 0 1rem;
-  margin-left: 250px;
-  width: 250px;
   color: #fff;
   transition: all 0.2s ease-in-out;
   box-sizing: border-box;
@@ -97,14 +88,7 @@ img {
   border-color: #454cad;
   height: 36px;
   cursor: pointer;
-}
-
-table {
-  text-align: center;
-  border: 3px solid #eee;
-  width: 100%;
-  margin-bottom: -3rem !important;
-}
+} */
 
 .response :hover {
   border-color: #2e54a5;
@@ -114,25 +98,16 @@ table {
   margin-top: 150px;
   font-size: 18px;
 }
-td {
+/* td {
   border: 1px solid #eee;
-}
+} */
 
 i {
   color: tomato;
 }
 
-.image-home {
-  background-image: url("/illustration_article_CEA_Plan de travail 1.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 350px;
-}
-
 .text-home {
   font-size: 30px;
-  margin-left: 100px;
-  margin-right: 100px;
   text-align: justify;
 }
 
@@ -146,8 +121,6 @@ i {
   border-radius: 0.2rem;
   outline: none;
   padding: 0 1rem;
-  margin-top: 100px;
-  margin-left: 450px;
   color: #fff;
   transition: all 0.2s ease-in-out;
   box-sizing: border-box;
@@ -158,10 +131,7 @@ i {
 
 .button-next {
   display: inline-block;
-  margin-left: 300px;
   clear: both;
-  width: 350px;
-  margin-bottom: 30px;
   font-family: inherit;
   font-weight: 700;
   font-size: 18px;
@@ -170,7 +140,6 @@ i {
   border: none;
   border-radius: 0.2rem;
   outline: none;
-  height: 36px;
   line-height: 36px;
   color: #fff;
   transition: all 0.2s ease-in-out;
@@ -180,27 +149,15 @@ i {
   cursor: pointer;
 }
 
-.logo {
-  background-image: url("./Logo.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: bottom;
-  width: 200px;
-  height: 100px;
-}
-
 textarea {
-  margin-left: 30px;
-  width: 400px;
   border: 3px solid #eee;
   border-radius: 7px;
-  padding: 30px;
   user-select: none;
   background: #fff;
 }
 
 .form {
-  position: relative;
+  /* position: relative; */
   background: #ffffff;
   width: 500px;
   top: 300px;
@@ -234,10 +191,46 @@ textarea {
   cursor: pointer;
 }
 
-.Qui {
+/* .Qui {
   font-family: "Roboto", sans-serif;
   text-align: center;
-  position: relative;
+  
   top: 300px;
   left: 500px;
+} */
+
+.AutoComplete {
+  border: 3px solide grey;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.AutoComplete input {
+  border: none;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.73);
+  padding: 10px 5px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.AutoComplete ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.AutoComplete ul::before {
+  content: "";
+}
+
+.AutoComplete li {
+  cursor: pointer;
+}
+
+.AutoComplete li:hover {
+  text-decoration: underline;
+  background-color: rgb(128, 128, 128, 0.2);
+}
+
+.table {
+  margin-left: -19px;
 }

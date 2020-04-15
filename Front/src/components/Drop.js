@@ -206,7 +206,9 @@ class Upload extends React.Component {
         if (i > 0) {
           result.push(
             <tr key={i}>
-              <th scope="row">{i}</th>
+              <th size="sm" scope="row">
+                {i}
+              </th>
               <th>{row["diag"]}</th>
               <th>{row["scores"]} % </th>
               <th>
@@ -250,13 +252,13 @@ class Upload extends React.Component {
       champ = <AutoComplet selectedCheckbox={this.state.selectedCheckbox} />;
 
       tab = (
-        <Table size="sm">
+        <Table>
           <thead>
             <tr>
-              <th scope="col">#</th>
-              <th scope="col">Diagnostic</th>
-              <th scope="col">Score</th>
-              <th scope="col">Validation</th>
+              <th scope="row">#</th>
+              <th scope="row">Diagnostic</th>
+              <th scope="row">Score</th>
+              <th scope="row">Validation</th>
             </tr>
           </thead>
           <tbody>{this.drawLine()}</tbody>
@@ -296,7 +298,7 @@ class Upload extends React.Component {
         <br />
         <br />
         <Row>
-          <Col sm="4">
+          <Col xs="4">
             <div>
               <Card>
                 <CardBody>
@@ -337,7 +339,7 @@ class Upload extends React.Component {
           </Col>
           <br />
           {texteLoading}
-          <Col sm="4">
+          <Col xs="4">
             <div>
               <Card>
                 <CardBody>
@@ -348,7 +350,6 @@ class Upload extends React.Component {
                     le tableau des codifications CIM-10 s’affiche ci-dessous.
                   </CardSubtitle>
                   {tab}
-                  <hr className="my-2" />
                   {champ}
                   {hr}
                   {buttonNext}
@@ -356,7 +357,7 @@ class Upload extends React.Component {
               </Card>
             </div>
           </Col>
-          <Col sm="4">
+          <Col xs="4">
             <div>
               <Card>
                 <CardBody>
@@ -367,7 +368,9 @@ class Upload extends React.Component {
                     Partagez avec nous les problèmes rencontrés
                   </CardSubtitle>
                   <hr className="my-2" />
-                  <a>Cliquez ici pour écrire</a>
+                  <a href="mailto:romain.farel@dgmail.fr ">
+                    Cliquez ici pour nous ecrires
+                  </a>
                 </CardBody>
               </Card>
             </div>

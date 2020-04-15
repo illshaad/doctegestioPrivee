@@ -38,7 +38,7 @@ export default class AutoCompletText extends React.Component {
     const newUrl = new URL(window.location.href);
     axios
       .post(
-        `http://localhost:8088/auto?mail=${newUrl.searchParams.get("mail")}`
+        `http://localhost:3001/auto?mail=${newUrl.searchParams.get("mail")}`
       )
       .then((res) => {
         console.log(res.data);

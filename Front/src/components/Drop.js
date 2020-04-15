@@ -70,7 +70,7 @@ class Upload extends React.Component {
           const newUrl = new URL(window.location.href);
           await axios({
             method: "post",
-            url: `http://localhost:8088/upload?mail=${newUrl.searchParams.get(
+            url: `http://localhost:3001/upload?mail=${newUrl.searchParams.get(
               "mail"
             )}`,
             data: data,
@@ -93,7 +93,7 @@ class Upload extends React.Component {
           const newUrl = new URL(window.location.href);
           await axios({
             method: "post",
-            url: `http://localhost:8088/textarea?mail=${newUrl.searchParams.get(
+            url: `http://localhost:3001/textarea?mail=${newUrl.searchParams.get(
               "mail"
             )}`,
             data: { textarea: this.state.textaeraValue },
@@ -170,7 +170,7 @@ class Upload extends React.Component {
       await axios({
         //Extraire url email //
         method: "post",
-        url: `http://localhost:8088/radio?mail=${newUrl.searchParams.get(
+        url: `http://localhost:3001/radio?mail=${newUrl.searchParams.get(
           "mail"
         )}`,
         data: {
@@ -252,7 +252,7 @@ class Upload extends React.Component {
       champ = <AutoComplet selectedCheckbox={this.state.selectedCheckbox} />;
 
       tab = (
-        <Table>
+        <Table size="sm">
           <thead>
             <tr>
               <th scope="row">#</th>
@@ -349,10 +349,12 @@ class Upload extends React.Component {
                   <CardSubtitle>
                     le tableau des codifications CIM-10 s’affiche ci-dessous.
                   </CardSubtitle>
-                  {tab}
-                  {champ}
-                  {hr}
-                  {buttonNext}
+                  <Col sx="12">
+                    {tab}
+                    {champ}
+                    {hr}
+                    {buttonNext}
+                  </Col>
                 </CardBody>
               </Card>
             </div>

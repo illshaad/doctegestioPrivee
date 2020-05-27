@@ -121,8 +121,8 @@ async function otherFile(files) {
     },
   };
   const body = await rp(options); //2end Request //
-  console.log(body  , 'BODY');
-  
+  console.log(body, "BODY");
+
   return body;
 }
 
@@ -134,7 +134,10 @@ async function sendMultipleFiles(files) {
     const currentFile = files[i];
     if (currentFile.mimetype !== "text/plain") {
       const text = await otherFile(currentFile);
-      fs.writeFileSync(currentFile.path, text);
+      const path = `./public/originalFile/${currentFile.filename}`;
+      // fs.writeFileSync(currentFile.path, text);
+      fs.writeFileSync(path, text);
+      currentFile.path = path;
     }
   }
   //Send multiple files //
@@ -164,13 +167,13 @@ app.post("/textarea", function (req, res) {
     "  " +
     moment().locale("fr").format("MMMM Do YYYY, h:mm:ss") +
     "   " +
-    req.query.mail + '.txt' ;
-
+    req.query.mail +
+    ".txt";
 
   fs.writeFileSync(chemin, testBodyObject.textarea);
   async function test2() {
     const result = await sendFileText([{ path: chemin }]);
-    
+
     res.status(200).send(result);
   }
   test2().catch((err) => {
@@ -186,8 +189,8 @@ app.post("/auto", function (req, res) {
 });
 
 app.post("/radio", function (req, res, next) {
-  console.log(req.body , 'TEST')
-  const textarea = req.body.textaeraValue
+  console.log(req.body, "TEST");
+  const textarea = req.body.textaeraValue;
   const data = req.body.data[0];
   const dataFile = req.body.file;
   const timer = req.body.timer;
@@ -210,9 +213,8 @@ app.post("/radio", function (req, res, next) {
       ';"' +
       dataFile +
       '";"' +
-      textarea + 
-      ";" 
-      +
+      textarea +
+      ";" +
       data["diag"] +
       '";' +
       moment().locale("fr").format("MMMM Do YYYY, h:mm:ss") +

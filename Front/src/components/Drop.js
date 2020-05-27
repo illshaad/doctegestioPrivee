@@ -76,7 +76,9 @@ class Upload extends React.Component {
             data: data,
           }).then((res) => {
             //data du back //
-            console.log(res.data[0].resulJson[1] , ' CEST QUOIIIII');
+            console.log(res);
+
+            // console.log(res.data[0].resulJson[1], " CEST QUOIIIII");
             timer = Date.now() - tempDebut;
             console.log(timer, "MS");
             var testTableData = [];
@@ -174,7 +176,7 @@ class Upload extends React.Component {
           "mail"
         )}`,
         data: {
-          textaeraValue  : this.state.textaeraValue, 
+          textaeraValue: this.state.textaeraValue,
           data: selectedData,
           file: ArrayBack,
           timer: timer,

@@ -34,7 +34,7 @@ console.log = function (d) {
 //CONFIGURATION MULTER //
 var storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    cb(null, "./public/uploads");
+    cb(null, "./public/uploads/");
   },
   filename: function (req, file, cb) {
     cb(
@@ -121,6 +121,8 @@ async function otherFile(files) {
     },
   };
   const body = await rp(options); //2end Request //
+  console.log(body  , 'BODY');
+  
   return body;
 }
 
@@ -155,7 +157,6 @@ app.post("/upload", upload.array("file"), function (req, res, next) {
 
 app.post("/textarea", function (req, res) {
   let testBodyObject = Object.assign({}, req.body);
-  console.log(testBodyObject);
   let chemin =
     __dirname +
     "/public/" +
@@ -163,13 +164,13 @@ app.post("/textarea", function (req, res) {
     "  " +
     moment().locale("fr").format("MMMM Do YYYY, h:mm:ss") +
     "   " +
-    req.query.mail;
+    req.query.mail + '.txt' ;
 
-  const currDir = process.cwd();
+
   fs.writeFileSync(chemin, testBodyObject.textarea);
   async function test2() {
     const result = await sendFileText([{ path: chemin }]);
-    console.log(result);
+    
     res.status(200).send(result);
   }
   test2().catch((err) => {
@@ -185,6 +186,8 @@ app.post("/auto", function (req, res) {
 });
 
 app.post("/radio", function (req, res, next) {
+  console.log(req.body , 'TEST')
+  const textarea = req.body.textaeraValue
   const data = req.body.data[0];
   const dataFile = req.body.file;
   const timer = req.body.timer;
@@ -207,6 +210,9 @@ app.post("/radio", function (req, res, next) {
       ';"' +
       dataFile +
       '";"' +
+      textarea + 
+      ";" 
+      +
       data["diag"] +
       '";' +
       moment().locale("fr").format("MMMM Do YYYY, h:mm:ss") +

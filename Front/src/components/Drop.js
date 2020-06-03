@@ -70,7 +70,7 @@ class Upload extends React.Component {
           const newUrl = new URL(window.location.href);
           await axios({
             method: "post",
-            url: `http://localhost:3001/upload?mail=${newUrl.searchParams.get(
+            url: `http://35.205.33.234/upload?mail=${newUrl.searchParams.get(
               "mail"
             )}`,
             data: data,
@@ -95,7 +95,7 @@ class Upload extends React.Component {
           const newUrl = new URL(window.location.href);
           await axios({
             method: "post",
-            url: `http://localhost:3001/textarea?mail=${newUrl.searchParams.get(
+            url: `http://35.205.33.234/textarea?mail=${newUrl.searchParams.get(
               "mail"
             )}`,
             data: { textarea: this.state.textaeraValue },
@@ -172,7 +172,7 @@ class Upload extends React.Component {
       await axios({
         //Extraire url email //
         method: "post",
-        url: `http://localhost:3001/radio?mail=${newUrl.searchParams.get(
+        url: `http://35.205.33.234/radio?mail=${newUrl.searchParams.get(
           "mail"
         )}`,
         data: {
@@ -293,6 +293,8 @@ class Upload extends React.Component {
 
     return (
       <Container fluid={true}>
+        <br />
+        <br />
         <h1 className="text-center">Bienvenue à DIM-IA</h1>
         <p className="text-center">
           Cet outil vous permet de codifier automatiquement les actes médicaux
@@ -306,7 +308,9 @@ class Upload extends React.Component {
               <Card>
                 <CardBody>
                   <CardTitle>
-                    <h3>1.Chargez le dossier</h3>
+                    <h3>
+                      <span className="borderadius">1</span> Chargez le dossier
+                    </h3>
                   </CardTitle>
                   <CardSubtitle>
                     formats acceptés: docx, pdf, html, png, jpeg, tiff
@@ -329,7 +333,6 @@ class Upload extends React.Component {
                   ></textarea>
                   <hr className="my-2" />
                   <a
-                    className="alert-link"
                     type="button"
                     className="btn"
                     onClick={this.onClickHandler}
@@ -347,7 +350,10 @@ class Upload extends React.Component {
               <Card>
                 <CardBody>
                   <CardTitle>
-                    <h3>2.Consultez le résultat</h3>
+                    <h3>
+                      <span className="borderadius">2</span> Consultez le
+                      résultat
+                    </h3>
                   </CardTitle>
                   <CardSubtitle>
                     le tableau des codifications CIM-10 s’affiche ci-dessous.
@@ -367,14 +373,16 @@ class Upload extends React.Component {
               <Card>
                 <CardBody>
                   <CardTitle>
-                    <h3>3.Donnez votre avis</h3>
+                    <h3>
+                      <span className="borderadius">3</span> Donnez votre avis
+                    </h3>
                   </CardTitle>
                   <CardSubtitle>
                     Partagez avec nous les problèmes rencontrés
                   </CardSubtitle>
                   <hr className="my-2" />
                   <a href="mailto:romain.farel@dgmail.fr ">
-                    Cliquez ici pour nous ecrires
+                    Cliquez ici pour nous écrire
                   </a>
                 </CardBody>
               </Card>

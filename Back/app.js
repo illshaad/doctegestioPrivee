@@ -148,8 +148,6 @@ async function sendMultipleFiles(files) {
 }
 
 app.post("/upload", upload.array("file"), function (req, res, next) {
-  console.log(req.files);
-
   const file = req.files;
   async function run() {
     const data = await sendMultipleFiles(file);

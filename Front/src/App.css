@@ -66,7 +66,7 @@ img {
 }
 
 a {
-  color: #3b78d9 !important;
+  color: #007bff !important;
 }
 
 .response :hover {
@@ -134,7 +134,6 @@ textarea {
 }
 
 .form {
-  /* position: relative; */
   background: #ffffff;
   width: 500px;
   top: 300px;
@@ -201,5 +200,21 @@ textarea {
 }
 
 Table {
-  margin-left: -15px;
+  font-family: "Roboto", sans-serif;
+  width: auto;
+}
+
+.borderadius {
+  border: 3px solid #007bff;
+  color: #007bff;
+  border-radius: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+h3,
+h1 {
+  font-family: "Roboto", sans-serif;
 }

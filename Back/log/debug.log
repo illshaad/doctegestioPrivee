@@ -13907,3 +13907,1685 @@ attestation Pôle emploi.
 Je vous prie d'agréer l'expression de mes salutations distinguées.
 Lise VALISE
 
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '#cro_GODEAU_Francois-Denis_2011-10-04_OSTEOTOMIE_GENOU_DRO_2497615.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads/',
+    filename: 'juillet 22 2020, 10:35:18   null   #cro_GODEAU_Francois-Denis_2011-10-04_OSTEOTOMIE_GENOU_DRO_2497615.docx',
+    path: 'public/uploads/juillet 22 2020, 10:35:18   null   #cro_GODEAU_Francois-Denis_2011-10-04_OSTEOTOMIE_GENOU_DRO_2497615.docx',
+    size: 19548
+  }
+]
+User Field c_titre = c_titre User Field c_prenom = c_prenom User Field c_nom = c_nom
+Hidden ParagraphUser Field c_serv = c_serv
+Hidden ParagraphUser Field c_ad1 = c_ad1
+Hidden ParagraphUser Field c_ad2 = c_ad2
+User Field c_code = c_code User Field c_ville = c_ville
+
+User Field sexe = M
+
+
+OSTEOTOMIE DU GENOU DROIT
+
+Anesthésie générale, décubitus dorsal, garrot pneumatique. 
+Voie d'abord interne que l'on passe sous le ligament latéral interne après avoir légèrement décollé les tendons droits interne et demi-membraneux de la patte d'oie.
+On expose donc ainsi toute la face supérieure de la partie interne du genou
+Mise en place d'une broche légèrement ascendante contrôlée de face et de profil à l'amplificateur de brillance et allant vers la tête du péroné.
+Elle est parfaitement en place.
+Ostéotomie à la scie oscillante en laissant 1 cm au niveau de la partie externe du genou.
+Mise en place d'une cale métallique permettant le positionnement d'un greffon antérieur et postérieur. Il s'agit d'os de substitut osseux
+Mise en place d'une plaque avec une correction de 10° pour ce genu varum de 8°
+Mise en place des trois vis supérieures de 75, 70 et 65 et des vis corticales à la partie basse de la plaque de chez ISO 
+Fermeture après hémostase en deux plans sans drainage.
+Au total, ostéotomie de valgisation de 10° pour un genu varum mesuré de 8°
+Cliniquement, la correction est tout à fait satisfaisante. 
+Temps de garrot : 40 mn
+
+
+
+
+
+
+
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '#cro_GODEAU_Francois-Denis_2011-10-04_OSTEOTOMIE_GENOU_DRO_2497615.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads/',
+    filename: 'juillet 22 2020, 10:35:20   null   #cro_GODEAU_Francois-Denis_2011-10-04_OSTEOTOMIE_GENOU_DRO_2497615.docx',
+    path: 'public/uploads/juillet 22 2020, 10:35:20   null   #cro_GODEAU_Francois-Denis_2011-10-04_OSTEOTOMIE_GENOU_DRO_2497615.docx',
+    size: 19548
+  }
+]
+User Field c_titre = c_titre User Field c_prenom = c_prenom User Field c_nom = c_nom
+Hidden ParagraphUser Field c_serv = c_serv
+Hidden ParagraphUser Field c_ad1 = c_ad1
+Hidden ParagraphUser Field c_ad2 = c_ad2
+User Field c_code = c_code User Field c_ville = c_ville
+
+User Field sexe = M
+
+
+OSTEOTOMIE DU GENOU DROIT
+
+Anesthésie générale, décubitus dorsal, garrot pneumatique. 
+Voie d'abord interne que l'on passe sous le ligament latéral interne après avoir légèrement décollé les tendons droits interne et demi-membraneux de la patte d'oie.
+On expose donc ainsi toute la face supérieure de la partie interne du genou
+Mise en place d'une broche légèrement ascendante contrôlée de face et de profil à l'amplificateur de brillance et allant vers la tête du péroné.
+Elle est parfaitement en place.
+Ostéotomie à la scie oscillante en laissant 1 cm au niveau de la partie externe du genou.
+Mise en place d'une cale métallique permettant le positionnement d'un greffon antérieur et postérieur. Il s'agit d'os de substitut osseux
+Mise en place d'une plaque avec une correction de 10° pour ce genu varum de 8°
+Mise en place des trois vis supérieures de 75, 70 et 65 et des vis corticales à la partie basse de la plaque de chez ISO 
+Fermeture après hémostase en deux plans sans drainage.
+Au total, ostéotomie de valgisation de 10° pour un genu varum mesuré de 8°
+Cliniquement, la correction est tout à fait satisfaisante. 
+Temps de garrot : 40 mn
+
+
+
+
+
+
+
+{
+  textaeraValue: '',
+  data: [
+    {
+      diag: 'M235 Instabilité chronique du genou',
+      scores: 85,
+      checkModif: false
+    }
+  ],
+  file: [
+    '#cro_GODEAU_Francois-Denis_2011-10-04_OSTEOTOMIE_GENOU_DRO_2497615.docx',
+    null
+  ],
+  timer: 3482,
+  Diags: [
+    { diag: 'Diagnostic', scores: 0 },
+    { diag: 'M235 Instabilité chronique du genou', scores: 85 },
+    {
+      diag: 'S835 Entorse et foulure des ligaments croisés du genou (antérieur) (postérieur)',
+      scores: 3
+    },
+    { diag: 'M175 Autres gonarthroses secondaires', scores: 1 },
+    { diag: 'M171 Autres gonarthroses primaires', scores: 1 },
+    {
+      diag: 'M236 Autres ruptures spontanées de ligament(s) du genou',
+      scores: 0
+    }
+  ]
+}
+{
+  textaeraValue: 'Resection endoscopique de la prostate au plasma bi polaire',
+  data: [
+    {
+      diag: 'N40 Hyperplasie de la prostate',
+      scores: 99,
+      checkModif: false
+    }
+  ],
+  file: [
+    '#cro_GODEAU_Francois-Denis_2011-10-04_OSTEOTOMIE_GENOU_DRO_2497615.docx',
+    null
+  ],
+  timer: 3482,
+  Diags: [
+    { diag: 'Diagnostic', scores: 0 },
+    { diag: 'N40 Hyperplasie de la prostate', scores: 99 },
+    { diag: 'G560 Syndrome du canal carpien', scores: 0 },
+    { diag: 'H259 Cataracte sénile, sans précision', scores: 0 },
+    {
+      diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+      scores: 0
+    },
+    {
+      diag: 'M256 Raideur articulaire, non classée ailleurs',
+      scores: 0
+    }
+  ]
+}
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '694925347.pdf',
+    encoding: '7bit',
+    mimetype: 'application/pdf',
+    destination: './public/uploads/',
+    filename: 'juillet 22 2020, 10:40:54   null   694925347.pdf',
+    path: 'public/uploads/juillet 22 2020, 10:40:54   null   694925347.pdf',
+    size: 1171623
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Evoucher PDF
+
+
+ 
+
+   
+
+2 NUITS AVEC OU SANS PETITS-
+DÉJEUNERS POUR 2 PERSONNES
+
+  2600 séjours : hôtels 3*, maisons d'hôtes,
+demeures et domaines de charme
+
+  Sévader pour deux nuits à la ville ou à la
+campagne, voici ce que propose ce coffret avec sa
+sélection de séjours de charme pour 2 personnes.
+En maisons dhôtes, demeures de caractère ou en
+hôtels 3 étoiles, voici une invitation à découvrir de
+
+nouvelles contrées à l'occasion d'une escapade qui
+savèrera inoubliable !
+
+   
+
+   
+DATE LIMITE D'UTILISATION :
+
+  09/06/2022
+
+  
+  N° DE CHEQUE-CADEAU :   694925347
+
+CODE DE CONFIRMATION :   517
+
+  
+
+Powered by TCPDF (www.tcpdf.org)
+
+http://www.tcpdf.org
+
+
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '694925347.pdf',
+    encoding: '7bit',
+    mimetype: 'application/pdf',
+    destination: './public/uploads/',
+    filename: 'juillet 22 2020, 10:45:55   null   694925347.pdf',
+    path: 'public/uploads/juillet 22 2020, 10:45:55   null   694925347.pdf',
+    size: 1171623
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Evoucher PDF
+
+
+ 
+
+   
+
+2 NUITS AVEC OU SANS PETITS-
+DÉJEUNERS POUR 2 PERSONNES
+
+  2600 séjours : hôtels 3*, maisons d'hôtes,
+demeures et domaines de charme
+
+  Sévader pour deux nuits à la ville ou à la
+campagne, voici ce que propose ce coffret avec sa
+sélection de séjours de charme pour 2 personnes.
+En maisons dhôtes, demeures de caractère ou en
+hôtels 3 étoiles, voici une invitation à découvrir de
+
+nouvelles contrées à l'occasion d'une escapade qui
+savèrera inoubliable !
+
+   
+
+   
+DATE LIMITE D'UTILISATION :
+
+  09/06/2022
+
+  
+  N° DE CHEQUE-CADEAU :   694925347
+
+CODE DE CONFIRMATION :   517
+
+  
+
+Powered by TCPDF (www.tcpdf.org)
+
+http://www.tcpdf.org
+
+
+{
+  textaeraValue: '',
+  data: [
+    {
+      diag: 'H259 Cataracte sénile, sans précision',
+      scores: 34,
+      checkModif: false
+    }
+  ],
+  file: [ '694925347.pdf', null ],
+  timer: 3138,
+  Diags: [
+    { diag: 'Diagnostic', scores: 0 },
+    { diag: 'H259 Cataracte sénile, sans précision', scores: 34 },
+    { diag: 'Z515 Soins palliatifs', scores: 24 },
+    { diag: 'M201 Hallux valgus (acquis)', scores: 19 },
+    {
+      diag: "R91 Résultats anormaux d'imagerie diagnostique du poumon",
+      scores: 8
+    },
+    {
+      diag: 'O800 Accouchement (unique) spontané par présentation du sommet',
+      scores: 5
+    }
+  ]
+}
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'mars_3_2020_33502_isabelle.soldetdoctocare.com_CRH.pdf',
+    encoding: '7bit',
+    mimetype: 'application/pdf',
+    destination: './public/uploads/',
+    filename: 'juillet 22 2020, 10:46:29   null   mars_3_2020_33502_isabelle.soldetdoctocare.com_CRH.pdf',
+    path: 'public/uploads/juillet 22 2020, 10:46:29   null   mars_3_2020_33502_isabelle.soldetdoctocare.com_CRH.pdf',
+    size: 46679
+  }
+]
+CABINET DES CHIRURGIENS ORTHOPEDISTES TRAUMATOLOGUES
+Clinique Henry GUILLARD - COUTANCES
+Accrédités par la Haute Autorité de la Santé (HAS)
+SECRETARIAT ORTHOPEDIE : 02.33.47.43.22
+Docteur Olivier COSSART
+RPPS : 10001961589
+50 1 00317 2 03 30 1 41
+Docteur Arnaud JARRY
+RPPS : 10004077342
+50 1 80138 5 0 3 30 1 41
+Docteur Denis PASERO
+RPPS : 10001915825
+50 1 70010 8 0 1 20 1 41
+Docteur Cédric PARESSANT
+RPPS : 10100541548
+50 1 78053 0 0 3 30 1 41
+Docteur Vincent RIBET
+Maison médicale
+Le pont vert
+50490 SAINT-SAUVEUR-LENDELIN
+Coutances, le Lundi 24 Février 2020
+Madame Sophie LOSTORIAT
+née le 3 Octobre 1975
+19 rue Maurice Langevin
+50490 ST SAUVEUR LENDELIN
+02 33 07 75 66
+Cher confrère,
+Je viens de réaliser la libération du nerf médian au canal carpien droit de Madame Sophie
+LOSTORIAT, au cours d'une hospitalisation en ambulatoire, ce Lundi 24 Février 2020.
+Ci joint, son CRO.
+Il y avait une compression conséquente du nerf. Le geste de neurolyse devrait rapidement améliorer la
+symptomatologie.
+Prescription de sortie : soins locaux,
+- DOLIPRANE 1000 : 4 fois par jour si douleurs pdt 15 jours
+- BIPROFENID :1 matin et soir pdt 5 jours
+- INEXIUM 20 mg 1 cp par jour pdt 5 jours
+Je reverrai Madame Sophie LOSTORIAT, dans quatre semaines pour juger de l'évolution.
+Bien confraternellement,
+Docteur Olivier COSSART
+
+{
+  textaeraValue: '',
+  data: [
+    {
+      diag: 'G560 Syndrome du canal carpien',
+      scores: 84,
+      checkModif: false
+    }
+  ],
+  file: [ 'mars_3_2020_33502_isabelle.soldetdoctocare.com_CRH.pdf', null ],
+  timer: 7435,
+  Diags: [
+    { diag: 'Diagnostic', scores: 0 },
+    { diag: 'G560 Syndrome du canal carpien', scores: 84 },
+    { diag: "K625 Hémorragie de l'anus et du rectum", scores: 4 },
+    { diag: 'G562 Lésion du nerf cubital', scores: 3 },
+    {
+      diag: "M7204 Fibromatose de l'aponévrose palmaire (Dupuytren) - Main",
+      scores: 2
+    },
+    {
+      diag: 'K573 Diverticulose du côlon, (sans perforation ni abcès)',
+      scores: 0
+    }
+  ]
+}
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'REGNAUD_Rodolphe_2014-01-17_Ordo_standard_3528921.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads/',
+    filename: 'juillet 22 2020, 10:48:02   null   REGNAUD_Rodolphe_2014-01-17_Ordo_standard_3528921.docx',
+    path: 'public/uploads/juillet 22 2020, 10:48:02   null   REGNAUD_Rodolphe_2014-01-17_Ordo_standard_3528921.docx',
+    size: 20197
+  }
+]
+
+Le vendredi 17 janvier 2014
+
+
+
+
+Monsieur XXX,  le User Field daten4 = XXX
+User Field sexe = MHidden Paragraph
+
+
+
+
+
+
+Le vendredi 17 janvier 2014
+
+
+
+Monsieur XXX,  le User Field daten4 = XXX
+
+DUPLICATA
+
+
+{
+  textaeraValue: '',
+  data: [
+    {
+      diag: 'N40 Hyperplasie de la prostate',
+      scores: 99,
+      checkModif: false
+    }
+  ],
+  file: [ 'REGNAUD_Rodolphe_2014-01-17_Ordo_standard_3528921.docx', null ],
+  timer: 1694,
+  Diags: [
+    { diag: 'Diagnostic', scores: 0 },
+    { diag: 'N40 Hyperplasie de la prostate', scores: 99 },
+    { diag: 'G560 Syndrome du canal carpien', scores: 0 },
+    { diag: 'H259 Cataracte sénile, sans précision', scores: 0 },
+    {
+      diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+      scores: 0
+    },
+    {
+      diag: 'M256 Raideur articulaire, non classée ailleurs',
+      scores: 0
+    }
+  ]
+}
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'REGNAUD_Rodolphe_2014-01-08_consentement_OI_3515123.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads/',
+    filename: 'juillet 22 2020, 10:48:33   null   REGNAUD_Rodolphe_2014-01-08_consentement_OI_3515123.docx',
+    path: 'public/uploads/juillet 22 2020, 10:48:33   null   REGNAUD_Rodolphe_2014-01-08_consentement_OI_3515123.docx',
+    size: 20132
+  }
+]
+
+							Monsieur XXXXXXX
+
+
+
+
+		Monsieur,
+
+	Votre état nécessite une intervention chirurgicale portant sur l'appareil locomoteur. La loi, le code de déontologie  et la jurisprudence font obligation au corps médical de donner aux patients une information claire et complète sur cette intervention ainsi que sur tous les risques éventuels de complications, même exceptionnelles, de manière à ce que votre consentement puisse être bien éclairé.
+
+	Les complications liées à l'anesthésie quel que soit son type (générale, loco-régionale ou locale) vous seront expliquées  par nos médecins anesthésistes  en consultation pré-opératoire. Vous pourrez également questionner le médecin anesthésiste la veille de l'intervention.
+
+	En ce qui concerne l'acte chirurgical lui-même, les risques sont pris en compte de manière très sérieuse par l'équipe chirurgicale. Toutes les précautions sont mises en oeuvre pour éviter les complications par leur prévention systématique grâce à l'utilisation de protocoles validés par l'expérience.
+
+	Il convient donc d'attirer votre attention sur la nécessité de bien suivre  les prescriptions qui vous seront données et de bien signaler toute impossibilité à les suivre.
+
+	Vous devez bien comprendre ces prescriptions et ne pas hésiter à vous faire préciser ce que vous n'auriez pas compris.
+
+	Cependant, quelles que soient les précautions, aucune équipe aussi prudente et expérimentée soit-elle ne peut garantir l'absence totale de complications.
+
+	Les complications que l'on peut rencontrer dépendent certes de l'intervention que vous allez subir, mais également de la pathologie qui est est en cause, et surtout de votre état général personnel ou des éventuelles pathologies associées.
+
+	Il est certain que le risque opératoire augmente avec l'âge, avec certaines maladies, du fait d'un terrain allergique ou de la baisse des défenses immunitaires. De même certaines addictions (Ex consommation de tabac) peuvent géner la cicatrisation cutané.
+
+	Un certain nombre de complications sont communes à toutes les interventions, certaines ne se voient que dans des pathologies ou interventions spécifiques.
+
+	C'est pourquoi, il n'est pas possible de détailler par écrit de façon simple mais exhaustive les risques encourus. Les risques les plus courants sont mentionnés sur ce formulaire, mais il vous est  vivement conseillé de demander une information complémentaire si vous le souhaitez, voire de solliciter une nouvelle consultation si certains points vous paraissent obscurs.
+
+	L'intervention étant réalisée en ambulatoire (vous ne restez pas dormir à la clinique), il vous est demandé de prendre une douche avec un produit antiseptique la veille et le matin de l'intervention à votre domicile. Le but de cette douche est d'enlever le maximun de microbe au niveau de la peau.
+
+
+LES RISQUES LIES A TOUT TYPE  D'INTERVENTION OSTEO-ARTICULAIRE :
+
+
+	- L'apparition de saignements ou d'hématome (poche de sang) peut nécessiter un traitement complémentaire voire une nouvelle intervention.
+
+	- L'infection peut être diagnostiquée dans les jours  ou semaines qui suivent l'intervention. Son traitement médical peut être long. Parfois un nouveau geste chirurgical est nécessaire surtout quand il s'agit du site d'implantation d'un "corps étranger" comme une prothèse, un ligament artificiel ou matériel d'ostéosynthèse (plaque vissée, clou etc...). Dans les cas les plus graves, elle peut atteindre l'os et devenir chronique. La prévention  de ce risque  repose sur l'utilisation  de protocoles très rigoureux de préparation cutanée à l'intervention, d'asepsie draconienne au bloc opératoire et de prophylaxie antibiotique validée par des instances scientifiques au niveau national. La Clinique Saint-Jean comporte par ailleurs, une commission spécifique de lutte contre les infections nosocomiales (CLIN).
+
+	- Le risque thrombo-embolique : apparition possible de caillots dans les veines (phlébites) pouvant par migration  secondaire obstruer  des vaisseaux du poumon (embolie pulmonaire). Ce risque concerne essentiellement la chirurgie du membre inférieur et est prévenu par un traitement anti-coagulant adapté et parfois par le port de bas  ou de bandes de contention élastique. Il est plus important  en cas d'insuffisance veineuse pré-existante (varices).
+
+	- L'algo-dystrophie : elle peut être consécutive à un acte chirurgical ou à un traumatisme (entorse, fracture). Elle résulte de l'hyperactivité non prévisible d'une partie du système nerveux (le système sympathique). Elle associe des douleurs disproportionnées par rapport à leur cause, un oedème, une raideur articulaire et parfois une déminéralisation osseuse. Différents types de traitements peuvent la combattre efficacement mais l'évolution est souvent assez lente et peut conduire en particulier à une perte de mobilité articulaire.
+
+
+
+
+LES RISQUES LIES  A LA CURE  D'UN  ONGLE  INCARNE:
+
+
+	Une douleur au niveau du sîte iopératoire est possible et doit être soulagée par le traitement médical qui vous a été prescrit.
+
+	Une rougeur, voire une infection avec apparition de pus au contact des fils de suture est possible. L'infirmière qui fait vos pansements doit alors retirer le fil responsable et cette infection va rentrer dans l'ordre.
+
+	La repousse d'un petit morceau d'ongle au niveau de la cicatrice est possible. Elle correspond au développement de quelques cellules de la matrice unguéale (zone de croissance de l'ongle) qui n'ont pas été retirées lors de l'intervention. Un nouveau geste opératoire permettra de retirer définitivement ce reliquat cellulaire.
+
+En cas de problèmes ne pas hésiter à reprendre contact avec votre chirurgien.
+{
+  textaeraValue: '',
+  data: [ { diag: 'None', scores: 59, checkModif: false } ],
+  file: [ 'REGNAUD_Rodolphe_2014-01-08_consentement_OI_3515123.docx', null ],
+  timer: 1701,
+  Diags: [
+    { diag: 'Diagnostic', scores: 0 },
+    { diag: 'None', scores: 59 },
+    {
+      diag: 'I839 Varices des membres inférieurs sans ulcère ou inflammation',
+      scores: 12
+    },
+    {
+      diag: 'C443 Tumeur maligne de la peau de la face, parties autres et non précisées',
+      scores: 7
+    },
+    {
+      diag: "M511 Atteintes d'un disque lombaire et d'autres disques intervertébraux avec radiculopathie",
+      scores: 6
+    },
+    {
+      diag: "Z470 Soins de contrôle impliquant l'enlèvement d'une plaque et autre prothèse interne (orthopédique) de fixation",
+      scores: 4
+    },
+    {
+      diag: 'K801 Calcul de la vésicule biliaire avec une autre forme de cholécystite',
+      scores: 3
+    }
+  ]
+}
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    encoding: '7bit',
+    mimetype: 'text/html',
+    destination: './public/uploads/',
+    filename: 'juillet 22 2020, 10:50:01   null   REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    path: 'public/uploads/juillet 22 2020, 10:50:01   null   REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    size: 606
+  }
+]
+texte BÃ©nÃ©fs/RisquesXXX               XXX                 (M) - XXX - IPP : XXX BÃ©nÃ©fices/Risques - texte BÃ©nÃ©fs/Risques2014-01-08 18:29Dr REGNAUD RodolpheAu cours de l'entretien de ce jour, j'informe le patient des risques encourus en l'absence du traitement proposÃ©, des diffÃ©rentes modalitÃ©s thÃ©rapeutiques possibles, de leurs suites, et des complications prÃ©visibles.
+{
+  textaeraValue: '',
+  data: [
+    {
+      diag: 'M175 Autres gonarthroses secondaires',
+      scores: 55,
+      checkModif: false
+    }
+  ],
+  file: [
+    'REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    null
+  ],
+  timer: 1749,
+  Diags: [
+    { diag: 'Diagnostic', scores: 0 },
+    { diag: 'M175 Autres gonarthroses secondaires', scores: 55 },
+    {
+      diag: 'M8488 Autres anomalies de la continuité osseuse - Autres localisations',
+      scores: 33
+    },
+    { diag: "N393 Incontinence urinaire d'effort", scores: 2 },
+    { diag: 'E042 Goitre multinodulaire (non toxique)', scores: 1 },
+    { diag: 'M171 Autres gonarthroses primaires', scores: 1 }
+  ]
+}
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '#cro_REGNAUD_Rodolphe_2014-01-17_OI_RR_3529129.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads/',
+    filename: 'juillet 22 2020, 10:51:17   null   #cro_REGNAUD_Rodolphe_2014-01-17_OI_RR_3529129.docx',
+    path: 'public/uploads/juillet 22 2020, 10:51:17   null   #cro_REGNAUD_Rodolphe_2014-01-17_OI_RR_3529129.docx',
+    size: 17373
+  }
+]
+User Field c_titre = c_titre User Field c_prenom = c_prenom User Field c_nom = c_nom
+Hidden ParagraphUser Field c_serv = c_serv
+User Field c_ad1 = c_ad1
+Hidden ParagraphUser Field c_ad2 = c_ad2
+User Field c_code = c_code User Field c_ville = c_ville
+
+
+
+ COMPTE RENDU OPERATOIRE
+
+
+Nom:	XXX
+
+Prénom:	XXX
+
+Date:	XXX
+
+
+CURE RADICALE D'ONGLE INCARNE  SERTISSURE   INTERNE  GO  DT  ET  GCHE
+
+
+
+Sous anesthésie tronculaire (xylo 1% sans adrénaline avec bicarbonates).
+Décubitus dorsal, garrot de doigt.
+Dans un premier temps on se porte au niveau du pied gauche. Section de la partie incarnée de l'ongle. Incision cutanée de 5 mm  au niveau de l'angle supéro-interne de l'ongle. Résection en quartier d'orange de la matrice, du sillon et du lit de l'ongle correspondant. Curetage. Suture  du lambeau cutané par 2 points de vicryl rapide. Pansement  tulle gras.
+On réalise  la même intervention au niveau du pied contro-latéral.
+
+SPO : 
+
+* Pas d'antibioprophylaxie.
+* Antalgiques : DAFALGAN  2 gel x3/j dont 2 immédiatement
+* Apranax 550: 2cp/j dont un immédiatement
+* Appui autorisé
+* Sortie après réfection du pansement tulle gras
+* RDV RR dans 48 heures
+
+Anesthésiste: Dr TACHE
+Cotation: QZFA009  + ¾ QZFA009
+
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '#crh_REGNAUD_Rodolphe_2014-01-17_Sortie_Cpte_rendu_hosp_3528928.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads/',
+    filename: 'juillet 22 2020, 10:51:59   null   #crh_REGNAUD_Rodolphe_2014-01-17_Sortie_Cpte_rendu_hosp_3528928.docx',
+    path: 'public/uploads/juillet 22 2020, 10:51:59   null   #crh_REGNAUD_Rodolphe_2014-01-17_Sortie_Cpte_rendu_hosp_3528928.docx',
+    size: 18780
+  }
+]
+User Field c_titre = c_titre User Field c_prenom = c_prenom User Field c_nom = c_nom
+Hidden ParagraphHidden ParagraphUser Field c_serv = c_serv
+Hidden ParagraphHidden ParagraphHidden ParagraphUser Field c_ad1 = c_ad1
+Hidden ParagraphHidden ParagraphUser Field c_ad2 = c_ad2
+User Field c_code = c_code User Field c_ville = c_ville
+Hidden ParagraphUser Field sexe = M
+
+Melun, le 17/01/14
+
+
+ 
+Veuillez trouver ci-joint le compte-rendu d'hospitalisation de  Monsieur XXX XXXX,  le XXXXX,  dans notre établissement du vendredi XXXXX  au vendredi XXXXXX : 
+		Intervention : 	Ongle incarné (Gauche/Sertissure interne)
+		Date d'intervention : XXXXX
+		Suites opératoires : 	Simples
+		Traitement de sortie : Dafalgan, Apranax + soins infirmiers
+		Contrôle post-opératoire : 
+au  service pansement dans  20/01/2014
+en consultation dans 1 mois
+		Arrêt de travail : Oui
+		Infection nosocomiale :Non
+		Transfusion : Non
+
+		Bien amicalement. 
+{
+  textaeraValue: '',
+  data: [ { diag: 'L600 Ongle incarné', scores: 77, checkModif: false } ],
+  file: [
+    '#crh_REGNAUD_Rodolphe_2014-01-17_Sortie_Cpte_rendu_hosp_3528928.docx',
+    null
+  ],
+  timer: 1646,
+  Diags: [
+    { diag: 'Diagnostic', scores: 0 },
+    { diag: 'L600 Ongle incarné', scores: 77 },
+    { diag: 'L059 Sinus pilonidal (sans abcès)', scores: 15 },
+    { diag: 'L050 Sinus pilonidal avec abcès', scores: 6 },
+    { diag: 'G560 Syndrome du canal carpien', scores: 0 },
+    {
+      diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+      scores: 0
+    }
+  ]
+}
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '#cro_REGNAUD_Rodolphe_2014-01-17_OI_RR_3529129.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads/',
+    filename: 'juillet 22 2020, 10:52:50   null   #cro_REGNAUD_Rodolphe_2014-01-17_OI_RR_3529129.docx',
+    path: 'public/uploads/juillet 22 2020, 10:52:50   null   #cro_REGNAUD_Rodolphe_2014-01-17_OI_RR_3529129.docx',
+    size: 17373
+  }
+]
+User Field c_titre = c_titre User Field c_prenom = c_prenom User Field c_nom = c_nom
+Hidden ParagraphUser Field c_serv = c_serv
+User Field c_ad1 = c_ad1
+Hidden ParagraphUser Field c_ad2 = c_ad2
+User Field c_code = c_code User Field c_ville = c_ville
+
+
+
+ COMPTE RENDU OPERATOIRE
+
+
+Nom:	XXX
+
+Prénom:	XXX
+
+Date:	XXX
+
+
+CURE RADICALE D'ONGLE INCARNE  SERTISSURE   INTERNE  GO  DT  ET  GCHE
+
+
+
+Sous anesthésie tronculaire (xylo 1% sans adrénaline avec bicarbonates).
+Décubitus dorsal, garrot de doigt.
+Dans un premier temps on se porte au niveau du pied gauche. Section de la partie incarnée de l'ongle. Incision cutanée de 5 mm  au niveau de l'angle supéro-interne de l'ongle. Résection en quartier d'orange de la matrice, du sillon et du lit de l'ongle correspondant. Curetage. Suture  du lambeau cutané par 2 points de vicryl rapide. Pansement  tulle gras.
+On réalise  la même intervention au niveau du pied contro-latéral.
+
+SPO : 
+
+* Pas d'antibioprophylaxie.
+* Antalgiques : DAFALGAN  2 gel x3/j dont 2 immédiatement
+* Apranax 550: 2cp/j dont un immédiatement
+* Appui autorisé
+* Sortie après réfection du pansement tulle gras
+* RDV RR dans 48 heures
+
+Anesthésiste: Dr TACHE
+Cotation: QZFA009  + ¾ QZFA009
+
+{
+  textaeraValue: '',
+  data: [ { diag: 'L600 Ongle incarné', scores: 99, checkModif: false } ],
+  file: [ '#cro_REGNAUD_Rodolphe_2014-01-17_OI_RR_3529129.docx', null ],
+  timer: 1828,
+  Diags: [
+    { diag: 'Diagnostic', scores: 0 },
+    { diag: 'L600 Ongle incarné', scores: 99 },
+    { diag: 'N40 Hyperplasie de la prostate', scores: 0 },
+    { diag: 'G560 Syndrome du canal carpien', scores: 0 },
+    { diag: 'H259 Cataracte sénile, sans précision', scores: 0 },
+    {
+      diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+      scores: 0
+    }
+  ]
+}
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '#cro_REGNAUD_Rodolphe_2014-01-17_OI_RR_3529129.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads/',
+    filename: 'juillet 22 2020, 10:53:59   null   #cro_REGNAUD_Rodolphe_2014-01-17_OI_RR_3529129.docx',
+    path: 'public/uploads/juillet 22 2020, 10:53:59   null   #cro_REGNAUD_Rodolphe_2014-01-17_OI_RR_3529129.docx',
+    size: 17373
+  }
+]
+User Field c_titre = c_titre User Field c_prenom = c_prenom User Field c_nom = c_nom
+Hidden ParagraphUser Field c_serv = c_serv
+User Field c_ad1 = c_ad1
+Hidden ParagraphUser Field c_ad2 = c_ad2
+User Field c_code = c_code User Field c_ville = c_ville
+
+
+
+ COMPTE RENDU OPERATOIRE
+
+
+Nom:	XXX
+
+Prénom:	XXX
+
+Date:	XXX
+
+
+CURE RADICALE D'ONGLE INCARNE  SERTISSURE   INTERNE  GO  DT  ET  GCHE
+
+
+
+Sous anesthésie tronculaire (xylo 1% sans adrénaline avec bicarbonates).
+Décubitus dorsal, garrot de doigt.
+Dans un premier temps on se porte au niveau du pied gauche. Section de la partie incarnée de l'ongle. Incision cutanée de 5 mm  au niveau de l'angle supéro-interne de l'ongle. Résection en quartier d'orange de la matrice, du sillon et du lit de l'ongle correspondant. Curetage. Suture  du lambeau cutané par 2 points de vicryl rapide. Pansement  tulle gras.
+On réalise  la même intervention au niveau du pied contro-latéral.
+
+SPO : 
+
+* Pas d'antibioprophylaxie.
+* Antalgiques : DAFALGAN  2 gel x3/j dont 2 immédiatement
+* Apranax 550: 2cp/j dont un immédiatement
+* Appui autorisé
+* Sortie après réfection du pansement tulle gras
+* RDV RR dans 48 heures
+
+Anesthésiste: Dr TACHE
+Cotation: QZFA009  + ¾ QZFA009
+
+{
+  textaeraValue: '',
+  data: [
+    {
+      diag: 'G560 Syndrome du canal carpien',
+      scores: 0,
+      checkModif: false
+    }
+  ],
+  file: [ '#cro_REGNAUD_Rodolphe_2014-01-17_OI_RR_3529129.docx', null ],
+  timer: 1712,
+  Diags: [
+    { diag: 'Diagnostic', scores: 0 },
+    { diag: 'L600 Ongle incarné', scores: 99 },
+    { diag: 'N40 Hyperplasie de la prostate', scores: 0 },
+    { diag: 'G560 Syndrome du canal carpien', scores: 0 },
+    { diag: 'H259 Cataracte sénile, sans précision', scores: 0 },
+    {
+      diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+      scores: 0
+    }
+  ]
+}
+{
+  textaeraValue: 'Resection endoscopique de la prostate au plasma bi polaire',
+  data: [
+    {
+      diag: 'N40 Hyperplasie de la prostate',
+      scores: 99,
+      checkModif: false
+    }
+  ],
+  file: [],
+  timer: 0,
+  Diags: [
+    { diag: 'Diagnostic', scores: 0 },
+    { diag: 'N40 Hyperplasie de la prostate', scores: 99 },
+    { diag: 'G560 Syndrome du canal carpien', scores: 0 },
+    { diag: 'H259 Cataracte sénile, sans précision', scores: 0 },
+    {
+      diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+      scores: 0
+    },
+    {
+      diag: 'M256 Raideur articulaire, non classée ailleurs',
+      scores: 0
+    }
+  ]
+}
+null
+null
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '#crh_REGNAUD_Rodolphe_2014-01-17_Sortie_Cpte_rendu_hosp_3528928.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads/',
+    filename: 'juillet 22 2020, 10:55:46   null   #crh_REGNAUD_Rodolphe_2014-01-17_Sortie_Cpte_rendu_hosp_3528928.docx',
+    path: 'public/uploads/juillet 22 2020, 10:55:46   null   #crh_REGNAUD_Rodolphe_2014-01-17_Sortie_Cpte_rendu_hosp_3528928.docx',
+    size: 18780
+  },
+  {
+    fieldname: 'file',
+    originalname: '#cro_REGNAUD_Rodolphe_2014-01-17_OI_RR_3529129.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads/',
+    filename: 'juillet 22 2020, 10:55:46   null   #cro_REGNAUD_Rodolphe_2014-01-17_OI_RR_3529129.docx',
+    path: 'public/uploads/juillet 22 2020, 10:55:46   null   #cro_REGNAUD_Rodolphe_2014-01-17_OI_RR_3529129.docx',
+    size: 17373
+  },
+  {
+    fieldname: 'file',
+    originalname: '#lettre_REGNAUD_Rodolphe_2014-01-08_lettre_cs_tu_3515219.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads/',
+    filename: 'juillet 22 2020, 10:55:46   null   #lettre_REGNAUD_Rodolphe_2014-01-08_lettre_cs_tu_3515219.docx',
+    path: 'public/uploads/juillet 22 2020, 10:55:46   null   #lettre_REGNAUD_Rodolphe_2014-01-08_lettre_cs_tu_3515219.docx',
+    size: 17330
+  }
+]
+User Field c_titre = c_titre User Field c_prenom = c_prenom User Field c_nom = c_nom
+Hidden ParagraphHidden ParagraphUser Field c_serv = c_serv
+Hidden ParagraphHidden ParagraphHidden ParagraphUser Field c_ad1 = c_ad1
+Hidden ParagraphHidden ParagraphUser Field c_ad2 = c_ad2
+User Field c_code = c_code User Field c_ville = c_ville
+Hidden ParagraphUser Field sexe = M
+
+Melun, le 17/01/14
+
+
+ 
+Veuillez trouver ci-joint le compte-rendu d'hospitalisation de  Monsieur XXX XXXX,  le XXXXX,  dans notre établissement du vendredi XXXXX  au vendredi XXXXXX : 
+		Intervention : 	Ongle incarné (Gauche/Sertissure interne)
+		Date d'intervention : XXXXX
+		Suites opératoires : 	Simples
+		Traitement de sortie : Dafalgan, Apranax + soins infirmiers
+		Contrôle post-opératoire : 
+au  service pansement dans  20/01/2014
+en consultation dans 1 mois
+		Arrêt de travail : Oui
+		Infection nosocomiale :Non
+		Transfusion : Non
+
+		Bien amicalement. 
+User Field c_titre = c_titre User Field c_prenom = c_prenom User Field c_nom = c_nom
+Hidden ParagraphUser Field c_serv = c_serv
+User Field c_ad1 = c_ad1
+Hidden ParagraphUser Field c_ad2 = c_ad2
+User Field c_code = c_code User Field c_ville = c_ville
+
+
+
+ COMPTE RENDU OPERATOIRE
+
+
+Nom:	XXX
+
+Prénom:	XXX
+
+Date:	XXX
+
+
+CURE RADICALE D'ONGLE INCARNE  SERTISSURE   INTERNE  GO  DT  ET  GCHE
+
+
+
+Sous anesthésie tronculaire (xylo 1% sans adrénaline avec bicarbonates).
+Décubitus dorsal, garrot de doigt.
+Dans un premier temps on se porte au niveau du pied gauche. Section de la partie incarnée de l'ongle. Incision cutanée de 5 mm  au niveau de l'angle supéro-interne de l'ongle. Résection en quartier d'orange de la matrice, du sillon et du lit de l'ongle correspondant. Curetage. Suture  du lambeau cutané par 2 points de vicryl rapide. Pansement  tulle gras.
+On réalise  la même intervention au niveau du pied contro-latéral.
+
+SPO : 
+
+* Pas d'antibioprophylaxie.
+* Antalgiques : DAFALGAN  2 gel x3/j dont 2 immédiatement
+* Apranax 550: 2cp/j dont un immédiatement
+* Appui autorisé
+* Sortie après réfection du pansement tulle gras
+* RDV RR dans 48 heures
+
+Anesthésiste: Dr TACHE
+Cotation: QZFA009  + ¾ QZFA009
+
+User Field c_titre = c_titre User Field c_prenom = c_prenom User Field c_nom = c_nom
+Hidden ParagraphUser Field c_serv = c_serv
+Hidden ParagraphUser Field c_ad1 = c_ad1
+Hidden ParagraphUser Field c_ad2 = c_ad2
+User Field c_code = c_code User Field c_ville = c_ville
+
+
+Melun, le 08/01/14
+
+
+Cher Ami, 
+Je te prie de bien vouloir trouver ci-joint le compte rendu de la dernière consultation concernant Monsieur XXX, né(e) le XXX.
+
+
+
+Pb d'ongle incarné au niveau du GO gauche.
+Géné depuis un mois. VAT à jour
+Cliniquement:
+Atteinte de la sertissure interne des 2 côtés. L'atteinte est plus marquée à gauche avec présence d'un botryomycome plus important.
+Porte des chaussures de sécurité.
+Prévoir intervention à gauche sous AL le 17 01 2014 en ambulatoire. Le patient nous dira s'il souhaite se faire opérer dans le même temps de son pied droit.
+Les modalités de l'intervention ont été expliquées au patient.
+
+
+
+
+
+
+Bien amicalement.
+{
+  textaeraValue: '',
+  data: [ { diag: 'L600 Ongle incarné', scores: 99, checkModif: false } ],
+  file: [
+    '#crh_REGNAUD_Rodolphe_2014-01-17_Sortie_Cpte_rendu_hosp_3528928.docx',
+    '#cro_REGNAUD_Rodolphe_2014-01-17_OI_RR_3529129.docx',
+    '#lettre_REGNAUD_Rodolphe_2014-01-08_lettre_cs_tu_3515219.docx',
+    null
+  ],
+  timer: 2181,
+  Diags: [
+    { diag: 'Diagnostic', scores: 0 },
+    { diag: 'L600 Ongle incarné', scores: 99 },
+    { diag: 'N40 Hyperplasie de la prostate', scores: 0 },
+    { diag: 'G560 Syndrome du canal carpien', scores: 0 },
+    { diag: 'H259 Cataracte sénile, sans précision', scores: 0 },
+    {
+      diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+      scores: 0
+    }
+  ]
+}
+null
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '#crh_REGNAUD_Rodolphe_2014-01-17_Sortie_Cpte_rendu_hosp_3528928.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads/',
+    filename: 'juillet 22 2020, 10:58:18   null   #crh_REGNAUD_Rodolphe_2014-01-17_Sortie_Cpte_rendu_hosp_3528928.docx',
+    path: 'public/uploads/juillet 22 2020, 10:58:18   null   #crh_REGNAUD_Rodolphe_2014-01-17_Sortie_Cpte_rendu_hosp_3528928.docx',
+    size: 18780
+  },
+  {
+    fieldname: 'file',
+    originalname: '#cro_REGNAUD_Rodolphe_2014-01-17_OI_RR_3529129.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads/',
+    filename: 'juillet 22 2020, 10:58:18   null   #cro_REGNAUD_Rodolphe_2014-01-17_OI_RR_3529129.docx',
+    path: 'public/uploads/juillet 22 2020, 10:58:18   null   #cro_REGNAUD_Rodolphe_2014-01-17_OI_RR_3529129.docx',
+    size: 17373
+  }
+]
+User Field c_titre = c_titre User Field c_prenom = c_prenom User Field c_nom = c_nom
+Hidden ParagraphHidden ParagraphUser Field c_serv = c_serv
+Hidden ParagraphHidden ParagraphHidden ParagraphUser Field c_ad1 = c_ad1
+Hidden ParagraphHidden ParagraphUser Field c_ad2 = c_ad2
+User Field c_code = c_code User Field c_ville = c_ville
+Hidden ParagraphUser Field sexe = M
+
+Melun, le 17/01/14
+
+
+ 
+Veuillez trouver ci-joint le compte-rendu d'hospitalisation de  Monsieur XXX XXXX,  le XXXXX,  dans notre établissement du vendredi XXXXX  au vendredi XXXXXX : 
+		Intervention : 	Ongle incarné (Gauche/Sertissure interne)
+		Date d'intervention : XXXXX
+		Suites opératoires : 	Simples
+		Traitement de sortie : Dafalgan, Apranax + soins infirmiers
+		Contrôle post-opératoire : 
+au  service pansement dans  20/01/2014
+en consultation dans 1 mois
+		Arrêt de travail : Oui
+		Infection nosocomiale :Non
+		Transfusion : Non
+
+		Bien amicalement. 
+User Field c_titre = c_titre User Field c_prenom = c_prenom User Field c_nom = c_nom
+Hidden ParagraphUser Field c_serv = c_serv
+User Field c_ad1 = c_ad1
+Hidden ParagraphUser Field c_ad2 = c_ad2
+User Field c_code = c_code User Field c_ville = c_ville
+
+
+
+ COMPTE RENDU OPERATOIRE
+
+
+Nom:	XXX
+
+Prénom:	XXX
+
+Date:	XXX
+
+
+CURE RADICALE D'ONGLE INCARNE  SERTISSURE   INTERNE  GO  DT  ET  GCHE
+
+
+
+Sous anesthésie tronculaire (xylo 1% sans adrénaline avec bicarbonates).
+Décubitus dorsal, garrot de doigt.
+Dans un premier temps on se porte au niveau du pied gauche. Section de la partie incarnée de l'ongle. Incision cutanée de 5 mm  au niveau de l'angle supéro-interne de l'ongle. Résection en quartier d'orange de la matrice, du sillon et du lit de l'ongle correspondant. Curetage. Suture  du lambeau cutané par 2 points de vicryl rapide. Pansement  tulle gras.
+On réalise  la même intervention au niveau du pied contro-latéral.
+
+SPO : 
+
+* Pas d'antibioprophylaxie.
+* Antalgiques : DAFALGAN  2 gel x3/j dont 2 immédiatement
+* Apranax 550: 2cp/j dont un immédiatement
+* Appui autorisé
+* Sortie après réfection du pansement tulle gras
+* RDV RR dans 48 heures
+
+Anesthésiste: Dr TACHE
+Cotation: QZFA009  + ¾ QZFA009
+
+{
+  textaeraValue: '',
+  data: [ { diag: 'L600 Ongle incarné', scores: 99, checkModif: false } ],
+  file: [
+    '#crh_REGNAUD_Rodolphe_2014-01-17_Sortie_Cpte_rendu_hosp_3528928.docx',
+    '#cro_REGNAUD_Rodolphe_2014-01-17_OI_RR_3529129.docx',
+    null
+  ],
+  timer: 2014,
+  Diags: [
+    { diag: 'Diagnostic', scores: 0 },
+    { diag: 'L600 Ongle incarné', scores: 99 },
+    { diag: 'N40 Hyperplasie de la prostate', scores: 0 },
+    { diag: 'G560 Syndrome du canal carpien', scores: 0 },
+    { diag: 'H259 Cataracte sénile, sans précision', scores: 0 },
+    {
+      diag: 'M8416 Fracture non consolidée (pseudarthrose) - Jambe',
+      scores: 0
+    }
+  ]
+}
+[]
+null
+null
+null
+[
+  {
+    fieldname: 'file',
+    originalname: '#crh_REGNAUD_Rodolphe_2014-01-17_Sortie_Cpte_rendu_hosp_3528928.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads/',
+    filename: 'juillet 22 2020, 11:08:29   null   #crh_REGNAUD_Rodolphe_2014-01-17_Sortie_Cpte_rendu_hosp_3528928.docx',
+    path: 'public/uploads/juillet 22 2020, 11:08:29   null   #crh_REGNAUD_Rodolphe_2014-01-17_Sortie_Cpte_rendu_hosp_3528928.docx',
+    size: 18780
+  }
+]
+User Field c_titre = c_titre User Field c_prenom = c_prenom User Field c_nom = c_nom
+Hidden ParagraphHidden ParagraphUser Field c_serv = c_serv
+Hidden ParagraphHidden ParagraphHidden ParagraphUser Field c_ad1 = c_ad1
+Hidden ParagraphHidden ParagraphUser Field c_ad2 = c_ad2
+User Field c_code = c_code User Field c_ville = c_ville
+Hidden ParagraphUser Field sexe = M
+
+Melun, le 17/01/14
+
+
+ 
+Veuillez trouver ci-joint le compte-rendu d'hospitalisation de  Monsieur XXX XXXX,  le XXXXX,  dans notre établissement du vendredi XXXXX  au vendredi XXXXXX : 
+		Intervention : 	Ongle incarné (Gauche/Sertissure interne)
+		Date d'intervention : XXXXX
+		Suites opératoires : 	Simples
+		Traitement de sortie : Dafalgan, Apranax + soins infirmiers
+		Contrôle post-opératoire : 
+au  service pansement dans  20/01/2014
+en consultation dans 1 mois
+		Arrêt de travail : Oui
+		Infection nosocomiale :Non
+		Transfusion : Non
+
+		Bien amicalement. 
+null
+null
+null
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    encoding: '7bit',
+    mimetype: 'text/html',
+    destination: './public/uploads/',
+    filename: 'juillet 22 2020, 11:13:08   null   REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    path: 'public/uploads/juillet 22 2020, 11:13:08   null   REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    size: 606
+  }
+]
+texte BÃ©nÃ©fs/RisquesXXX               XXX                 (M) - XXX - IPP : XXX BÃ©nÃ©fices/Risques - texte BÃ©nÃ©fs/Risques2014-01-08 18:29Dr REGNAUD RodolpheAu cours de l'entretien de ce jour, j'informe le patient des risques encourus en l'absence du traitement proposÃ©, des diffÃ©rentes modalitÃ©s thÃ©rapeutiques possibles, de leurs suites, et des complications prÃ©visibles.
+{
+  textaeraValue: '',
+  data: [
+    {
+      diag: 'M175 Autres gonarthroses secondaires',
+      scores: 55,
+      checkModif: false
+    }
+  ],
+  file: [
+    'REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    null
+  ],
+  timer: 1840,
+  Diags: [
+    { diag: 'Diagnostic', scores: 0 },
+    { diag: 'M175 Autres gonarthroses secondaires', scores: 55 },
+    {
+      diag: 'M8488 Autres anomalies de la continuité osseuse - Autres localisations',
+      scores: 33
+    },
+    { diag: "N393 Incontinence urinaire d'effort", scores: 2 },
+    { diag: 'E042 Goitre multinodulaire (non toxique)', scores: 1 },
+    { diag: 'M171 Autres gonarthroses primaires', scores: 1 }
+  ]
+}
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    encoding: '7bit',
+    mimetype: 'text/html',
+    destination: './public/uploads/',
+    filename: 'juillet 22 2020, 111432   null   REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    path: 'public/uploads/juillet 22 2020, 111432   null   REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    size: 606
+  }
+]
+texte BÃ©nÃ©fs/RisquesXXX               XXX                 (M) - XXX - IPP : XXX BÃ©nÃ©fices/Risques - texte BÃ©nÃ©fs/Risques2014-01-08 18:29Dr REGNAUD RodolpheAu cours de l'entretien de ce jour, j'informe le patient des risques encourus en l'absence du traitement proposÃ©, des diffÃ©rentes modalitÃ©s thÃ©rapeutiques possibles, de leurs suites, et des complications prÃ©visibles.
+null
+null
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    encoding: '7bit',
+    mimetype: 'text/html',
+    destination: './public/uploads/',
+    filename: '07 22 2020, 112014   null   REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    path: 'public/uploads/07 22 2020, 112014   null   REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    size: 606
+  }
+]
+texte BÃ©nÃ©fs/RisquesXXX               XXX                 (M) - XXX - IPP : XXX BÃ©nÃ©fices/Risques - texte BÃ©nÃ©fs/Risques2014-01-08 18:29Dr REGNAUD RodolpheAu cours de l'entretien de ce jour, j'informe le patient des risques encourus en l'absence du traitement proposÃ©, des diffÃ©rentes modalitÃ©s thÃ©rapeutiques possibles, de leurs suites, et des complications prÃ©visibles.
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    encoding: '7bit',
+    mimetype: 'text/html',
+    destination: './public/uploads/',
+    filename: '07222020, 112042   null   REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    path: 'public/uploads/07222020, 112042   null   REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    size: 606
+  }
+]
+texte BÃ©nÃ©fs/RisquesXXX               XXX                 (M) - XXX - IPP : XXX BÃ©nÃ©fices/Risques - texte BÃ©nÃ©fs/Risques2014-01-08 18:29Dr REGNAUD RodolpheAu cours de l'entretien de ce jour, j'informe le patient des risques encourus en l'absence du traitement proposÃ©, des diffÃ©rentes modalitÃ©s thÃ©rapeutiques possibles, de leurs suites, et des complications prÃ©visibles.
+{
+  textaeraValue: '',
+  data: [
+    {
+      diag: 'M175 Autres gonarthroses secondaires',
+      scores: 55,
+      checkModif: false
+    }
+  ],
+  file: [
+    'REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    null
+  ],
+  timer: 1870,
+  Diags: [
+    { diag: 'Diagnostic', scores: 0 },
+    { diag: 'M175 Autres gonarthroses secondaires', scores: 55 },
+    {
+      diag: 'M8488 Autres anomalies de la continuité osseuse - Autres localisations',
+      scores: 33
+    },
+    { diag: "N393 Incontinence urinaire d'effort", scores: 2 },
+    { diag: 'E042 Goitre multinodulaire (non toxique)', scores: 1 },
+    { diag: 'M171 Autres gonarthroses primaires', scores: 1 }
+  ]
+}
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    encoding: '7bit',
+    mimetype: 'text/html',
+    destination: './public/uploads/',
+    filename: '07222020, 112536   null   REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    path: 'public/uploads/07222020, 112536   null   REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    size: 606
+  }
+]
+texte BÃ©nÃ©fs/RisquesXXX               XXX                 (M) - XXX - IPP : XXX BÃ©nÃ©fices/Risques - texte BÃ©nÃ©fs/Risques2014-01-08 18:29Dr REGNAUD RodolpheAu cours de l'entretien de ce jour, j'informe le patient des risques encourus en l'absence du traitement proposÃ©, des diffÃ©rentes modalitÃ©s thÃ©rapeutiques possibles, de leurs suites, et des complications prÃ©visibles.
+{
+  textaeraValue: '',
+  data: [
+    {
+      diag: 'M175 Autres gonarthroses secondaires',
+      scores: 55,
+      checkModif: false
+    }
+  ],
+  file: [
+    'REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    null
+  ],
+  timer: 1706,
+  Diags: [
+    { diag: 'Diagnostic', scores: 0 },
+    { diag: 'M175 Autres gonarthroses secondaires', scores: 55 },
+    {
+      diag: 'M8488 Autres anomalies de la continuité osseuse - Autres localisations',
+      scores: 33
+    },
+    { diag: "N393 Incontinence urinaire d'effort", scores: 2 },
+    { diag: 'E042 Goitre multinodulaire (non toxique)', scores: 1 },
+    { diag: 'M171 Autres gonarthroses primaires', scores: 1 }
+  ]
+}
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'REGNAUD_Rodolphe_2014-01-08_consentement_OI_3515123.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads/',
+    filename: '07222020, 112716   null   REGNAUD_Rodolphe_2014-01-08_consentement_OI_3515123.docx',
+    path: 'public/uploads/07222020, 112716   null   REGNAUD_Rodolphe_2014-01-08_consentement_OI_3515123.docx',
+    size: 20132
+  }
+]
+
+							Monsieur XXXXXXX
+
+
+
+
+		Monsieur,
+
+	Votre état nécessite une intervention chirurgicale portant sur l'appareil locomoteur. La loi, le code de déontologie  et la jurisprudence font obligation au corps médical de donner aux patients une information claire et complète sur cette intervention ainsi que sur tous les risques éventuels de complications, même exceptionnelles, de manière à ce que votre consentement puisse être bien éclairé.
+
+	Les complications liées à l'anesthésie quel que soit son type (générale, loco-régionale ou locale) vous seront expliquées  par nos médecins anesthésistes  en consultation pré-opératoire. Vous pourrez également questionner le médecin anesthésiste la veille de l'intervention.
+
+	En ce qui concerne l'acte chirurgical lui-même, les risques sont pris en compte de manière très sérieuse par l'équipe chirurgicale. Toutes les précautions sont mises en oeuvre pour éviter les complications par leur prévention systématique grâce à l'utilisation de protocoles validés par l'expérience.
+
+	Il convient donc d'attirer votre attention sur la nécessité de bien suivre  les prescriptions qui vous seront données et de bien signaler toute impossibilité à les suivre.
+
+	Vous devez bien comprendre ces prescriptions et ne pas hésiter à vous faire préciser ce que vous n'auriez pas compris.
+
+	Cependant, quelles que soient les précautions, aucune équipe aussi prudente et expérimentée soit-elle ne peut garantir l'absence totale de complications.
+
+	Les complications que l'on peut rencontrer dépendent certes de l'intervention que vous allez subir, mais également de la pathologie qui est est en cause, et surtout de votre état général personnel ou des éventuelles pathologies associées.
+
+	Il est certain que le risque opératoire augmente avec l'âge, avec certaines maladies, du fait d'un terrain allergique ou de la baisse des défenses immunitaires. De même certaines addictions (Ex consommation de tabac) peuvent géner la cicatrisation cutané.
+
+	Un certain nombre de complications sont communes à toutes les interventions, certaines ne se voient que dans des pathologies ou interventions spécifiques.
+
+	C'est pourquoi, il n'est pas possible de détailler par écrit de façon simple mais exhaustive les risques encourus. Les risques les plus courants sont mentionnés sur ce formulaire, mais il vous est  vivement conseillé de demander une information complémentaire si vous le souhaitez, voire de solliciter une nouvelle consultation si certains points vous paraissent obscurs.
+
+	L'intervention étant réalisée en ambulatoire (vous ne restez pas dormir à la clinique), il vous est demandé de prendre une douche avec un produit antiseptique la veille et le matin de l'intervention à votre domicile. Le but de cette douche est d'enlever le maximun de microbe au niveau de la peau.
+
+
+LES RISQUES LIES A TOUT TYPE  D'INTERVENTION OSTEO-ARTICULAIRE :
+
+
+	- L'apparition de saignements ou d'hématome (poche de sang) peut nécessiter un traitement complémentaire voire une nouvelle intervention.
+
+	- L'infection peut être diagnostiquée dans les jours  ou semaines qui suivent l'intervention. Son traitement médical peut être long. Parfois un nouveau geste chirurgical est nécessaire surtout quand il s'agit du site d'implantation d'un "corps étranger" comme une prothèse, un ligament artificiel ou matériel d'ostéosynthèse (plaque vissée, clou etc...). Dans les cas les plus graves, elle peut atteindre l'os et devenir chronique. La prévention  de ce risque  repose sur l'utilisation  de protocoles très rigoureux de préparation cutanée à l'intervention, d'asepsie draconienne au bloc opératoire et de prophylaxie antibiotique validée par des instances scientifiques au niveau national. La Clinique Saint-Jean comporte par ailleurs, une commission spécifique de lutte contre les infections nosocomiales (CLIN).
+
+	- Le risque thrombo-embolique : apparition possible de caillots dans les veines (phlébites) pouvant par migration  secondaire obstruer  des vaisseaux du poumon (embolie pulmonaire). Ce risque concerne essentiellement la chirurgie du membre inférieur et est prévenu par un traitement anti-coagulant adapté et parfois par le port de bas  ou de bandes de contention élastique. Il est plus important  en cas d'insuffisance veineuse pré-existante (varices).
+
+	- L'algo-dystrophie : elle peut être consécutive à un acte chirurgical ou à un traumatisme (entorse, fracture). Elle résulte de l'hyperactivité non prévisible d'une partie du système nerveux (le système sympathique). Elle associe des douleurs disproportionnées par rapport à leur cause, un oedème, une raideur articulaire et parfois une déminéralisation osseuse. Différents types de traitements peuvent la combattre efficacement mais l'évolution est souvent assez lente et peut conduire en particulier à une perte de mobilité articulaire.
+
+
+
+
+LES RISQUES LIES  A LA CURE  D'UN  ONGLE  INCARNE:
+
+
+	Une douleur au niveau du sîte iopératoire est possible et doit être soulagée par le traitement médical qui vous a été prescrit.
+
+	Une rougeur, voire une infection avec apparition de pus au contact des fils de suture est possible. L'infirmière qui fait vos pansements doit alors retirer le fil responsable et cette infection va rentrer dans l'ordre.
+
+	La repousse d'un petit morceau d'ongle au niveau de la cicatrice est possible. Elle correspond au développement de quelques cellules de la matrice unguéale (zone de croissance de l'ongle) qui n'ont pas été retirées lors de l'intervention. Un nouveau geste opératoire permettra de retirer définitivement ce reliquat cellulaire.
+
+En cas de problèmes ne pas hésiter à reprendre contact avec votre chirurgien.
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'REGNAUD_Rodolphe_2014-01-08_consentement_OI_3515123.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads/',
+    filename: '07222020, 112751   null   REGNAUD_Rodolphe_2014-01-08_consentement_OI_3515123.docx',
+    path: 'public/uploads/07222020, 112751   null   REGNAUD_Rodolphe_2014-01-08_consentement_OI_3515123.docx',
+    size: 20132
+  }
+]
+
+							Monsieur XXXXXXX
+
+
+
+
+		Monsieur,
+
+	Votre état nécessite une intervention chirurgicale portant sur l'appareil locomoteur. La loi, le code de déontologie  et la jurisprudence font obligation au corps médical de donner aux patients une information claire et complète sur cette intervention ainsi que sur tous les risques éventuels de complications, même exceptionnelles, de manière à ce que votre consentement puisse être bien éclairé.
+
+	Les complications liées à l'anesthésie quel que soit son type (générale, loco-régionale ou locale) vous seront expliquées  par nos médecins anesthésistes  en consultation pré-opératoire. Vous pourrez également questionner le médecin anesthésiste la veille de l'intervention.
+
+	En ce qui concerne l'acte chirurgical lui-même, les risques sont pris en compte de manière très sérieuse par l'équipe chirurgicale. Toutes les précautions sont mises en oeuvre pour éviter les complications par leur prévention systématique grâce à l'utilisation de protocoles validés par l'expérience.
+
+	Il convient donc d'attirer votre attention sur la nécessité de bien suivre  les prescriptions qui vous seront données et de bien signaler toute impossibilité à les suivre.
+
+	Vous devez bien comprendre ces prescriptions et ne pas hésiter à vous faire préciser ce que vous n'auriez pas compris.
+
+	Cependant, quelles que soient les précautions, aucune équipe aussi prudente et expérimentée soit-elle ne peut garantir l'absence totale de complications.
+
+	Les complications que l'on peut rencontrer dépendent certes de l'intervention que vous allez subir, mais également de la pathologie qui est est en cause, et surtout de votre état général personnel ou des éventuelles pathologies associées.
+
+	Il est certain que le risque opératoire augmente avec l'âge, avec certaines maladies, du fait d'un terrain allergique ou de la baisse des défenses immunitaires. De même certaines addictions (Ex consommation de tabac) peuvent géner la cicatrisation cutané.
+
+	Un certain nombre de complications sont communes à toutes les interventions, certaines ne se voient que dans des pathologies ou interventions spécifiques.
+
+	C'est pourquoi, il n'est pas possible de détailler par écrit de façon simple mais exhaustive les risques encourus. Les risques les plus courants sont mentionnés sur ce formulaire, mais il vous est  vivement conseillé de demander une information complémentaire si vous le souhaitez, voire de solliciter une nouvelle consultation si certains points vous paraissent obscurs.
+
+	L'intervention étant réalisée en ambulatoire (vous ne restez pas dormir à la clinique), il vous est demandé de prendre une douche avec un produit antiseptique la veille et le matin de l'intervention à votre domicile. Le but de cette douche est d'enlever le maximun de microbe au niveau de la peau.
+
+
+LES RISQUES LIES A TOUT TYPE  D'INTERVENTION OSTEO-ARTICULAIRE :
+
+
+	- L'apparition de saignements ou d'hématome (poche de sang) peut nécessiter un traitement complémentaire voire une nouvelle intervention.
+
+	- L'infection peut être diagnostiquée dans les jours  ou semaines qui suivent l'intervention. Son traitement médical peut être long. Parfois un nouveau geste chirurgical est nécessaire surtout quand il s'agit du site d'implantation d'un "corps étranger" comme une prothèse, un ligament artificiel ou matériel d'ostéosynthèse (plaque vissée, clou etc...). Dans les cas les plus graves, elle peut atteindre l'os et devenir chronique. La prévention  de ce risque  repose sur l'utilisation  de protocoles très rigoureux de préparation cutanée à l'intervention, d'asepsie draconienne au bloc opératoire et de prophylaxie antibiotique validée par des instances scientifiques au niveau national. La Clinique Saint-Jean comporte par ailleurs, une commission spécifique de lutte contre les infections nosocomiales (CLIN).
+
+	- Le risque thrombo-embolique : apparition possible de caillots dans les veines (phlébites) pouvant par migration  secondaire obstruer  des vaisseaux du poumon (embolie pulmonaire). Ce risque concerne essentiellement la chirurgie du membre inférieur et est prévenu par un traitement anti-coagulant adapté et parfois par le port de bas  ou de bandes de contention élastique. Il est plus important  en cas d'insuffisance veineuse pré-existante (varices).
+
+	- L'algo-dystrophie : elle peut être consécutive à un acte chirurgical ou à un traumatisme (entorse, fracture). Elle résulte de l'hyperactivité non prévisible d'une partie du système nerveux (le système sympathique). Elle associe des douleurs disproportionnées par rapport à leur cause, un oedème, une raideur articulaire et parfois une déminéralisation osseuse. Différents types de traitements peuvent la combattre efficacement mais l'évolution est souvent assez lente et peut conduire en particulier à une perte de mobilité articulaire.
+
+
+
+
+LES RISQUES LIES  A LA CURE  D'UN  ONGLE  INCARNE:
+
+
+	Une douleur au niveau du sîte iopératoire est possible et doit être soulagée par le traitement médical qui vous a été prescrit.
+
+	Une rougeur, voire une infection avec apparition de pus au contact des fils de suture est possible. L'infirmière qui fait vos pansements doit alors retirer le fil responsable et cette infection va rentrer dans l'ordre.
+
+	La repousse d'un petit morceau d'ongle au niveau de la cicatrice est possible. Elle correspond au développement de quelques cellules de la matrice unguéale (zone de croissance de l'ongle) qui n'ont pas été retirées lors de l'intervention. Un nouveau geste opératoire permettra de retirer définitivement ce reliquat cellulaire.
+
+En cas de problèmes ne pas hésiter à reprendre contact avec votre chirurgien.
+{
+  textaeraValue: '',
+  data: [ { diag: 'None', scores: 59, checkModif: false } ],
+  file: [ 'REGNAUD_Rodolphe_2014-01-08_consentement_OI_3515123.docx', null ],
+  timer: 1649,
+  Diags: [
+    { diag: 'Diagnostic', scores: 0 },
+    { diag: 'None', scores: 59 },
+    {
+      diag: 'I839 Varices des membres inférieurs sans ulcère ou inflammation',
+      scores: 12
+    },
+    {
+      diag: 'C443 Tumeur maligne de la peau de la face, parties autres et non précisées',
+      scores: 7
+    },
+    {
+      diag: "M511 Atteintes d'un disque lombaire et d'autres disques intervertébraux avec radiculopathie",
+      scores: 6
+    },
+    {
+      diag: "Z470 Soins de contrôle impliquant l'enlèvement d'une plaque et autre prothèse interne (orthopédique) de fixation",
+      scores: 4
+    },
+    {
+      diag: 'K801 Calcul de la vésicule biliaire avec une autre forme de cholécystite',
+      scores: 3
+    }
+  ]
+}
+null
+[
+  {
+    fieldname: 'file',
+    originalname: 'REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    encoding: '7bit',
+    mimetype: 'text/html',
+    destination: './public/uploads/',
+    filename: '07222020, 112847   null   REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    path: 'public/uploads/07222020, 112847   null   REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    size: 606
+  }
+]
+texte BÃ©nÃ©fs/RisquesXXX               XXX                 (M) - XXX - IPP : XXX BÃ©nÃ©fices/Risques - texte BÃ©nÃ©fs/Risques2014-01-08 18:29Dr REGNAUD RodolpheAu cours de l'entretien de ce jour, j'informe le patient des risques encourus en l'absence du traitement proposÃ©, des diffÃ©rentes modalitÃ©s thÃ©rapeutiques possibles, de leurs suites, et des complications prÃ©visibles.
+{
+  textaeraValue: '',
+  data: [
+    {
+      diag: 'M175 Autres gonarthroses secondaires',
+      scores: 55,
+      checkModif: false
+    }
+  ],
+  file: [
+    'REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    null
+  ],
+  timer: 1684,
+  Diags: [
+    { diag: 'Diagnostic', scores: 0 },
+    { diag: 'M175 Autres gonarthroses secondaires', scores: 55 },
+    {
+      diag: 'M8488 Autres anomalies de la continuité osseuse - Autres localisations',
+      scores: 33
+    },
+    { diag: "N393 Incontinence urinaire d'effort", scores: 2 },
+    { diag: 'E042 Goitre multinodulaire (non toxique)', scores: 1 },
+    { diag: 'M171 Autres gonarthroses primaires', scores: 1 }
+  ]
+}
+illshaad.budureea@dgmail.fr
+[
+  {
+    fieldname: 'file',
+    originalname: 'REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    encoding: '7bit',
+    mimetype: 'text/html',
+    destination: './public/uploads/',
+    filename: '07222020, 113114   illshaad.budureea@dgmail.fr   REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    path: 'public/uploads/07222020, 113114   illshaad.budureea@dgmail.fr   REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    size: 606
+  }
+]
+texte BÃ©nÃ©fs/RisquesXXX               XXX                 (M) - XXX - IPP : XXX BÃ©nÃ©fices/Risques - texte BÃ©nÃ©fs/Risques2014-01-08 18:29Dr REGNAUD RodolpheAu cours de l'entretien de ce jour, j'informe le patient des risques encourus en l'absence du traitement proposÃ©, des diffÃ©rentes modalitÃ©s thÃ©rapeutiques possibles, de leurs suites, et des complications prÃ©visibles.
+{
+  textaeraValue: '',
+  data: [
+    {
+      diag: 'M175 Autres gonarthroses secondaires',
+      scores: 55,
+      checkModif: false
+    }
+  ],
+  file: [
+    'REGNAUD_Rodolphe_2014-01-08_18-29_Benefices-Risques_texte_Benefs-Risques.html',
+    null
+  ],
+  timer: 1711,
+  Diags: [
+    { diag: 'Diagnostic', scores: 0 },
+    { diag: 'M175 Autres gonarthroses secondaires', scores: 55 },
+    {
+      diag: 'M8488 Autres anomalies de la continuité osseuse - Autres localisations',
+      scores: 33
+    },
+    { diag: "N393 Incontinence urinaire d'effort", scores: 2 },
+    { diag: 'E042 Goitre multinodulaire (non toxique)', scores: 1 },
+    { diag: 'M171 Autres gonarthroses primaires', scores: 1 }
+  ]
+}
+illshaad.budureea@dgmail.fr
+[
+  {
+    fieldname: 'file',
+    originalname: 'REGNAUD_Rodolphe_2014-01-08_Douche_ambul_Betadin_3515126.docx',
+    encoding: '7bit',
+    mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    destination: './public/uploads/',
+    filename: '07222020, 113322   illshaad.budureea@dgmail.fr   REGNAUD_Rodolphe_2014-01-08_Douche_ambul_Betadin_3515126.docx',
+    path: 'public/uploads/07222020, 113322   illshaad.budureea@dgmail.fr   REGNAUD_Rodolphe_2014-01-08_Douche_ambul_Betadin_3515126.docx',
+    size: 19192
+  }
+]
+                   
+         
+Melun, le 08/01/14
+
+
+La lutte contre les infections nosocomiales est une PRIORITE dans notre établissement. La préparation de votre peau  avant l'arrivée dans le service de Chirurgie Ambulatoire est ESSENTIELLE  pour diminuer le risque d'infection.
+
+
+
+Monsieur XXXXXXX
+
+
+Comme il vous a été expliqué lors de la consultation, avant toute intervention chirurgicale programmée en ambulatoire, vous devez à votre domicile, prendre une douche avec un savon antiseptique qui  vous est prescrit  ci-dessous.  
+
+CETTE DOUCHE  avec  ce savon  doit être prise la veille et le matin de l'intervention.
+
+En observant les consignes suivantes : 
+
+Insister  au niveau du cou, des aisselles, de l'ombilic, des parties génitales, des ongles des mains et des pieds, cheveux, entre les orteils et les doigts.
+Bien rincer.
+Revêtir des vêtements propres.
+
+Penser à retirer bijoux, vernis à ongles, maquillage, prothèses dentaires, percing.
+
+BETADINE SCRUB (ROUGE) 125 ml
+1 flacon ou (en cas d'allergie à la Bétadine : HIBISCRUB).
+
+à se procurer en Pharmacie.
+
+Pour l'Hygiène Dentaire  : Effectuer un brossage de dents la veille et le matin de l'intervention  avec un  dentifrice de votre choix 
+
+Et se procurer en Pharmacie :
+
+Un flacon  d'ALODONT  à amener à la clinique, pour un bain de bouche fait sur place.
+
+
+Penser à ramener  votre ordonnance le jour de l'entrée.

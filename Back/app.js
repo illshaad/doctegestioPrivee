@@ -21,31 +21,22 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
-//CREATION FICHIER DEBUG POUR AFFICHER LE CONSOLELOG  DANS UN FICHIER EXTERNE
-var log_file = fs.createWriteStream(__dirname + "/log/debug.log", {
-  flags: "a+",
-});
-var log_stdout = process.stdout;
-console.log = function (d) {
-  log_file.write(util.format(d) + "\r\n");
-  log_stdout.write(util.format(d) + "\r\n");
-};
-
 //CONFIGURATION MULTER //
 var storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, "./public/uploads/");
   },
   filename: function (req, file, cb) {
+    const email = req.query.mail
+    const suffix = email.split('@')[0]
     cb(
       null,
-      moment().locale("fr").format("MMMM Do YYYY, h:mm:ss") +
-        "   " +
-        req.query.mail +
-        "   " +
-        file.originalname
+      moment().locale("fr").format("MMDoYYYY, hmmss") +
+      "_" +
+      suffix +
+      "_" +
+      file.originalname
     );
-    console.log(req.query.mail);
   },
 });
 
@@ -109,7 +100,6 @@ async function sendFileText(files) {
 
 async function otherFile(files) {
   const fileToUpload = fs.createReadStream(files.path);
-
   const options = {
     url: "http://35.205.33.234:5000/",
     method: "POST",
@@ -121,8 +111,6 @@ async function otherFile(files) {
     },
   };
   const body = await rp(options); //2end Request //
-  console.log(body, "BODY");
-
   return body;
 }
 
@@ -143,7 +131,6 @@ async function sendMultipleFiles(files) {
   //Send multiple files //
   const resultAllFiles = await sendFileText(files);
   results.push({ resulJson: resultAllFiles });
-
   return results;
 }
 
@@ -157,26 +144,25 @@ app.post("/upload", upload.array("file"), function (req, res, next) {
 });
 
 app.post("/textarea", function (req, res) {
+  const email = req.query.mail
+  const suffix = email.split('@')[0]
   let testBodyObject = Object.assign({}, req.body);
+  console.log(testBodyObject)
   let chemin =
     __dirname +
-    "/public/" +
-    Math.floor(Math.random() * 10000) +
-    "  " +
-    moment().locale("fr").format("MMMM Do YYYY, h:mm:ss") +
-    "   " +
-    req.query.mail +
+    "/public/textarea" +
+    moment().locale("fr").format("MMDoYYYY, hmmss") +
+    "_" +
+    suffix +
     ".txt";
-
   fs.writeFileSync(chemin, testBodyObject.textarea);
   async function test2() {
     const result = await sendFileText([{ path: chemin }]);
-
     res.status(200).send(result);
   }
   test2().catch((err) => {
     res.status(500).send(err);
-  });
+  })
 });
 
 app.post("/auto", function (req, res) {
@@ -187,13 +173,30 @@ app.post("/auto", function (req, res) {
 });
 
 app.post("/radio", function (req, res, next) {
-  console.log(req.body, "TEST");
+  const email = req.query.mail
   const textarea = req.body.textaeraValue;
   const data = req.body.data[0];
-  const dataFile = req.body.file;
+  const nameFile = req.body.file;
+  const uploads = fs.readdirSync("./public/uploads")
   const timer = req.body.timer;
   const diags = req.body.Diags;
   let DiagsScores = "";
+  let result = []
+
+  // Pour chaque element du tableau (req.body.file) (les noms original)
+  nameFile.forEach((e, i) => {
+    // Tester chaque element de uploads
+    uploads.some((upload) => {
+      // si upload (un element du fs) equivaut a un nom de fichier original
+      if (upload.includes(e)) {
+        // Alors tu push dans le tableau
+        result.push(upload)
+      }
+    })
+  })
+
+  // penser a deplacer les fichier dans un autre dossier (uploads => archivesShaddLove)
+
 
   for (let i = 1; i < 7; i++) {
     if (diags[i] !== undefined) {
@@ -207,21 +210,21 @@ app.post("/radio", function (req, res, next) {
   }
   fs.writeFileSync(
     "./public/logfilemodify.csv",
-    req.query.mail +
-      ';"' +
-      dataFile +
-      '";"' +
-      textarea +
-      ";" +
-      data["diag"] +
-      '";' +
-      moment().locale("fr").format("MMMM Do YYYY, h:mm:ss") +
-      ";" +
-      DiagsScores +
-      data["checkModif"] +
-      ";" +
-      timer +
-      "\n",
+    email +
+    ";" + '[' +
+    result + ']' +
+    ";" +
+    textarea +
+    ";" +
+    data["diag"] +
+    ";" +
+    moment().locale("fr").format("MMMM Do YYYY, hmmss") +
+    ";" +
+    DiagsScores +
+    data["checkModif"] +
+    ";" +
+    timer +
+    "\n",
     { flag: "a" }
   );
   res.status(200).send(data);

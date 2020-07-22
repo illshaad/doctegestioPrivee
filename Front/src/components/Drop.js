@@ -70,9 +70,7 @@ class Upload extends React.Component {
           const newUrl = new URL(window.location.href);
           await axios({
             method: "post",
-            url: `http://35.205.33.234/upload?mail=${newUrl.searchParams.get(
-              "mail"
-            )}`,
+            url: `http://localhost:3000/upload?mail=illshaad.budureea@dgmail.fr`,
             data: data,
           }).then((res) => {
             //data du back //
@@ -95,9 +93,7 @@ class Upload extends React.Component {
           const newUrl = new URL(window.location.href);
           await axios({
             method: "post",
-            url: `http://35.205.33.234/textarea?mail=${newUrl.searchParams.get(
-              "mail"
-            )}`,
+            url: `http://localhost:3000/textarea?mail=illshaad.budureea@dgmail.fr`,
             data: { textarea: this.state.textaeraValue },
           }).then((res) => {
             console.log(res.data);
@@ -172,9 +168,7 @@ class Upload extends React.Component {
       await axios({
         //Extraire url email //
         method: "post",
-        url: `http://35.205.33.234/radio?mail=${newUrl.searchParams.get(
-          "mail"
-        )}`,
+        url: `http://localhost:3000/radio?mail=illshaad.budureea@dgmail.fr`,
         data: {
           textaeraValue: this.state.textaeraValue,
           data: selectedData,

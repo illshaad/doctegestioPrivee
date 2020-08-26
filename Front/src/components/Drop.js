@@ -168,7 +168,7 @@ class Upload extends React.Component {
       await axios({
         //Extraire url email //
         method: "post",
-        url: `http://localhost:3000/radio?mail=illshaad.budureea@dgmail.fr`,
+        url: `http://localhost:3000/radio?mail=${newUrl.searchParams.get("mail")}`,
         data: {
           textaeraValue: this.state.textaeraValue,
           data: selectedData,

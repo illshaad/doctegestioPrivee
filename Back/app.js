@@ -31,9 +31,9 @@ var storage = multer.diskStorage({
     const suffix = email.split('@')[0]
     cb(
       null,
-      moment().locale("fr").format("MMDoYYYY, hmmss") +
-      "_" +
       suffix +
+      "_" +
+      moment().locale("fr").format("MMDoYYYY_LTS") +
       "_" +
       file.originalname
     );
@@ -123,7 +123,6 @@ async function sendMultipleFiles(files) {
     if (currentFile.mimetype !== "text/plain") {
       const text = await otherFile(currentFile);
       const path = `./public/originalFile/${currentFile.filename}`;
-      // fs.writeFileSync(currentFile.path, text);
       fs.writeFileSync(path, text);
       currentFile.path = path;
     }
@@ -146,16 +145,17 @@ app.post("/upload", upload.array("file"), function (req, res, next) {
 app.post("/textarea", function (req, res) {
   const email = req.query.mail
   const suffix = email.split('@')[0]
-  let testBodyObject = Object.assign({}, req.body);
-  console.log(testBodyObject)
+  let BodyObject = Object.assign({}, req.body);
   let chemin =
     __dirname +
-    "/public/textarea" +
-    moment().locale("fr").format("MMDoYYYY, hmmss") +
-    "_" +
+    "/public/texterea/" +
     suffix +
+    '_' +
+    moment().locale("fr").format("MMDoYYYY_LTS") +
+    '_' +
+    JSON.stringify(BodyObject.textarea) +
     ".txt";
-  fs.writeFileSync(chemin, testBodyObject.textarea);
+  fs.writeFileSync(chemin, BodyObject.textarea);
   async function test2() {
     const result = await sendFileText([{ path: chemin }]);
     res.status(200).send(result);
@@ -172,7 +172,7 @@ app.post("/auto", function (req, res) {
   });
 });
 
-app.post("/radio", function (req, res, next) {
+app.post("/radio", function (req, res) {
   const email = req.query.mail
   const textarea = req.body.textaeraValue;
   const data = req.body.data[0];
@@ -196,8 +196,6 @@ app.post("/radio", function (req, res, next) {
   })
 
   // penser a deplacer les fichier dans un autre dossier (uploads => archivesShaddLove)
-
-
   for (let i = 1; i < 7; i++) {
     if (diags[i] !== undefined) {
       DiagsScores = DiagsScores.concat(diags[i]["diag"]);

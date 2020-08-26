@@ -70,7 +70,7 @@ class Upload extends React.Component {
           const newUrl = new URL(window.location.href);
           await axios({
             method: "post",
-            url: `http://localhost:3000/upload?mail=illshaad.budureea@dgmail.fr`,
+            url: `http://localhost:3000/upload?mail=${newUrl.searchParams.get("mail")}`,
             data: data,
           }).then((res) => {
             //data du back //
@@ -93,7 +93,7 @@ class Upload extends React.Component {
           const newUrl = new URL(window.location.href);
           await axios({
             method: "post",
-            url: `http://localhost:3000/textarea?mail=illshaad.budureea@dgmail.fr`,
+            url: `http://localhost:3000/textarea?mail=${newUrl.searchParams.get("mail")}`,
             data: { textarea: this.state.textaeraValue },
           }).then((res) => {
             console.log(res.data);

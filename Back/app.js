@@ -173,10 +173,12 @@ app.post("/auto", function (req, res) {
 });
 
 app.post("/radio", function (req, res) {
+  console.log(req.body, ' DATA');
   const email = req.query.mail
-  const textarea = req.body.textaeraValue;
+  const suffix = email.split('@')[0]
   const data = req.body.data[0];
   const nameFile = req.body.file;
+  const textarea = fs.readdirSync("./public/texterea")
   const uploads = fs.readdirSync("./public/uploads")
   const timer = req.body.timer;
   const diags = req.body.Diags;
@@ -208,7 +210,7 @@ app.post("/radio", function (req, res) {
   }
   fs.writeFileSync(
     "./public/logfilemodify.csv",
-    email +
+    suffix +
     ";" + '[' +
     result + ']' +
     ";" +
@@ -216,7 +218,7 @@ app.post("/radio", function (req, res) {
     ";" +
     data["diag"] +
     ";" +
-    moment().locale("fr").format("MMMM Do YYYY, hmmss") +
+    moment().locale("fr").format("MMDoYYYY_LTS") +
     ";" +
     DiagsScores +
     data["checkModif"] +
@@ -227,6 +229,21 @@ app.post("/radio", function (req, res) {
   );
   res.status(200).send(data);
 });
+
+app.post('/delete', function (req, res) {
+  const arrayRemove = ['./public/uploads', './public/texterea', './public/originalFile']
+  for (let i = 0; i < arrayRemove.length; i++) {
+    fs.readdir(arrayRemove[i], (err, files) => {
+      if (err) throw err;
+      for (const file of files) {
+        fs.unlink(path.join(arrayRemove[i], file), err => {
+          if (err) throw err;
+        });
+      }
+    });
+  }
+})
+
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

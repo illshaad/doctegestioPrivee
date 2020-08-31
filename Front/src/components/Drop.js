@@ -75,8 +75,6 @@ class Upload extends React.Component {
           }).then((res) => {
             //data du back //
             console.log(res);
-
-            // console.log(res.data[0].resulJson[1], " CEST QUOIIIII");
             timer = Date.now() - tempDebut;
             console.log(timer, "MS");
             var testTableData = [];
@@ -220,6 +218,15 @@ class Upload extends React.Component {
     }
     return result;
   };
+
+  deleteFileUploads = () => {
+    axios({
+      method: "post",
+      url: 'http://localhost:3000/delete',
+    }).then((res) => {
+      console.log(res);
+    });
+  }
 
   render() {
     var Test = "";
@@ -387,7 +394,7 @@ class Upload extends React.Component {
         <div>
           <br />
           <NavLink to={home}>
-            <button type="button" onClick={this.sendFileBack} className="Exit">
+            <button type="button" onClick={this.deleteFileUploads} className="Exit">
               Terminer
             </button>
           </NavLink>
